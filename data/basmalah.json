@@ -1,0 +1,82 @@
+{
+  "id": "basmalah",
+  "chapter_id": "01",
+  "title": "الْبَسْمَلَة",
+  "titleEn": "Basmalah",
+  "order": 1,
+  "description": "Rules regarding the recitation of 'Bismillah ar-Rahman ar-Raheem' when joining 2 surahs. This chapter relates to if/how to recite the basmalah when a reciter reaches the end of one surah and wishes to join the recitation with the beginning of the next surah. Note that when stopping at the end of a surah (making waqf) and then continuing at the start of the next surah all of the qurra are in agreement and will recite the basmallah before the second surah (excluding between Al-Anfal and At-Tawbah).",
+  "shatibiyyahReference": {
+    "startLine": 100,
+    "endLine": 107,
+    "notes": ""
+  },
+  "rules": {
+    "basmalah-between-suwar": {
+      "id": "basmalah-between-suwar",
+      "title": "Basmalah Between Two Surahs",
+      "titleAr": "البسملة بين السورتين",
+      "description": "The first rule Imam al-Shatibi covers in this section is known as seperating the surahs with the basmalah. This means the last word of the previous surah is connected to the basmalah, and the the last word of the basmalah is connected to the first word of the following surah. Said a different way, the first surah, basmalah and next surah will all be connected.",
+      "quraa": [
+        "asim",
+        "qalun",
+        "kisai",
+        "ibn-kathir",
+        "warsh",
+        "abu-amr",
+        "ibn-amir"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "relatedRules": [
+        "basmalah-anfal-tawbah"
+      ]
+    },
+    "wasl-bayn-al-suratain": {
+      "id": "wasl-bayn-al-suratain",
+      "title": "Waṣl Bayn as-Sūratayn",
+      "titleAr": "",
+      "description": "Not reciting the basmalah at all between the two surahs and instead connecting the last word of the surah with the first word of the following surah.",
+      "quraa": [
+        "hamza",
+        "warsh",
+        "abu-amr",
+        "ibn-amir"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "relatedRules": []
+    },
+    "sakt-bayn-al-suratain": {
+      "id": "sakt-bayn-al-suratain",
+      "title": "Sakt Without Basmalah",
+      "titleAr": "",
+      "description": "Taking a breathless pause (sakt) between the end of the surah and the start of the following surah. Note the basmalah is not recited rather there is just pause without breaking ones breath between the two surahs.",
+      "quraa": [
+        "warsh",
+        "abu-amr",
+        "ibn-amir"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "relatedRules": []
+    },
+    "basmalah-anfal-tawbah": {
+      "id": "basmalah-anfal-tawbah",
+      "title": "Between Al-Anfal and At-Tawbah",
+      "titleAr": "بين الأنفال والتوبة",
+      "description": "The unique case of transitioning between Surat Al-Anfal and Surat At-Tawbah, where no basmalah is recited. All of qurra are in agreement that there will be no basmalah made when connecting surah al-anfal and al-tawbha, nor will there be basamalah made when starting from al-tawbah. In the case of connection al-anfal and al-tawbah the reciter can either make sakt (i.e. a breathless pause at the end of al-anfal and then beginning from the start of al-tawbah) or wasl (i.e. connecting the last word of al-anfal with the first word of al-tawbah).",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "relatedRules": []
+    }
+  }
+}

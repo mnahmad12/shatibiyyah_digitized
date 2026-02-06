@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rules of the Shatibiyyah Digitized</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Crimson+Pro:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="pattern-overlay"></div>
+
+    <div class="container">
+        <header>
+            <h1 class="site-title">The Rules of the Shatibiyyah</h1>
+            <p class="site-subtitle">A Comprehensive Guide to Qira'at through Imam al-Shatibi's Masterwork</p>
+        </header>
+
+        <nav>
+            <button class="nav-btn active" data-section="introduction">Introduction</button>
+            <button class="nav-btn" data-section="overview">Overview</button>
+            <button class="nav-btn" data-section="chapters">Chapters</button>
+        </nav>
+
+        <section id="introduction" class="section active">
+            <div class="content-card">
+                <h2>Welcome</h2>
+                <p>The Shatibiyyah is a masterful didactic poem composed by Imam al-Shatibi (d. 590 AH) covering the
+                    seven canonical readings of the Quran.</p>
+            </div>
+        </section>
+
+        <section id="overview" class="section">
+            <div class="content-card">
+                <h2>Understanding the Science</h2>
+                <p>Qira'at refers to the various authentic methods of reciting the Quran transmitted through unbroken
+                    chains.</p>
+            </div>
+        </section>
+
+        <section id="chapters" class="section">
+            <div class="content-card">
+                <h2>Chapters of the Shatibiyyah</h2>
+
+                <div class="filter-section">
+                    <span class="filter-title">Filter by Qari / Rawi:</span>
+                    <div id="qari-filter" class="qari-picklist">
+                    </div>
+                    <p style="font-size: 0.85rem; margin-top: 10px; color: var(--text-secondary);">Select one or more.
+                        If none are selected, all rules are shown.</p>
+                </div>
+
+                <div id="chapters-container">
+                    <div class="loading">Loading chapters</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const qariOptions = [
+            { id: 'qalun', label: "Qalun 'an Nafi", teacher: 'nafi' },
+            { id: 'warsh', label: "Warsh 'an Nafi", teacher: 'nafi' },
+            { id: 'bazzi', label: "Bazzi 'an Ibn Kathir", teacher: 'ibn-kathir' },
+            { id: 'qunbul', label: "Qunbul 'an Ibn Kathir", teacher: 'ibn-kathir' },
+            { id: 'duri-abu-amr', label: "Duri 'an Abu 'Amr", teacher: 'abu-amr' },
+            { id: 'susi', label: "Susi 'an Abu 'Amr", teacher: 'abu-amr' },
+            { id: 'hisham', label: "Hisham 'an Ibn 'Amir", teacher: 'ibn-amir' },
+            { id: 'ibn-dhakwan', label: "Ibn Dhakwan 'an Ibn 'Amir", teacher: 'ibn-amir' },
+            { id: 'hafs', label: "Hafs 'an 'Asim", teacher: 'asim' },
+            { id: 'shubah', label: "Shu'bah 'an 'Asim", teacher: 'asim' },
+            { id: 'khalaf', label: "Khalaf 'an Hamza", teacher: 'hamza' },
+            { id: 'khallad', label: "Khallad 'an Hamza", teacher: 'hamza' },
+            { id: 'abul-harith', label: "Abu al-Harith 'an Kisai", teacher: 'kisai' },
+            { id: 'duri-kisai', label: "Duri 'an Kisai", teacher: 'kisai' }
+        ];
+
+        let selectedQariIds = [];
+        let chaptersData = [];
+
+        function initFilter() {
+            const container = document.getElementById('qari-filter');
+            qariOptions.forEach(opt => {
+                const chip = document.createElement('div');
+                chip.className = 'qari-chip';
+                chip.textContent = opt.label;
+                chip.onclick = () => {
+                    chip.classList.toggle('selected');
+                    if (selectedQariIds.includes(opt.id)) {
+                        selectedQariIds = selectedQariIds.filter(id => id !== opt.id);
+                    } else {
+                        selectedQariIds.push(opt.id);
+                    }
+                    loadChapters();
+                };
+                container.appendChild(chip);
+            });
+        }
+
+        async function fetchChapters() {
+            try {
+                // Fetch the manifest file
+                const manifestResponse = await fetch('data/chapters.json');
+                if (!manifestResponse.ok) throw new Error('Failed to load manifest');
+
+                const manifestData = await manifestResponse.json();
+
+                // FIX: Access the "chapters" property based on your JSON structure
+                if (!manifestData.chapters || !Array.isArray(manifestData.chapters)) {
+                    throw new Error('Invalid manifest format: "chapters" array not found.');
+                }
+
+                // Fetch all individual chapter files listed in the "chapters" array
+                const promises = manifestData.chapters.map(filename =>
+                    fetch(`data/${filename}`).then(res => {
+                        if (!res.ok) throw new Error(`Failed to load ${filename}`);
+                        return res.json();
+                    })
+                );
+
+                chaptersData = await Promise.all(promises);
+
+                // If the user is currently looking at the chapters section, render immediately
+                const chaptersSection = document.getElementById('chapters');
+                if (chaptersSection.classList.contains('active')) {
+                    loadChapters();
+                }
+
+            } catch (error) {
+                console.error('Error fetching chapters:', error);
+                document.getElementById('chapters-container').innerHTML =
+                    `<p style="text-align:center; padding: 2rem; color: #8b0000;">Error loading chapter data: ${error.message}</p>`;
+            }
+        }
+
+        function loadChapters() {
+            const container = document.getElementById('chapters-container');
+
+            if (chaptersData.length === 0) {
+                return;
+            }
+
+            container.innerHTML = '';
+
+            chaptersData.forEach((chapter, index) => {
+                const chapterElement = createChapterElement(chapter);
+                if (chapterElement) {
+                    container.appendChild(chapterElement);
+                    setTimeout(() => chapterElement.classList.add('visible'), index * 100);
+                }
+            });
+
+            if (container.innerHTML === '') {
+                container.innerHTML = '<p style="text-align:center; padding: 2rem;">No rules found for the selected filter.</p>';
+            }
+        }
+
+        function createChapterElement(chapter) {
+            const filteredRules = Object.values(chapter.rules).filter(rule => {
+                if (selectedQariIds.length === 0) return true;
+
+                return selectedQariIds.some(selectedId => {
+                    const option = qariOptions.find(o => o.id === selectedId);
+                    return rule.quraa.includes(selectedId) || rule.quraa.includes(option.teacher);
+                });
+            });
+
+            if (filteredRules.length === 0) return null;
+
+            const div = document.createElement('div');
+            div.className = 'chapter-item';
+            div.innerHTML = `
+                <div class="chapter-header">
+                    <div class="chapter-order">${chapter.order}</div>
+                    <div class="chapter-title-wrapper">
+                        <div class="chapter-title">${chapter.titleEn}</div>
+                    </div>
+                    <div class="expand-icon">▼</div>
+                </div>
+                <div class="chapter-content">
+                    <p class="chapter-description">${chapter.description}</p>
+                    <div class="rules-container">
+                        ${filteredRules.map(rule => createRuleHTML(rule)).join('')}
+                    </div>
+                </div>
+            `;
+
+            div.querySelector('.chapter-header').onclick = () => div.classList.toggle('expanded');
+            return div;
+        }
+
+        function createRuleHTML(rule) {
+            return `
+                <div class="rule-section">
+                    <div class="rule-title">${rule.title} <span style="color:var(--accent)">${rule.titleAr}</span></div>
+                    <p class="rule-description">${rule.description}</p>
+                    <div class="quraa-list">
+                        ${rule.quraa.map(q => `<span class="qari-tag">${q}</span>`).join('')}
+                    </div>
+                    ${rule.examples.map(ex => `
+                        <div class="example-box">
+                            <div class="example-verse">${ex.fullVerse}</div>
+                            <div style="text-align:center; font-size:0.9rem;">${ex.note}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        document.querySelectorAll('.nav-btn').forEach(btn => {
+            btn.onclick = () => {
+                document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+                document.getElementById(btn.dataset.section).classList.add('active');
+                if (btn.dataset.section === 'chapters') loadChapters();
+            };
+        });
+
+        // Initialize
+        initFilter();
+        fetchChapters();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+{
+  "id": "fatiha",
+  "chapter_id": "02",
+  "title": "",
+  "titleEn": "Al-Fatihah",
+  "order": 2,
+  "description": "Rules regarding the recitation of certain words in Surah al-Fatiha where the qurra differ.",
+  "shatibiyyahReference": {
+    "startLine": 108,
+    "endLine": 110,
+    "notes": ""
+  },
+  "rules": {
+    "maaliki": {
+      "id": "maaliki",
+      "title": "Māliki",
+      "titleAr": "مَالِكِ",
+      "description": "In ayah 3 of al-Fatiha read the word مَالِكِ with the alif (i.e. the long vowel in Māliki)",
+      "quraa": [
+        "asim",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": []
+    },
+    "maliki": {
+      "id": "maliki",
+      "title": "Maliki",
+      "titleAr": "مَلِكِ",
+      "description": "In ayah 3 of al-Fatiha read the word مَلِكِ with out the alif (i.e. no long vowel, Maliki)",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "hamza"
+      ],
+      "exceptions": [],
+      "examples": []
+    },
+    "sirat-with-seen": {
+      "id": "sirat-with-seen",
+      "title": "Sirāṭ",
+      "titleAr": "",
+      "description": "The words الصِّرَاطَ / صِرَاطَ wherever they occur are read with a س.",
+      "quraa": [
+        "qunbul"
+      ],
+      "exceptions": [],
+      "examples": []
+    },
+    "ishmam_of_sad": {
+      "id": "ishmam_of_sad",
+      "title": "Ishmām of ص",
+      "titleAr": "",
+      "description": "The ص in the words الصِّرَاطَ / صِرَاطَ will be read with ishmām. Ishmām of the letter ص with the letter ز means to mix the two letters together in a way that neither letters are purely pronounced. Rather, a new letter is created with the istiʿlāʾ quality of ص but a dominant ز sound.",
+      "quraa": [
+        "khalaf",
+        "khallad"
+      ],
+      "note": "Imam Khallad ONLY makes ishmam on the first الصِّرَاطَ in Sūrah al-Fātihah.",
+      "examples": []
+    },
+    "ilayhum_ladayhum_alayhum": {
+      "id": "ilayhum_ladayhum_alayhum",
+      "title": "Ilay-hum, Laday-hum, 'Alay-hum",
+      "titleAr": "إليهم, لديهم, عليهم",
+      "description": "These words are read with a dhamma on the ه wherever they occur in both waqf and wasl",
+      "quraa": [
+        "hamza"
+      ],
+      "examples": [],
+      "note": "Imam Kisai will also recite a dhamma on the ه but only when these words are followed by a sukoon. This is further explained in the rules for mīm al-jam'."
+    }
+  }
+}
