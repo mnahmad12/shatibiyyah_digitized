@@ -4,7 +4,7 @@
   "title": "مِيمُ الْجَمْعِ I",
   "titleEn": "Ṣilah on Mīm al-jamʿ",
   "order": 3,
-  "description": "Rules regarding the ṣilah on the mīm al-jamʿ. Mīm al-jamʿ refers to the mīm sākinah of the plural masculine second and third person pronouns i.e., هم and كُـمْ and تُمْ. Ṣilah refers to the stretching of the ḍammah until it becomes wāw maddah and/or stretching the kasrah until it becomes yāʾ maddah. In both cases it will be read in the state of waṣl and omitted if waqf is made on it." ,
+  "description": "Rules regarding the ṣilah on the mīm al-jamʿ. Mīm al-jamʿ refers to the mīm sākinah of the plural masculine second and third person pronouns i.e., هم and كُـمْ and تُمْ. Ṣilah refers to the stretching of the ḍammah until it becomes wāw maddah and/or stretching the kasrah until it becomes yāʾ maddah. In both cases it will be read in the state of waṣl and omitted if waqf is made on it.",
   "shatibiyyahReference": {
     "startLine": 111,
     "endLine": 112,
@@ -26,21 +26,24 @@
         "kisai"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of mīm al-jamʿ followed by sukoon",
-        "surah": "",
-        "ayah": null,
-        "fullVerse": "عَلَيْكُمُ الصِّيَامُ",
-        "focus": "",
-        "note": "note the sukoon after mīm al-jamʿ"
-    },{
-      "verse": "examples of mīm al-jamʿ followed by sukoon",
-      "surah": "",
-      "ayah": null,
-      "fullVerse": "مِنْهُمُ الَّذِينَ",
-      "focus": "",
-      "note": "another example"
-    }]
+      "examples": [
+        {
+          "verse": "examples of mīm al-jamʿ followed by sukoon",
+          "surah": "",
+          "ayah": null,
+          "fullVerse": "عَلَيْكُمُ الصِّيَامُ",
+          "focus": "",
+          "note": "note the sukoon after mīm al-jamʿ"
+        },
+        {
+          "verse": "examples of mīm al-jamʿ followed by sukoon",
+          "surah": "",
+          "ayah": null,
+          "fullVerse": "مِنْهُمُ الَّذِينَ",
+          "focus": "",
+          "note": "another example"
+        }
+      ]
     },
     "silah_when_followed_by_pronoun": {
       "id": "silah_when_followed_by_pronoun",
@@ -57,21 +60,24 @@
         "kisai"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of mīm al-jamʿ followed by pronoun",
-        "surah": "",
-        "ayah": null,
-        "fullVerse": "أَنُلْزِمُكُمُوهَا",
-        "focus": "",
-        "note": "note the pronoun (هَا) after mīm al-jamʿ"
-    },{
-      "verse": "examples of mīm al-jamʿ followed by pronoun",
-      "surah": "",
-      "ayah": null,
-      "fullVerse": "وَجَدْتُمُوهُمْ",
-      "focus": "",
-      "note": "another example, note the pronoun (هُمْ)"
-    }]
+      "examples": [
+        {
+          "verse": "examples of mīm al-jamʿ followed by pronoun",
+          "surah": "",
+          "ayah": null,
+          "fullVerse": "أَنُلْزِمُكُمُوهَا",
+          "focus": "",
+          "note": "note the pronoun (هَا) after mīm al-jamʿ"
+        },
+        {
+          "verse": "examples of mīm al-jamʿ followed by pronoun",
+          "surah": "",
+          "ayah": null,
+          "fullVerse": "وَجَدْتُمُوهُمْ",
+          "focus": "",
+          "note": "another example, note the pronoun (هُمْ)"
+        }
+      ]
     },
     "silah_when_followed_by_mutharrik": {
       "id": "silah_when_followed_by_mutharrik",
@@ -83,23 +89,28 @@
         "qalun",
         "warsh"
       ],
-      "exceptions": ["The ṣilah on mīm al-jamʿ when it is followed by a mutaḥarrikah letter for Imam Warsh is ONLY when that letter is a ء (hamzah). He will not make ṣilah on the mīm al-jamʿ in any other case."],
+      "exceptions": [
+        "The ṣilah on mīm al-jamʿ when it is followed by a mutaḥarrikah letter for Imam Warsh is ONLY when that letter is a ء (hamzah). He will not make ṣilah on the mīm al-jamʿ in any other case."
+      ],
       "note": "Imam Qalun will recite the ṣilah with qaṣr or madd and Imam Warsh with ṭūl when the mutaḥarrikah letter is ء according to their rules of madd",
-      "examples": [{
-        "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah",
-        "surah": "",
-        "ayah": null,
-        "fullVerse": "عَلَيْهِمُوْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمُوْ",
-        "focus": "",
-        "note": "note the mutaḥarrikah letter after mīm al-jam. Since the mutaḥarrikah is not a ء (hamzah), ṣilah is only made for Imams Ibn Kathir and one of Imam Qalun's options."
-    },{
-      "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah",
-      "surah": "",
-      "ayah": null,
-      "fullVerse": "عَلَيْكُمُوْ أَنفُسَكُمْ",
-      "focus": "",
-      "note": "and in this case because the mutaḥarrikah is a hamzah, Imams Ibn Kathir, Qalun (one option) AND Warsh will make the ṣilah"
-    }]
+      "examples": [
+        {
+          "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah",
+          "surah": "",
+          "ayah": null,
+          "fullVerse": "عَلَيْهِمُوْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمُوْ",
+          "focus": "",
+          "note": "note the mutaḥarrikah letter after mīm al-jam. Since the mutaḥarrikah is not a ء (hamzah), ṣilah is only made for Imams Ibn Kathir and one of Imam Qalun's options."
+        },
+        {
+          "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah",
+          "surah": "",
+          "ayah": null,
+          "fullVerse": "عَلَيْكُمُوْ أَنفُسَكُمْ",
+          "focus": "",
+          "note": "and in this case because the mutaḥarrikah is a hamzah, Imams Ibn Kathir, Qalun (one option) AND Warsh will make the ṣilah"
+        }
+      ]
     },
     "no_silah_when_followed_by_mutharrik": {
       "id": "no_silah_when_followed_by_mutharrik",
@@ -115,23 +126,28 @@
         "hamza",
         "kisai"
       ],
-      "exceptions": ["Imam Warsh does make ṣilah when the mutaḥarrikah letter is a ء (hamzah)."],
+      "exceptions": [
+        "Imam Warsh does make ṣilah when the mutaḥarrikah letter is a ء (hamzah)."
+      ],
       "note": "Note that this is one of Imam Qalun's options (with the other being to make ṣilah).",
-      "examples": [{
-        "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah without silah",
-        "surah": "",
-        "ayah": null,
-        "fullVerse": "عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ",
-        "focus": "",
-        "note": ""
-    },{
-      "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah with no silah",
-      "surah": "",
-      "ayah": null,
-      "fullVerse": "عَلَيْكُمْ أَنفُسَكُمْ",
-      "focus": "",
-      "note": ""
-    }]
+      "examples": [
+        {
+          "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah without silah",
+          "surah": "",
+          "ayah": null,
+          "fullVerse": "عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ",
+          "focus": "",
+          "note": ""
+        },
+        {
+          "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah with no silah",
+          "surah": "",
+          "ayah": null,
+          "fullVerse": "عَلَيْكُمْ أَنفُسَكُمْ",
+          "focus": "",
+          "note": ""
+        }
+      ]
     }
   }
 }
