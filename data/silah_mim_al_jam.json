@@ -81,42 +81,42 @@
     },
     "silah_when_followed_by_mutharrik": {
       "id": "silah_when_followed_by_mutharrik",
-      "title": "Ṣilah when followed by a mutaḥarrikah letter",
+      "title": "Ṣilah when followed by a mutaḥarrik letter",
       "titleAr": "",
-      "description": "Read the mīm al-jamʿ with ṣilah when it is followed by a letter that carries a vowel (ie mutaḥarrikah letter).",
+      "description": "Read the mīm al-jamʿ with ṣilah when it is followed by a letter that carries a vowel (ie mutaḥarrik letter).",
       "quraa": [
         "ibn-kathir",
         "qalun",
         "warsh"
       ],
       "exceptions": [
-        "The ṣilah on mīm al-jamʿ when it is followed by a mutaḥarrikah letter for Imam Warsh is ONLY when that letter is a ء (hamzah). He will not make ṣilah on the mīm al-jamʿ in any other case."
+        "The ṣilah on mīm al-jamʿ when it is followed by a mutaḥarrik letter for Imam Warsh is ONLY when that letter is a ء (hamzah). He will not make ṣilah on the mīm al-jamʿ in any other case."
       ],
-      "note": "Imam Qalun will recite the ṣilah with qaṣr or madd and Imam Warsh with ṭūl when the mutaḥarrikah letter is ء according to their rules of madd",
+      "note": "Imam Qalun will recite the ṣilah with qaṣr or madd and Imam Warsh with ṭūl when the mutaḥarrik letter is ء according to their rules of madd",
       "examples": [
         {
-          "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah",
+          "verse": "examples of mīm al-jamʿ followed by mutaḥarrik",
           "surah": "",
           "ayah": null,
           "fullVerse": "عَلَيْهِمُوْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمُوْ",
           "focus": "",
-          "note": "note the mutaḥarrikah letter after mīm al-jam. Since the mutaḥarrikah is not a ء (hamzah), ṣilah is only made for Imams Ibn Kathir and one of Imam Qalun's options."
+          "note": "note the mutaḥarrik letter after mīm al-jam. Since the mutaḥarrik is not a ء (hamzah), ṣilah is only made for Imams Ibn Kathir and one of Imam Qalun's options."
         },
         {
-          "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah",
+          "verse": "examples of mīm al-jamʿ followed by mutaḥarrik",
           "surah": "",
           "ayah": null,
           "fullVerse": "عَلَيْكُمُوْ أَنفُسَكُمْ",
           "focus": "",
-          "note": "and in this case because the mutaḥarrikah is a hamzah, Imams Ibn Kathir, Qalun (one option) AND Warsh will make the ṣilah"
+          "note": "and in this case because the mutaḥarrik is a hamzah, Imams Ibn Kathir, Qalun (one option) AND Warsh will make the ṣilah"
         }
       ]
     },
     "no_silah_when_followed_by_mutharrik": {
       "id": "no_silah_when_followed_by_mutharrik",
-      "title": "No ṣilah when followed by a mutaḥarrikah letter",
+      "title": "No ṣilah when followed by a mutaḥarrik letter",
       "titleAr": "",
-      "description": "There will be no ṣilah even when the following letter is mutaḥarrikah.",
+      "description": "There will be no ṣilah even when the following letter is mutaḥarrik.",
       "quraa": [
         "qalun",
         "warsh",
@@ -127,12 +127,12 @@
         "kisai"
       ],
       "exceptions": [
-        "Imam Warsh does make ṣilah when the mutaḥarrikah letter is a ء (hamzah)."
+        "Imam Warsh does make ṣilah when the mutaḥarrik letter is a ء (hamzah)."
       ],
       "note": "Note that this is one of Imam Qalun's options (with the other being to make ṣilah).",
       "examples": [
         {
-          "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah without silah",
+          "verse": "examples of mīm al-jamʿ followed by mutaḥarrik without silah",
           "surah": "",
           "ayah": null,
           "fullVerse": "عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ",
@@ -140,7 +140,7 @@
           "note": ""
         },
         {
-          "verse": "examples of mīm al-jamʿ followed by mutaḥarrikah with no silah",
+          "verse": "examples of mīm al-jamʿ followed by mutaḥarrik with no silah",
           "surah": "",
           "ayah": null,
           "fullVerse": "عَلَيْكُمْ أَنفُسَكُمْ",

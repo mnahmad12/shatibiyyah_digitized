@@ -162,7 +162,6 @@
         function createChapterElement(chapter) {
             const filteredRules = Object.values(chapter.rules).filter(rule => {
                 if (selectedQariIds.length === 0) return true;
-
                 return selectedQariIds.some(selectedId => {
                     const option = qariOptions.find(o => o.id === selectedId);
                     return rule.quraa.includes(selectedId) || rule.quraa.includes(option.teacher);
@@ -174,20 +173,33 @@
             const div = document.createElement('div');
             div.className = 'chapter-item';
             div.innerHTML = `
-                <div class="chapter-header">
-                    <div class="chapter-order">${chapter.order}</div>
-                    <div class="chapter-title-wrapper">
-                        <div class="chapter-title">${chapter.titleEn}</div>
+        <div class="chapter-header">
+            <div class="chapter-order">${chapter.order}</div>
+            <div class="chapter-title-wrapper">
+                <div class="chapter-title">${chapter.titleEn}</div>
+            </div>
+            <div class="expand-icon">▼</div>
+        </div>
+        <div class="chapter-content">
+            <p class="chapter-description">${chapter.description}</p>
+            
+            ${chapter.shatibiyyahReference ? `
+                <div class="reference-section">
+                    <span class="label">Shatibiyyah Reference</span>
+                    <div class="reference-meta">
+                        <strong>Lines:</strong> ${chapter.shatibiyyahReference.startLine} — ${chapter.shatibiyyahReference.endLine}
+                        ${chapter.shatibiyyahReference.notes ? `
+                            <div class="reference-note">${chapter.shatibiyyahReference.notes}</div>
+                        ` : ''}
                     </div>
-                    <div class="expand-icon">▼</div>
                 </div>
-                <div class="chapter-content">
-                    <p class="chapter-description">${chapter.description}</p>
-                    <div class="rules-container">
-                        ${filteredRules.map(rule => createRuleHTML(rule)).join('')}
-                    </div>
-                </div>
-            `;
+            ` : ''}
+
+            <div class="rules-container">
+                ${filteredRules.map(rule => createRuleHTML(rule)).join('')}
+            </div>
+        </div>
+    `;
 
             div.querySelector('.chapter-header').onclick = () => div.classList.toggle('expanded');
             return div;
@@ -195,38 +207,38 @@
 
         function createRuleHTML(rule) {
             return `
-                <div class="rule-section">
-                    <div class="rule-title">${rule.title} <span style="color:var(--accent)">${rule.titleAr}</span></div>
-                    <p class="rule-description">${rule.description}</p>
-                    
-                    <div class="quraa-list">
-                        ${rule.quraa.map(q => `<span class="qari-tag">${q}</span>`).join('')}
-                    </div>
+        <div class="rule-section">
+            <div class="rule-title">${rule.title} <span style="color:var(--accent)">${rule.titleAr}</span></div>
+            <p class="rule-description">${rule.description}</p>
+            
+            <div class="quraa-list">
+                ${rule.quraa.map(q => `<span class="qari-tag">${q}</span>`).join('')}
+            </div>
 
-                    ${rule.exceptions && rule.exceptions.length > 0 ? `
-                        <div class="exceptions-container" style="margin-top: 1rem;">
-                            <span class="label" style="color: #8b0000;">Exceptions:</span>
-                            <ul style="list-style-type: none; padding-left: 0;">
-                                ${rule.exceptions.map(exc => `<li style="font-size: 0.95rem; color: #8b0000; margin-bottom: 0.5rem;">• ${exc}</li>`).join('')}
-                            </ul>
-                        </div>
-                    ` : ''}
-
-                    ${rule.note ? `
-                        <div class="note-box" style="background: var(--accent-light); padding: 1rem; border-radius: 4px; margin: 1rem 0; border-left: 3px solid var(--accent);">
-                            <span class="label">Note:</span>
-                            <p style="margin-bottom: 0; font-style: italic; font-size: 0.95rem;">${rule.note}</p>
-                        </div>
-                    ` : ''}
-
-                    ${rule.examples.map(ex => `
-                        <div class="example-box">
-                            <div class="example-verse">${ex.fullVerse}</div>
-                            <div style="text-align:center; font-size:0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">${ex.note}</div>
-                        </div>
-                    `).join('')}
+            ${rule.note ? `
+                <div class="note-box">
+                    <span class="label">Note:</span>
+                    <p class="note-text">${rule.note}</p>
                 </div>
-            `;
+            ` : ''}
+
+            ${rule.examples.map(ex => `
+                <div class="example-box">
+                    <div class="example-verse">${ex.fullVerse}</div>
+                    <div style="text-align:center; font-size:0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">${ex.note}</div>
+                </div>
+            `).join('')}
+
+            ${rule.exceptions && rule.exceptions.length > 0 ? `
+                <div class="exceptions-container">
+                    <span class="label exception-label">Exceptions:</span>
+                    <ul class="exceptions-list">
+                        ${rule.exceptions.map(exc => `<li class="exception-item">• ${exc}</li>`).join('')}
+                    </ul>
+                </div>
+            ` : ''}
+        </div>
+    `;
         }
 
         document.querySelectorAll('.nav-btn').forEach(btn => {

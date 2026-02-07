@@ -1,0 +1,52 @@
+{
+  "id": "idghaam_kabir_in_one_word",
+  "chapter_id": "05",
+  "title": "إِدْغَام كَبِير مُتَمَاثِلَيْن",
+  "titleEn": "Idghām Kabīr Mutamāthilān in separate words",
+  "order": 5,
+  "description": "This section talks about the rules when idghām kabīr mithlān occurs in separate words (ie the mudgham is at the end of the first word and the mudgham fῑh is at the beginning of the next word. For a description of these terms see the previous section on idghām kabīr mithlān in a single word.)",
+  "shatibiyyahReference": {
+    "startLine": 116,
+    "endLine": 117,
+    "notes": "Note from al-Shaṭibīyyah Idghām kabīr only occurs for Imam Sūsī."
+  },
+  "rules": {
+    "idghām_kabir_as_general_rule": {
+      "id": "idghām_kabir_as_general_rule",
+      "title": "Idghām kabīr when two identical letters come together in two separate words.",
+      "titleAr": "",
+      "description": "As a general rule Imam Sūsī will make idghām kabīr when two identical letters come together.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": ["The first letter must not be the tāʾ of the first person, e.g. كُنتُ تُرَابًا", "The first letter must not be the tāʾ of the second person, e.g. أَنْتَ تُكْرِهُ", "The first letter must not have a tanwīn, e.g. وَاسِعٌ عَلِيمٌ", "The first letter must not have a shaddah, e.g. تَمَّ مِيقَاتُ"],
+      "examples": [{
+        "verse": "examples of idghām kabir mithlain",
+        "surah": "",
+        "ayah": "2:255",
+        "fullVerse": "..يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ..",
+        "focus": "",
+        "note": "Here the two two م will merge and be read as one emphasized م"
+      }]
+    },
+    "idhar_when_ikhfa_nun": {
+      "id": "idhar_when_ikhfa_nun",
+      "title": "Iẓhār in يَحْزُنكَ كُفْرُهُ",
+      "titleAr": "",
+      "description": "While this instance meets the apparent conditions for when Imam Sūsī will make idghām, iẓhār is made here. The reason is that there is ikhfāʾ in the ن which makes it difficult to merge the following letter ك into the subsequent ك. ",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of no idghām kabir mithlain when ikhfa",
+        "surah": "",
+        "ayah": "31:23",
+        "fullVerse": "وَمَن كَفَرَ فَلَا يَحْزُنكَ كُفْرُهُ...",
+        "focus": "",
+        "note": ""
+      }]
+    }
+    
+  }
+}
