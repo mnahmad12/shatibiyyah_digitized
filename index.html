@@ -198,13 +198,31 @@
                 <div class="rule-section">
                     <div class="rule-title">${rule.title} <span style="color:var(--accent)">${rule.titleAr}</span></div>
                     <p class="rule-description">${rule.description}</p>
+                    
                     <div class="quraa-list">
                         ${rule.quraa.map(q => `<span class="qari-tag">${q}</span>`).join('')}
                     </div>
+
+                    ${rule.exceptions && rule.exceptions.length > 0 ? `
+                        <div class="exceptions-container" style="margin-top: 1rem;">
+                            <span class="label" style="color: #8b0000;">Exceptions:</span>
+                            <ul style="list-style-type: none; padding-left: 0;">
+                                ${rule.exceptions.map(exc => `<li style="font-size: 0.95rem; color: #8b0000; margin-bottom: 0.5rem;">• ${exc}</li>`).join('')}
+                            </ul>
+                        </div>
+                    ` : ''}
+
+                    ${rule.note ? `
+                        <div class="note-box" style="background: var(--accent-light); padding: 1rem; border-radius: 4px; margin: 1rem 0; border-left: 3px solid var(--accent);">
+                            <span class="label">Note:</span>
+                            <p style="margin-bottom: 0; font-style: italic; font-size: 0.95rem;">${rule.note}</p>
+                        </div>
+                    ` : ''}
+
                     ${rule.examples.map(ex => `
                         <div class="example-box">
                             <div class="example-verse">${ex.fullVerse}</div>
-                            <div style="text-align:center; font-size:0.9rem;">${ex.note}</div>
+                            <div style="text-align:center; font-size:0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">${ex.note}</div>
                         </div>
                     `).join('')}
                 </div>
