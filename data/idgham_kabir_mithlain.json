@@ -1,0 +1,114 @@
+{
+  "id": "idghaam_kabir_in_one_word",
+  "chapter_id": "05",
+  "title": "إِدْغَام كَبِير مُتَمَاثِلَيْن",
+  "titleEn": "Idghām Kabīr Mutamāthilān (in one word)",
+  "order": 5,
+  "description": "Idghām kabīr is TODO Rules regarding the the harakah to be read on the ه and م in word هم. Depending on the harakah before/after this word the qurra have differences in how they will recite it",
+  "shatibiyyahReference": {
+    "startLine": 113,
+    "endLine": 115,
+    "notes": ""
+  },
+  "rules": {
+    "dhammah_dhammah_preceeded_by_fath": {
+      "id": "dhammah_dhammah_preceeded_by_fath",
+      "title": "Ḍhammah on the ه and م when preceeded by ḍammah, fatḥah or sukūn before هم.",
+      "titleAr": "",
+      "description": "When هم is preceeded by ḍammah, fatḥah or sukūn all of the qurra will read both the ه and م  with a ḍammah, whether in waṣl or waqf. And if after the هم there is a sakin the qurra will recite with ḍammah on both letters and no ṣilah (see rules for ṣilah in previous chapter)",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": []
+    },
+    "kasrah_sukoon_preceeded_by_kasrah_ya": {
+      "id": "kasrah_sukoon_preceeded_by_kasrah_ya",
+      "title": "Kasrah on the ه when preceeded by kasrah or yāʾ sākinah in waqf",
+      "titleAr": "",
+      "description": "When making waqf (ie stopping on هم) and the word هم is preceeded by a kasrah or yāʾ sākinah all of the qurra with recite the ه with a kasrah.",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": ["Imam Hamza recites the words إليهم, لديهم, عليهم with a dhammah wherever they occur (see the rule of 'Ilay-hum, Laday-hum, 'Alay-hum' in the chapter of al-Fatiha"],
+      "examples": []
+    },
+    "kasrah_kasrah_preceeded_by_kasrah_ya_wasl": {
+      "id": "kasrah_kasrah_preceeded_by_kasrah_ya_wasl",
+      "title": "Kasrah on the ه and م when preceeded by kasrah or yāʾ sākinah and also followed by a sakin letter in wasl",
+      "titleAr": "",
+      "description": "When making wasl (ie continuing on and not stopping on هم) and the word هم is preceeded by a kasrah or yāʾ sākinah while also followed by a sakin letter Imam Abu Amr will recite both the ه and م with a kasrah.",
+      "quraa": [
+        "abu-amr"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of mīm al-jamʿ for imam abu-amr when preceeded by kasrah/ya and followed by sakin",
+          "surah": "",
+          "ayah": null,
+          "fullVerse": "بِهِمِ الْأَسْبَابُ",
+          "focus": "",
+          "note": ""
+        }
+      ]
+    },
+    "dhamma_dhamma_preceeded_by_kasrah_ya_wasl": {
+      "id": "dhamma_dhamma_preceeded_by_kasrah_ya_wasl",
+      "title": "Ḍhammah on the ه and م when preceeded by kasrah or yāʾ sākinah and also followed by a sakin letter in wasl",
+      "titleAr": "",
+      "description": "When making wasl (ie continuing on and not stopping on هم) and the word هم is preceeded by a kasrah or yāʾ sākinah while also followed by a sakin letter Imams Hamza & Kisai will recite both the ه and م with a ḍammah.",
+      "quraa": [
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of mīm al-jamʿ for imam hamza/kisai when preceeded by kasrah/ya and followed by sakin",
+          "surah": "",
+          "ayah": null,
+          "fullVerse": "بِهُمُ الْأَسْبَابُ",
+          "focus": "",
+          "note": ""
+        }
+      ]
+    },
+    "kasrah_dhamma_preceeded_by_kasrah_ya_wasl": {
+      "id": "kasrah_dhamma_preceeded_by_kasrah_ya_wasl",
+      "title": "Kasrah on the ه and Ḍhammah on the م when preceeded by kasrah or yāʾ sākinah and also followed by a sakin letter in wasl",
+      "titleAr": "",
+      "description": "When making wasl (ie continuing on and not stopping on هم) and the word هم is preceeded by a kasrah or yāʾ sākinah while also followed by a sakin letter the remaining qurra will recite a kasrah on the ه and ḍammah on the م.",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "ibn-amir",
+        "asim"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of mīm al-jamʿ for remainder when preceeded by kasrah/ya and followed by sakin",
+          "surah": "",
+          "ayah": null,
+          "fullVerse": "بِهِمُ الْأَسْبَابُ",
+          "focus": "",
+          "note": ""
+        }
+      ]
+    }
+    
+  }
+}
