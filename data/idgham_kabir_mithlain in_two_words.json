@@ -6,8 +6,8 @@
   "order": 5,
   "description": "This section talks about the rules when idghām kabīr mithlān occurs in separate words (ie the mudgham is at the end of the first word and the mudgham fῑh is at the beginning of the next word. For a description of these terms see the previous section on idghām kabīr mithlān in a single word.)",
   "shatibiyyahReference": {
-    "startLine": 116,
-    "endLine": 117,
+    "startLine": 118,
+    "endLine": 131,
     "notes": "Note from al-Shaṭibīyyah Idghām kabīr only occurs for Imam Sūsī."
   },
   "rules": {
@@ -26,7 +26,7 @@
         "ayah": "2:255",
         "fullVerse": "..يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ..",
         "focus": "",
-        "note": "Here the two two م will merge and be read as one emphasized م"
+        "note": "Here the two م will merge and be read as one emphasized م"
       }]
     },
     "idhar_when_ikhfa_nun": {

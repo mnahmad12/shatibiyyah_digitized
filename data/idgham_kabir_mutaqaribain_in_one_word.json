@@ -1,0 +1,52 @@
+{
+  "id": "idgham_kabir_mutaqaribain_in_one_word",
+  "chapter_id": "06",
+  "title": "",
+  "titleEn": "Idghām Kabīr Mutaqārībān in one word",
+  "order": 6,
+  "description": "This section talks about the rules when idghām kabīr mutaqārībān occurs in a single word. (For a description of these terms see the previous section on idghām kabīr mithlān in a single word.)",
+  "shatibiyyahReference": {
+    "startLine": 132,
+    "endLine": 135,
+    "notes": ""
+  },
+  "rules": {
+    "idghām_kabir_mutaqaribain_general_rule": {
+      "id": "idghām_kabir_mutaqaribain_general_rule",
+      "title": "Idghām kabīr mutaqārībān in one word of ق into ك.",
+      "titleAr": "",
+      "description": "As a general rule Imam Sūsī will make idghām when a mutaḥarrik ق is  followed by a ك in the same word subject to some conditions. These are: (1) The ق is preceded by a mutaḥarrik letter and (2) The ك is followed by a م of jamʿ.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān",
+        "surah": "",
+        "ayah": "27:64",
+        "fullVerse": "..يَرْزُقُكُّمْ..",
+        "focus": "",
+        "note": "Since the two conditions are met here the ق will merge into the  the will merge and be read as one emphasized ك"
+      }]
+    },
+    "idgham_talaqakunna": {
+      "id": "idgham_talaqakunna",
+      "title": "Idghām in طَلَّقَكُنَّ",
+      "titleAr": "",
+      "description": "While this instance doesn't meet the two coniditions for when Imam Sūsī will make idghām of mutaqārībān letters in one word, Imam al-Shaṭibī has preferred idghām here. He explains this is because it is burdensome to recite the plural, second person, feminine pronoun.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of no idghām kabir mithlain when ikhfa",
+        "surah": "",
+        "ayah": "66:5",
+        "fullVerse": "..إِن طَلَّقَكُنَّ..",
+        "focus": "",
+        "note": ""
+      }]
+    }
+    
+  }
+}
