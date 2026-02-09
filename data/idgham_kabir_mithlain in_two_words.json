@@ -46,6 +46,25 @@
         "focus": "",
         "note": ""
       }]
+    },
+    "khulf_on_muallal": {
+      "id": "khulf_on_muallal",
+      "title": "Khulf on muaʿllal verbs/dropped final alif, wāw or yāʾ",
+      "titleAr": "",
+      "description": "There is a difference of opinion as to whether there will be idghām kabīr in verbs whose end letter (which is also a root letter of the word) has dropped, if the current last letter and the first letter of the next word are identical. Both ways are permissible.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "note": "Imam al-Shaṭibī clarifies that when the ي of first person is dropped as in يا قَوْمِ مَن there will be idghām kabīr without any disagreement because the yāʾ mutakallim (first person) in these examples is not part of the root letters of the word.",
+      "examples": [{
+        "verse": "examples of idghām kabir muaʿllal",
+        "surah": "",
+        "ayah": "3:85",
+        "fullVerse": "..يَبْتَغِ غَيْرَ..",
+        "focus": "",
+        "note": "The original form of the first word يَبْتَغِي ends in a ي which is dropped. This creates the meeting of the غs and both idghām kabir and iẓhār can be made here"
+      }]
     }
     
   }
