@@ -29,16 +29,14 @@
         <section id="introduction" class="section active">
             <div class="content-card">
                 <h2>Welcome</h2>
-                <p>The Shatibiyyah is a masterful didactic poem composed by Imam al-Shatibi (d. 590 AH) covering the
-                    seven canonical readings of the Quran.</p>
+                <p>Bismillah. To Do.</p>
             </div>
         </section>
 
         <section id="overview" class="section">
             <div class="content-card">
-                <h2>Understanding the Science</h2>
-                <p>Qira'at refers to the various authentic methods of reciting the Quran transmitted through unbroken
-                    chains.</p>
+                <h2>Todo</h2>
+                <p>Todo.</p>
             </div>
         </section>
 
@@ -55,7 +53,7 @@
                 </div>
 
                 <div id="chapters-container">
-                    <div class="loading">Loading chapters</div>
+                    <div class="loading" style="text-align:center; padding: 2rem; color: var(--text-secondary);">Loading chapters...</div>
                 </div>
             </div>
         </section>
@@ -109,7 +107,6 @@
 
                 const manifestData = await manifestResponse.json();
 
-                // FIX: Access the "chapters" property based on your JSON structure
                 if (!manifestData.chapters || !Array.isArray(manifestData.chapters)) {
                     throw new Error('Invalid manifest format: "chapters" array not found.');
                 }
@@ -124,7 +121,6 @@
 
                 chaptersData = await Promise.all(promises);
 
-                // If the user is currently looking at the chapters section, render immediately
                 const chaptersSection = document.getElementById('chapters');
                 if (chaptersSection.classList.contains('active')) {
                     loadChapters();
@@ -208,35 +204,46 @@
         function createRuleHTML(rule) {
             return `
         <div class="rule-section">
-            <div class="rule-title">${rule.title} <span style="color:var(--accent)">${rule.titleAr}</span></div>
-            <p class="rule-description">${rule.description}</p>
-            
-            <div class="quraa-list">
-                ${rule.quraa.map(q => `<span class="qari-tag">${q}</span>`).join('')}
+            <div class="rule-header" onclick="this.parentElement.classList.toggle('expanded')">
+                <div class="rule-title">
+                    <span>${rule.title}</span>
+                    <span style="color:var(--accent)">${rule.titleAr}</span>
+                </div>
+                <div class="rule-toggle-icon">▼</div>
             </div>
+            
+            <div class="rule-content">
+                <div class="rule-body-padding">
+                    <p class="rule-description">${rule.description}</p>
+                    
+                    <div class="quraa-list">
+                        ${rule.quraa.map(q => `<span class="qari-tag">${q}</span>`).join('')}
+                    </div>
 
-            ${rule.note ? `
-                <div class="note-box">
-                    <span class="label">Note:</span>
-                    <p class="note-text">${rule.note}</p>
-                </div>
-            ` : ''}
+                    ${rule.note ? `
+                        <div class="note-box">
+                            <span class="label">Note:</span>
+                            <p class="note-text">${rule.note}</p>
+                        </div>
+                    ` : ''}
 
-            ${rule.examples.map(ex => `
-                <div class="example-box">
-                    <div class="example-verse">${ex.fullVerse}</div>
-                    <div style="text-align:center; font-size:0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">${ex.note}</div>
-                </div>
-            `).join('')}
+                    ${rule.examples.map(ex => `
+                        <div class="example-box">
+                            <div class="example-verse">${ex.fullVerse}</div>
+                            <div style="text-align:center; font-size:0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">${ex.note}</div>
+                        </div>
+                    `).join('')}
 
-            ${rule.exceptions && rule.exceptions.length > 0 ? `
-                <div class="exceptions-container">
-                    <span class="label exception-label">Exceptions:</span>
-                    <ul class="exceptions-list">
-                        ${rule.exceptions.map(exc => `<li class="exception-item">• ${exc}</li>`).join('')}
-                    </ul>
+                    ${rule.exceptions && rule.exceptions.length > 0 ? `
+                        <div class="exceptions-container">
+                            <span class="label exception-label">Exceptions:</span>
+                            <ul class="exceptions-list">
+                                ${rule.exceptions.map(exc => `<li class="exception-item">• ${exc}</li>`).join('')}
+                            </ul>
+                        </div>
+                    ` : ''}
                 </div>
-            ` : ''}
+            </div>
         </div>
     `;
         }
@@ -251,7 +258,6 @@
             };
         });
 
-        // Initialize
         initFilter();
         fetchChapters();
     </script>
