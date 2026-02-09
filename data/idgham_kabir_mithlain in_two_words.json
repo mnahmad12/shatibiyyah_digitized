@@ -65,6 +65,59 @@
         "focus": "",
         "note": "The original form of the first word يَبْتَغِي ends in a ي which is dropped. This creates the meeting of the غs and both idghām kabir and iẓhār can be made here"
       }]
+    },
+
+    "idgham_al_luti": {
+      "id": "idgham_ala_lutin",
+      "title": "Idghām kabīr on ءَالَ لُوطٍ",
+      "titleAr": "",
+      "description": "Imam al-Shaṭibī clarifies idghām will be made in this word",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "note": "",
+      "examples": [{
+        "verse": "examples of idghām kabir ala lutin",
+        "surah": "",
+        "ayah": "15:61",
+        "fullVerse": "..ءَالَ لُوطٍ..",
+        "focus": "",
+        "note": ""
+      }]
+    },
+
+    "idgham_of_huwa_wow": {
+      "id": "idgham_of_huwa_wow",
+      "title": "Idghām kabīr on هو when followed by و",
+      "titleAr": "",
+      "description": "As a general rule Imam Sūsī will make idghām kabīr when هو is followed by و.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "note": "when there is a wāw before هو, the riwāyah of Sūsī is to recite it with a sukūn as in وَهُوَ. In that case, there will be idghām without any difference of opinion (when it is followed by a و.)",
+      "examples": [{
+        "verse": "examples of idghām kabir huwa",
+        "surah": "",
+        "ayah": "2:149",
+        "fullVerse": "..هُوَ وَٱلَّذِينَ..",
+        "focus": "",
+        "note": ""
+      }]
+    },
+
+    "idgham_of_alai": {
+      "id": "idgham_of_alai",
+      "title": "Todo وَٱلَّـٰٓـِٔي يَئِسْنَ",
+      "titleAr": "",
+      "description": "To do",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "note": "",
+      "examples": []
     }
     
   }
