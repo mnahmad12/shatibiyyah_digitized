@@ -54,6 +54,69 @@
         "focus": "",
         "note": ""
       }]
+    },
+    "jeem_and_its_letters": {
+      "id": "jeem_and_its_letters",
+      "title": "The letters ج will merge into",
+      "titleAr": "",
+      "description": "ج will merge into ش and  ت. This only occurs in the following places in the quran.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān in two words jeem into sheen",
+        "surah": "",
+        "ayah": "48:29",
+        "fullVerse": "..أَخْرَجَ شَطْـَٔهُ..",
+        "focus": "",
+        "note": ""
+      },
+      {
+        "verse": "examples of idghām kabir mutaqārībān in two words jeem into ta",
+        "surah": "",
+        "ayah": "70:3",
+        "fullVerse": "..ٱلْمَعَارِجِ تَعْرُجُ..",
+        "focus": "",
+        "note": "This occurs if the reader were to make wasl at the end of ayah 3 into  ayah 4"
+      }]
+    },
+    "sheen_and_its_letters": {
+      "id": "sheen_and_its_letters",
+      "title": "ش merges into س",
+      "titleAr": "",
+      "description": "ش will merge into س and this only occurs in one place in the quran.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān in two words sheen into seen",
+        "surah": "",
+        "ayah": "17:42",
+        "fullVerse": "..ٱلْعَرْشِ سَبِيلًا..",
+        "focus": "",
+        "note": ""
+      }]
+    },
+
+    "dad_into_sheen": {
+      "id": "dad_into_sheen",
+      "title": "ض merges into ش",
+      "titleAr": "",
+      "description": "ض will merge into ش and this only occurs in one place in the quran.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān in two words dad into sheen",
+        "surah": "",
+        "ayah": "17:42",
+        "fullVerse": "..لِبَعْضِ شَأْنِهِمْ..",
+        "focus": "",
+        "note": ""
+      }]
     }
     
   }
