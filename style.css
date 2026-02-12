@@ -329,6 +329,11 @@ p {
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
+.chapter-description, 
+.rule-description {
+    white-space: pre-line;
+}
+
 /* Rule Header (Clickable) */
 .rule-header {
     padding: 1.5rem;

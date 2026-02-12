@@ -1,0 +1,60 @@
+{
+  "id": "idgham_kabir_mutaqaribain_in_two_words",
+  "chapter_id": "06",
+  "title": "",
+  "titleEn": "Idghām Kabīr Mutaqārībān in two words",
+  "order": 6,
+  "description": "This section talks about the rules when idghām kabīr mutaqārībān occurs in a two words. (ie the mudgham is at the end of the first word and the mudgham fῑh is at the beginning of the next word. For a description of these terms see the previous section on idghām kabīr mithlān in a single word.) Imam al-Shaṭibī begins this chapter by laying out some foundational principles. These are:\n • Idghām kabīr mutaqārībān between two words occurs in 16 letters. That is to say there are 16 individual letters that have the potential to become mudgham depending on the following letter in the next word. This chapter goes on to list each of these 16 letters and which particular letters they interact with for idghām to occur.\n • The first letter must not have tanwīn.\n • The first letter must not be a tāʾ of the second person.\n • The first letter must not be mushaddad.\n • The first letter must not be in the jazm (jussive) case.",
+  "shatibiyyahReference": {
+    "startLine": 136,
+    "endLine": 157,
+    "notes": ""
+  },
+  "rules": {
+    "ha_into_ain": {
+      "id": "ha_into_ain",
+      "title": "ح merges into ع",
+      "titleAr": "",
+      "description": "The only letter into which ح will merge is ع.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān in two words ha into ain",
+        "surah": "",
+        "ayah": "3:185",
+        "fullVerse": "..زُحْزِحَ عَنِ..",
+        "focus": "",
+        "note": ""
+      }]
+    },
+    "qaf_kaf": {
+      "id": "qaf_kaf",
+      "title": "ق merges into ك and vice verse",
+      "titleAr": "",
+      "description": "ق and ك merge into one another",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān in two words qaf into kaf",
+        "surah": "",
+        "ayah": "25:2",
+        "fullVerse": "..خَلَقَ كُلَّ..",
+        "focus": "",
+        "note": ""
+      },
+      {
+        "verse": "examples of idghām kabir mutaqārībān in two words kaf into qaf",
+        "surah": "",
+        "ayah": "25:10",
+        "fullVerse": "..لَكَ قُصُورًا..",
+        "focus": "",
+        "note": ""
+      }]
+    }
+    
+  }
+}
