@@ -332,7 +332,11 @@ p {
 .chapter-description, 
 .rule-description {
     white-space: pre-line;
+    font-size: 1.1rem; /* Increased from default */
+    line-height: 1.6;  /* Matched with notes/exceptions */
+    color: var(--text-primary);
 }
+
 
 /* Rule Header (Clickable) */
 .rule-header {

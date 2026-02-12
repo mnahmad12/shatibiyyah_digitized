@@ -4,7 +4,7 @@
   "title": "",
   "titleEn": "Idghām Kabīr Mutaqārībān in two words",
   "order": 6,
-  "description": "This section talks about the rules when idghām kabīr mutaqārībān occurs in a two words. (ie the mudgham is at the end of the first word and the mudgham fῑh is at the beginning of the next word. For a description of these terms see the previous section on idghām kabīr mithlān in a single word.) Imam al-Shaṭibī begins this chapter by laying out some foundational principles. These are:\n • Idghām kabīr mutaqārībān between two words occurs in 16 letters. That is to say there are 16 individual letters that have the potential to become mudgham depending on the following letter in the next word. This chapter goes on to list each of these 16 letters and which particular letters they interact with for idghām to occur.\n • The first letter must not have tanwīn.\n • The first letter must not be a tāʾ of the second person.\n • The first letter must not be mushaddad.\n • The first letter must not be in the jazm (jussive) case.",
+  "description": "This section talks about the rules when idghām kabīr mutaqārībān occurs in a two words. (ie the mudgham is at the end of the first word and the mudgham fῑh is at the beginning of the next word. For a description of these terms see the previous section on idghām kabīr mithlān in a single word.) Imam al-Shaṭibī begins this chapter by laying out some foundational principles. These are:\n\n • Idghām kabīr mutaqārībān between two words occurs in 16 letters. That is to say there are 16 individual letters that have the potential to become mudgham depending on the following letter in the next word. This chapter goes on to list each of these 16 letters and which particular letters they interact with for idghām to occur.\n • The first letter must not have tanwīn.\n • The first letter must not be a tāʾ of the second person.\n • The first letter must not be mushaddad.\n • The first letter must not be in the jazm (jussive) case.",
   "shatibiyyahReference": {
     "startLine": 136,
     "endLine": 157,
@@ -57,7 +57,7 @@
     },
     "jeem_and_its_letters": {
       "id": "jeem_and_its_letters",
-      "title": "The letters ج will merge into",
+      "title": "The 2 letters ج will merge into",
       "titleAr": "",
       "description": "ج will merge into ش and  ت. This only occurs in the following places in the quran.",
       "quraa": [
@@ -114,6 +114,69 @@
         "surah": "",
         "ayah": "17:42",
         "fullVerse": "..لِبَعْضِ شَأْنِهِمْ..",
+        "focus": "",
+        "note": ""
+      }]
+    },
+
+    "seen_and_its_letters": {
+      "id": "seen_and_its_letters",
+      "title": "The 2 letters س will merge into",
+      "titleAr": "",
+      "description": "س will merge into ز and this only occurs in one place in the quran and ش but with khulf.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān in two words seen into zai",
+        "surah": "",
+        "ayah": "81:7",
+        "fullVerse": "..ٱلنُّفُوسُ زُوِّجَتْ..",
+        "focus": "",
+        "note": ""
+      },
+      {
+        "verse": "examples of idghām kabir mutaqārībān in two words seen into sheen",
+        "surah": "",
+        "ayah": "19:4",
+        "fullVerse": "..ٱلرَّأْسُ شَيْبًا..",
+        "focus": "",
+        "note": "This instance is with khulf, meaning one option is to merge the س into the ش thereby producing a single emphasized ش sound, while the other is to read both letters clearly/distinctly (iẓhār)"
+      }]
+    },
+
+    "dal_and_its_letters": {
+      "id": "dal_and_its_letters",
+      "title": "The 10 letters د will merge into",
+      "titleAr": "",
+      "description": "د will merge into the following 10 letters: ض ش ذ س ت ظ ص ز ث ج.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": ["idghām into ت is exempt from this condition, د will merge into ت even if it is maftūḥah preceded by a sākin letter."],
+      "note": "د will only merge into these letters if د is not maftūḥah preceded by a sākin letter. So in the following two examples idghām will not be made: بَعْدَ ذَٰلِكَ, دَاوُۥدَ شُكْرًا. Notice even though there is a letter which will typically merge into د, because in these instance is the د is maftūḥah and preceeded by a sākin only iẓhār will be made.",
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān in two words dal into ta",
+        "surah": "",
+        "ayah": "9:117",
+        "fullVerse": "..كَادَ تَزِيغُ..",
+        "focus": "",
+        "note": "This is an instance of the exception from the condition. Even though there is د is maftūḥah and preceded by a sākin letter there is idghām made here."
+      },
+      {
+        "verse": "examples of idghām kabir mutaqārībān in two words dal into seen",
+        "surah": "",
+        "ayah": "23:112",
+        "fullVerse": "..عَدَدَ سِنِينَ..",
+        "focus": "",
+        "note": ""
+      },
+      {
+        "verse": "examples of idghām kabir mutaqārībān in two words dal into tha",
+        "surah": "",
+        "ayah": "4:134",
+        "fullVerse": "..يُرِيدُ ثَوَابَ..",
         "focus": "",
         "note": ""
       }]

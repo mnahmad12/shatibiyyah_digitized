@@ -202,7 +202,7 @@
         }
 
         function createRuleHTML(rule) {
-            return `
+    return `
         <div class="rule-section">
             <div class="rule-header" onclick="this.parentElement.classList.toggle('expanded')">
                 <div class="rule-title">
@@ -220,13 +220,6 @@
                         ${rule.quraa.map(q => `<span class="qari-tag">${q}</span>`).join('')}
                     </div>
 
-                    ${rule.examples.map(ex => `
-                        <div class="example-box">
-                            <div class="example-verse">${ex.fullVerse}</div>
-                            <div style="text-align:center; font-size:0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">${ex.note}</div>
-                        </div>
-                    `).join('')}
-
                     ${rule.note ? `
                         <div class="note-box">
                             <span class="label">Note:</span>
@@ -242,11 +235,18 @@
                             </ul>
                         </div>
                     ` : ''}
+
+                    ${rule.examples.map(ex => `
+                        <div class="example-box">
+                            <div class="example-verse">${ex.fullVerse}</div>
+                            <div style="text-align:center; font-size:0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">${ex.note}</div>
+                        </div>
+                    `).join('')}
                 </div>
             </div>
         </div>
     `;
-        }
+}
 
         document.querySelectorAll('.nav-btn').forEach(btn => {
             btn.onclick = () => {
