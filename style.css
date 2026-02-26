@@ -51,7 +51,7 @@ body::before {
         repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(212, 175, 55, 0.02) 35px, rgba(212, 175, 55, 0.02) 70px),
         repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(26, 77, 46, 0.02) 35px, rgba(26, 77, 46, 0.02) 70px);
     pointer-events: none;
-    z-index: 1;
+    z-index: -1;
     opacity: 0;
     animation: fadeIn 1s ease-out 0.3s forwards;
 }
@@ -204,12 +204,15 @@ nav {
 /* Content Sections */
 .section {
     display: none;
-    opacity: 0;
-    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0; /* Keep hidden by default */
+    visibility: hidden;
 }
 
 .section.active {
     display: block;
+    visibility: visible;
+    opacity: 1; /* Fallback if animation fails */
+    animation: fadeIn 0.5s ease-out forwards;
 }
 
 .content-card {
