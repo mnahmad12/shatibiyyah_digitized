@@ -252,15 +252,39 @@
     `;
 }
 
-        document.querySelectorAll('.nav-btn').forEach(btn => {
-            btn.onclick = () => {
-                document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-                document.getElementById(btn.dataset.section).classList.add('active');
-                if (btn.dataset.section === 'chapters') loadChapters();
-            };
+document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.onclick = () => {
+        const targetId = btn.dataset.section;
+        const targetSection = document.getElementById(targetId);
+
+        // 1. Update Buttons
+        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        // 2. Hide all sections and remove active class
+        document.querySelectorAll('.section').forEach(s => {
+            s.classList.remove('active');
+            s.style.display = 'none'; // Hard reset
         });
+
+        // 3. Show target section
+        targetSection.style.display = 'block';
+        
+        // 4. THE FIX: Force Reflow
+        // This line "pokes" the browser's rendering engine to wake up
+        void targetSection.offsetHeight; 
+        
+        targetSection.classList.add('active');
+
+        // 5. Load chapters with a tiny delay to prevent animation collisions
+        if (targetId === 'chapters') {
+            // Wait 50ms for the container to "settle" before injecting heavy HTML
+            setTimeout(() => {
+                loadChapters();
+            }, 50);
+        }
+    };
+});
 
         initFilter();
         fetchChapters();

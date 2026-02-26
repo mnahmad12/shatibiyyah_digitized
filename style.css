@@ -200,20 +200,20 @@ nav {
     border-color: var(--primary);
 }
 
-/* Content Sections */
+/* Update Section: Remove the animation from the section itself */
 .section {
     display: none;
-    opacity: 0; /* Keep hidden by default */
+    opacity: 1; /* Keep it at 1 so only the content card animates */
     visibility: hidden;
 }
 
 .section.active {
     display: block;
     visibility: visible;
-    opacity: 1; /* Fallback if animation fails */
-    animation: fadeIn 0.5s ease-out forwards;
+    /* Removed the fadeIn animation from here to prevent mobile glitches */
 }
 
+/* Update Content Card: Add Hardware Acceleration */
 .content-card {
     background: var(--bg-card);
     padding: 3rem;
@@ -222,10 +222,26 @@ nav {
     margin-bottom: 2rem;
     border-left: 4px solid var(--accent);
     position: relative;
-    overflow: hidden;
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 0.6s ease-out forwards;
+    
+    /* THE FIX: Tell the mobile GPU to handle this layer separately */
+    will-change: transform, opacity;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/* Update Chapter Item: Ensure it doesn't overlap the hardware layer */
+.chapter-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateZ(0); /* Force GPU rendering */
 }
 
 h2 {
@@ -251,16 +267,7 @@ p {
 }
 
 /* Chapter Sections */
-.chapter-item {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    margin-bottom: 1rem;
-    overflow: hidden;
-    transition: all 0.3s ease;
-    opacity: 0;
-    transform: translateY(20px);
-}
+
 
 .chapter-item.visible {
     animation: fadeInUp 0.5s ease-out forwards;
