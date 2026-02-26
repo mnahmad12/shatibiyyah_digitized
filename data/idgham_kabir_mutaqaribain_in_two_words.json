@@ -150,7 +150,7 @@
       "id": "dal_and_its_letters",
       "title": "The 10 letters د will merge into",
       "titleAr": "",
-      "description": "د will merge into the following 10 letters: ض ش ذ س ت ظ ص ز ث ج.",
+      "description": "د will merge into the following 10 letters: ض ش ذ س ت ظ ص ز ث ج with the condition noted below.",
       "quraa": [
         "susi"
       ],
@@ -179,6 +179,123 @@
         "fullVerse": "..يُرِيدُ ثَوَابَ..",
         "focus": "",
         "note": ""
+      }]
+    },
+
+    "ta_and_its_letters": {
+      "id": "ta_and_its_letters",
+      "title": "The 10 letters ت will merge into",
+      "titleAr": "",
+      "description": "ت will merge into the following 10 letters: ض ش ذ س ط ظ ص ز ث ج unconditionally.",
+      "quraa": [
+        "susi"
+      ],
+      "note": "There are 6 places where both idghām and iẓhār are permitted. These 6 places are all noted in the first example below.",
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān in of ta that have khulf",
+        "surah": "",
+        "ayah": "9:117",
+        "fullVerse": "جِئْتِ شَيْئًا — وَلْتَأْتِ طَائِفَةٌ — فَآتِ ذَا — وَآتِ ذَا — الزَّكَاةَ ثُمَّ — التَّوْرَاةَ ثُمَّ",
+        "focus": "",
+        "note": "In these 6 instances both idghām and iẓhār are permitted."
+      },
+      {
+        "verse": "examples of idghām kabir mutaqārībān in two words ta into dha",
+        "surah": "",
+        "ayah": "51:1",
+        "fullVerse": "..وَالذَّارِيَاتِ ذَرْوًا..",
+        "focus": "",
+        "note": "This instance will have idghām unconditionally."
+      }]
+    },
+
+    "tha_and_its_letters": {
+      "id": "tha_and_its_letters",
+      "title": "The 5 letters ث will merge into",
+      "titleAr": "",
+      "description": "ث will merge into the following 5 letters: ش ذ س ت ض unconditionally.",
+      "quraa": [
+        "susi"
+      ],
+      "note": "",
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān of tha into ta",
+        "surah": "",
+        "ayah": "15:65",
+        "fullVerse": "..حَيْثُ تُؤْمَرُونَ..",
+        "focus": "",
+        "note": ""
+      },
+      {
+        "verse": "examples of idghām kabir mutaqārībān in two words tha into dawd",
+        "surah": "",
+        "ayah": "51:24",
+        "fullVerse": "..حَدِيثُ ضَيْفِ..",
+        "focus": "",
+        "note": ""
+      }]
+    },
+
+    "thal_and_its_letters": {
+      "id": "thal_and_its_letters",
+      "title": "The 2 letters ذ will merge into",
+      "titleAr": "",
+      "description": "ذ will merge into the following 2 letters: س and ص unconditionally.",
+      "quraa": [
+        "susi"
+      ],
+      "note": "",
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān of thal into sawd",
+        "surah": "",
+        "ayah": "72:3",
+        "fullVerse": "..مَا اتَّخَذَ صَاحِبَةً..",
+        "focus": "",
+        "note": ""
+      },
+      {
+        "verse": "examples of idghām kabir mutaqārībān in two words thal into seen",
+        "surah": "",
+        "ayah": "18:61",
+        "fullVerse": "..فَاتَّخَذَ سَبِيلَهُ..",
+        "focus": "",
+        "note": ""
+      }]
+    },
+
+    "laam_and_ra": {
+      "id": "laam_and_ra",
+      "title": "The letter ر merges into ل and ل into ر",
+      "titleAr": "",
+      "description": "The letters ل and ر will merge into each other subject to the condition that both of the letters are not maftūḥah and preceeded by a sakin letter.",
+      "quraa": [
+        "susi"
+      ],
+      "note": "",
+      "exceptions": ["The word قَالَ is an exception to the conditions. Even though the ل is maftūḥah and preceeded by a sakin, if it is followed by a ر it will merge, as in: قَالَ رَجُلَانِ "],
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān of ra into laam",
+        "surah": "",
+        "ayah": "7:169",
+        "fullVerse": "..سَيُغْفَرُ لَنَا..",
+        "focus": "",
+        "note": ""
+      },
+      {
+        "verse": "examples of idghām kabir mutaqārībān in two words laam into ra",
+        "surah": "",
+        "ayah": "3:117",
+        "fullVerse": "..كَمَثَلِ رِيحٍ..",
+        "focus": "",
+        "note": ""
+      },
+      {
+        "verse": "examples of when idghām kabir mutaqārībān will not apply in two words laam into ra",
+        "surah": "",
+        "ayah": "69:10",
+        "fullVerse": "..رَسُولُ رَبِّهِمْ..",
+        "focus": "",
+        "note": "This is an instance where idghām will NOT apply as the conditions have not been met"
       }]
     }
     
