@@ -297,6 +297,95 @@
         "focus": "",
         "note": "This is an instance where idghām will NOT apply as the conditions have not been met"
       }]
+    },
+
+    "nun_into_laam_and_ra": {
+      "id": "nun_into_laam_and_ra",
+      "title": "The letter ن merges into ل and ر conditionally",
+      "titleAr": "",
+      "description": "The letters ن will merge into ل and ر if it is preceded by a mutaḥarrik letter.",
+      "quraa": [
+        "susi"
+      ],
+      "note": "",
+      "exceptions": ["The word نَحْنُ is an exception to the conditions. Its ن will merge into  ل and ر even if it is preceded by a sākinah, e.g: نَحْنُ لَهُ"],
+      "examples": [{
+        "verse": "examples of idghām kabir mutaqārībān of nun into ra",
+        "surah": "",
+        "ayah": "7:167",
+        "fullVerse": "..تَأَذَّنَ رَبُّكَ..",
+        "focus": "",
+        "note": ""
+      },
+      {
+        "verse": "examples of idghām kabir mutaqārībān of nun into lam",
+        "surah": "",
+        "ayah": "2:55",
+        "fullVerse": "..لَنْ نُؤْمِنَ لَكَ..",
+        "focus": "",
+        "note": ""
+      }]
+    },
+
+    "ikhfa_of_mim": {
+      "id": "ikhfa_of_mim",
+      "title": "The ikhfāʾ of م",
+      "titleAr": "",
+      "description": "When the letter م is preceeded by a mutaḥarrik letter and followed by a ب the م will become sākinah and ikhfāʾ will be made.",
+      "quraa": [
+        "susi"
+      ],
+      "note": "The م is not merging into the ب instead ikhfāʾ is being made on it, exactly how ikhfāʾ shafawī is made on a sākin م followed by a  ب.",
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of ikhfa of mutaharik meem",
+        "surah": "",
+        "ayah": "17:54",
+        "fullVerse": "..أَعْلَمُ بِكُمْ..",
+        "focus": "",
+        "note": ""
+      },
+      {
+        "verse": "examples of when ikhfa will not be made",
+        "surah": "",
+        "ayah": "2:249",
+        "fullVerse": "..الْيَوْمَ بِجَالُوتَ..",
+        "focus": "",
+        "note": "In this example ikhfāʾ will not be made as preceeding the م is a sākin letter."
+      }]
+    },
+
+    "the_ba_of_yuazib": {
+      "id": "the_ba_of_yuazib",
+      "title": "The ب of يُعَذِّبُ",
+      "titleAr": "",
+      "description": "The ب of يُعَذِّبُ will merge into the م of مَنْ يَشَاءُ in the all instances that it occurs throughout the quran.",
+      "quraa": [
+        "susi"
+      ],
+      "note": "There are a total of 6 instances where this occurs throughout the quran. However the instance in 2:284 is not included in this rule as Imam Abū ʿAmr reads the instance with a jazm on the ب, and so while functionally it sounds the same, technically that instance will fall into the category of idghām ṣaghīr, not kabīr.",
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of idgham of ba into meem",
+        "surah": "",
+        "ayah": "5:18",
+        "fullVerse": "..وَيُعَذِّبُ مَنْ يَشَاءُ..",
+        "focus": "",
+        "note": ""
+      }]
+    },
+
+    "rules_of_imalah_rawm_and_ishmam": {
+      "id": "rules_of_imalah_rawm_and_ishmam",
+      "title": "Some general rules concerning imālah, ishmām and rawm as they pertain to idghām kabīr",
+      "titleAr": "",
+      "description": "To do.",
+      "quraa": [
+        "susi"
+      ],
+      "note": "",
+      "exceptions": [],
+      "examples": []
     }
     
   }
