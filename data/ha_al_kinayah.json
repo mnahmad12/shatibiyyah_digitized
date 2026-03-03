@@ -1,0 +1,49 @@
+{
+  "id": "ha_al_kinayah",
+  "chapter_id": "07",
+  "title": "الكناية هاء",
+  "titleEn": "Hāʾ al-Kināyahʿ",
+  "order": 7,
+  "description": "Rules regarding the recitation of the hāʾ al-kināyah. Hāʾ al-Kināya refers to the attached single, masculine third person pronoun (i.e. he/him). The qira'at differ in the recitation of the hāʾ al-kināyah with regards to whether or not it's vowel will be streched (ṣilah) and whether it will be mutaḥarrik or sākin.",
+  "shatibiyyahReference": {
+    "startLine": 158,
+    "endLine": 167,
+    "notes": ""
+  },
+  "rules": {
+    "no_silah_when_followed_by_sakin": {
+      "id": "no_silah_when_followed_by_sakin",
+      "title": "No ṣilah when followed by sakin",
+      "titleAr": "",
+      "description": "When the hāʾ al-kināyah is followed by a sakin letter, no ṣilah will be made by any of the qurra. This is the case whether the letter prior to the hāʾ al-kināyah is mutaḥarrik or sākin.",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of ha al-kinayah followed by sukoon",
+          "surah": "",
+          "ayah": "64:1",
+          "fullVerse": "لَهُ الْمُلْكُ",
+          "focus": "",
+          "note": "ʿ"
+        },
+        {
+          "verse": "examples of mīm al-jamʿ followed by sukoon",
+          "surah": "",
+          "ayah": "64:3",
+          "fullVerse": "إِلَيْهِ الْمَصِيرُ",
+          "focus": "",
+          "note": ""
+        }
+      ]
+    }
+  }
+}
