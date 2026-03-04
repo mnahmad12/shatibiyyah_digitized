@@ -13,9 +13,9 @@
   "rules": {
     "no_silah_when_followed_by_sakin": {
       "id": "no_silah_when_followed_by_sakin",
-      "title": "No ṣilah when followed by sakin",
+      "title": "No ṣilah when followed by sākin",
       "titleAr": "",
-      "description": "When the hāʾ al-kināyah is followed by a sakin letter, no ṣilah will be made by any of the qurra. This is the case whether the letter prior to the hāʾ al-kināyah is mutaḥarrik or sākin.",
+      "description": "When the hāʾ al-kināyah is followed by a sākin letter, no ṣilah will be made by any of the qurra. This is the case whether the letter prior to the hāʾ al-kināyah is mutaḥarrik or sākin.",
       "quraa": [
         "nafi",
         "ibn-kathir",
@@ -25,7 +25,7 @@
         "hamza",
         "kisai"
       ],
-      "exceptions": [],
+      "exceptions": ["In the wordفِيهِۦ مُهَانًا (occuring at 25:69) Imam Hafṣ contrary to his principle recites the hāʾ al-kināyah with ṣilah"],
       "examples": [
         {
           "verse": "examples of ha al-kinayah followed by sukoon",
@@ -42,6 +42,55 @@
           "fullVerse": "إِلَيْهِ الْمَصِيرُ",
           "focus": "",
           "note": ""
+        }
+      ]
+    },
+
+    "silah_when_preceeded_and_followed_by_vowel": {
+      "id": "silah_when_preceeded_and_followed_by_vowel",
+      "title": "Ṣilah when preceeded and followed by mutaḥarrik letter",
+      "titleAr": "",
+      "description": "When the hāʾ al-kināyah is preceeded and followed by a mutaḥarrik letter, all of the qurra will make ṣilah.",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of ha al-kinayah with silah",
+          "surah": "",
+          "ayah": "2:116",
+          "fullVerse": "كُلٌّ لَّهُۥ قَانِتُونَ",
+          "focus": "",
+          "note": ""
+        }
+      ]
+    },
+
+    "silah_when_preceeded_by_sakin_and_followed_by_vowel": {
+      "id": "silah_when_preceeded_by_sakin_and_followed_by_vowel",
+      "title": "Ṣilah when preceeded by a sākin and followed by mutaḥarrik letter",
+      "titleAr": "",
+      "description": "When the hāʾ al-kināyah is preceeded by a sākin and followed by a mutaḥarrik letter, Imam Ibn Kathīr will make ṣilah.",
+      "quraa": [
+        "ibn-kathir"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of ha al-kinayah with silah for imam ibn kathir",
+          "surah": "",
+          "ayah": "2:2",
+          "fullVerse": "فِيهِۦ هُدًى",
+          "focus": "",
+      "description": "When the hāʾ al-kināyah is preceeded by a sākin and followed by a mutaḥarrik letter, Imam Ibn Kathīr will make ṣilah.",
+          "note": "Notice in this example from 2:2 the ṣilah has been denoted by the ya ṣaghīra in the masahif for the qira't of Imam Ibn Kathīr, the same word in a Hafṣ mushaf would not denote the ṣilah as it is only Imam Ibn Kathīr that makes ṣilah in this scenario."
         }
       ]
     }
