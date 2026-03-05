@@ -93,6 +93,55 @@
           "note": "Notice in this example from 2:2 the ṣilah has been denoted by the ya ṣaghīra in the masahif for the qira't of Imam Ibn Kathīr, the same word in a Hafṣ mushaf would not denote the ṣilah as it is only Imam Ibn Kathīr that makes ṣilah in this scenario."
         }
       ]
+    },
+
+    "yuadih_and_its_companions_sukoon": {
+      "id": "yuadih_and_its_companions_sukoon",
+      "title": "Sukoon on the hāʾ al-kināyah of يُؤَدِّه, نُوَلِّه, نُصْلِه, نُؤْتِه",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in these particular words has differences between the qirāʾāt. Imams Hamza, Abu 'Amr and Shu'bah will recite it with a sukoon.",
+      "quraa": [
+        "hamza",
+        "shubah",
+        "abu-amr"
+      ],
+      "exceptions": [],
+      "examples": [
+      ]
+    },
+
+    "yuadih_and_its_companions_qasr": {
+      "id": "yuadih_and_its_companions_qasr",
+      "title": "Qaṣr on the hāʾ al-kināyah of يُؤَدِّه, نُوَلِّه, نُصْلِه, نُؤْتِه",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in these particular words has differences between the qirāʾāt. Imams Qalun and Hisham will recite it with qaṣr.",
+      "quraa": [
+        "qalun",
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "Note this is one of two options for Imam Hisham"
+    },
+
+    "yuadih_and_its_companions_silah": {
+      "id": "yuadih_and_its_companions_silah",
+      "title": "Ṣilah on the hāʾ al-kināyah of يُؤَدِّه, نُوَلِّه, نُصْلِه, نُؤْتِه",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in these particular words has differences between the qirāʾāt. Imams Warsh, Ibn Kathir, Hafs, Ibn Dhakwan, Kisai, and Hisham will recite it with ṣilah.",
+      "quraa": [
+        "warsh",
+        "hisham",
+        "ibn-kathir",
+        "hafs",
+        "ibn-dhakwan",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "Note this is one of two options for Imam Hisham"
     }
   }
 }
