@@ -144,6 +144,71 @@
       "examples": [
       ],
       "note": "This is one of two options for Imam Hisham and Imam Khallad"
+    },
+
+    "yataqih_sukoon_of_qaf": {
+      "id": "yataqih_sukoon_of_qaf",
+      "title": "Sukūn on the qāf and kasrah on ha al-kināyah of يَتَّقْهِ",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَتَّقْه has differences between the qirāʾāt. Imams Hafs will recite it with sukūn on the qāf and kasrah on ha.",
+      "quraa": [
+        "hafs"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": ""
+    },
+
+    "yatih_sukoon": {
+      "id": "yatih_sukoon",
+      "title": "Sukūn on the ha al-kināyah of يَأْتِه",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَأْتِه has differences between the qirāʾāt. Imam Sūsī will recite it with sukūn on the ha.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": ""
+    },
+
+    "yatih_qasr": {
+      "id": "yatih_qasr",
+      "title": "Qaṣr on the hāʾ al-kināyah of يَأْتِهِ",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَأْتِه has differences between the qirāʾāt. Imams Hisham and Qalun will recite it with qaṣr.",
+      "quraa": [
+        "hisham",
+        "qalun"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Hisham and Imam Qalun"
+    },
+
+    "yatih_silah": {
+      "id": "yatih_silah",
+      "title": "Ṣilah on the hāʾ al-kināyah of يَأْتِهِۦ",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَأْتِه has differences between the qirāʾāt. The denoted imams will recite it with ṣilah.",
+      "quraa": [
+        "hisham",
+        "qalun",
+        "warsh",
+        "ibn-kathir",
+        "duri",
+        "ibn-dhakwan",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Hisham and Imam Qalun"
     }
     
   }
