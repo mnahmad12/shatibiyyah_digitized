@@ -1,0 +1,150 @@
+{
+  "id": "ha_al_kinayah_individual_words",
+  "chapter_id": "08",
+  "title": "II الكناية هاء",
+  "titleEn": "Hāʾ al-Kināyahʿ on particular words",
+  "order": 8,
+  "description": "Rules regarding the recitation of the hāʾ al-kināyah on some particular words",
+  "shatibiyyahReference": {
+    "startLine": 160,
+    "endLine": 167,
+    "notes": ""
+  },
+  "rules": {
+
+    "yuadih_and_its_companions_qasr": {
+      "id": "yuadih_and_its_companions_qasr",
+      "title": "Qaṣr on the hāʾ al-kināyah of يُؤَدِّه, نُوَلِّه, نُصْلِه, نُؤْتِه",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in these particular words has differences between the qirāʾāt. Imams Qalun and Hisham will recite it with qaṣr.",
+      "quraa": [
+        "qalun",
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Hisham"
+    },
+
+    "yuadih_and_its_companions_silah": {
+      "id": "yuadih_and_its_companions_silah",
+      "title": "Ṣilah on the hāʾ al-kināyah of يُؤَدِّه, نُوَلِّه, نُصْلِه, نُؤْتِه",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in these particular words has differences between the qirāʾāt. Imams Warsh, Ibn Kathir, Hafs, Ibn Dhakwan, Kisai, and Hisham will recite it with ṣilah.",
+      "quraa": [
+        "warsh",
+        "hisham",
+        "ibn-kathir",
+        "hafs",
+        "ibn-dhakwan",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Hisham"
+    },
+
+    "alqih_sukoon": {
+      "id": "alqih_sukoon",
+      "title": "Sukūn on the hāʾ al-kināyah of أَلْقِه",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word أَلْقِه has differences between the qirāʾāt. Imams Abu 'Amr, 'Asim, Hamza will recite it with sukūn.",
+      "quraa": [
+        "abu-amr",
+        "asim",
+        "hamza"
+      ],
+      "exceptions": [],
+      "examples": [
+      ]
+    },
+
+    "alqih_qasr": {
+      "id": "alqih_qasr",
+      "title": "Qaṣr on the hāʾ al-kināyah of أَلْقِهِ",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word أَلْقِه has differences between the qirāʾāt. Imams Qalun, Hisham will recite it with qaṣr.",
+      "quraa": [
+        "qalun",
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Hisham"
+    },
+
+    "alqih_silah": {
+      "id": "alqih_silah",
+      "title": "Ṣilah on the hāʾ al-kināyah of أَلْقِهِۦ",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word أَلْقِه has differences between the qirāʾāt. Imams Hisham, Kisai, Ibn Dhakwan, Ibn Kathir, and Warsh will recite it with ṣilah.",
+      "quraa": [
+        "hisham",
+        "kisai",
+        "ibn-dhakwan",
+        "ibn-kathir",
+        "warsh"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Hisham"
+    },
+
+    
+    "yataqih_sukoon": {
+      "id": "yataqih_sukoon",
+      "title": "Sukūn on the hāʾ al-kināyah of يَتَّقْه",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَتَّقْه has differences between the qirāʾāt. Imams Abu 'Amr, Shu'bah, Khallad will recite it with sukūn.",
+      "quraa": [
+        "abu-amr",
+        "shubah", 
+        "khallad"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Khallad"
+    },
+
+    "yataqih_qasr": {
+      "id": "yataqih_qasr",
+      "title": "Qaṣr on the hāʾ al-kināyah of يَتَّقْهِ",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَتَّقْه has differences between the qirāʾāt. Imams Qalun, Hisham will recite it with qaṣr.",
+      "quraa": [
+        "qalun",
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Hisham"
+    },
+
+    "yataqih_silah": {
+      "id": "yataqih_silah",
+      "title": "Ṣilah on the hāʾ al-kināyah of يَتَّقْهِۦ",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَتَّقْه has differences between the qirāʾāt. Imams Hisham, Khallad, Kisai, Khalaf, Ibn Dhakwan, Ibn Kathir, and Warsh will recite it with ṣilah.",
+      "quraa": [
+        "hisham",
+        "kisai",
+        "ibn-dhakwan",
+        "ibn-kathir",
+        "warsh",
+        "khalaf",
+        "khallad"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Hisham and Imam Khallad"
+    }
+    
+  }
+}
