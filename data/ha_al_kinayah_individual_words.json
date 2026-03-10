@@ -7,7 +7,7 @@
   "description": "Rules regarding the recitation of the hāʾ al-kināyah on some particular words",
   "shatibiyyahReference": {
     "startLine": 160,
-    "endLine": 167,
+    "endLine": 165,
     "notes": ""
   },
   "rules": {
@@ -209,6 +209,90 @@
       "examples": [
       ],
       "note": "This is one of two options for Imam Hisham and Imam Qalun"
+    },
+
+    "yardah_sukoon": {
+      "id": "yardah_sukoon",
+      "title": "Sukūn on the ha al-kināyah of يَرْضَه",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَرْضَه has differences between the qirāʾāt. Imams Hisham, Duri and Susi will recite it with sukūn on the ha.",
+      "quraa": [
+        "susi",
+        "duri",
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Hisham and Imam Duri"
+    },
+
+    "yardah_qasr": {
+      "id": "yardah_qasr",
+      "title": "Qaṣr on the hāʾ al-kināyah of يَرْضَهُ",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَرْضَه has differences between the qirāʾāt. Imams Hisham, Nafi, 'Asim, and Hamza will recite it with qaṣr.",
+      "quraa": [
+        "hisham",
+        "nafi",
+        "asim",
+        "hamza"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Hisham"
+    },
+
+    "yardah_silah": {
+      "id": "yardah_qasr",
+      "title": "Ṣilah on the hāʾ al-kināyah of يَرْضَهُۥ",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَرْضَه has differences between the qirāʾāt. The denoted imams will recite it with ṣilah.",
+      "quraa": [
+        "duri",
+        "kisai",
+        "ibn-dhakwan",
+        "ibn-kathir"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": "This is one of two options for Imam Duri"
+    },
+
+    "yarah_sukoon": {
+      "id": "yarah_sukoon",
+      "title": "Sukūn on the ha al-kināyah of يَرَهْ",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَرَه has differences between the qirāʾāt. Only Imam Hisham will recite it with sukūn on the ha.",
+      "quraa": [
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": ""
+    },
+
+    "yarah_silah": {
+      "id": "yarah_silah",
+      "title": "Ṣilah on the hāʾ al-kināyah of يَرَهُۥ",
+      "titleAr": "",
+      "description": "The hāʾ al-kināyah in the word يَرَه has differences between the qirāʾāt. All of the qurra except Imam Hamza will recite it with ṣilah.",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-dhakwan",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": ""
     }
     
   }
