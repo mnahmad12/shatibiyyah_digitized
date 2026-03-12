@@ -1,0 +1,90 @@
+{
+  "id": "madd_muqatat",
+  "chapter_id": "10",
+  "title": "Madd - al-ḥurūf al-muqaṭṭaʿāt",
+  "titleEn": "Madd - al-ḥurūf al-muqaṭṭaʿāt",
+  "order": 10,
+  "description": "These lines begin the chapter of madd. The first set of rules pertain to madd in al-ḥurūf al-muqaṭṭaʿāt (the disjointed letters that begin some suwar).",
+  "shatibiyyahReference": {
+    "startLine": 177,
+    "endLine": 178,
+    "notes": ""
+  },
+  "rules": {
+
+    "madd_lazim_sukoon": {
+      "id": "madd_lazim_sukoon",
+      "title": "Madd lāzim when followed by a sukūn",
+      "titleAr": "",
+      "description": "When a sukūn follows the letter of madd present in one of the ḥurūf al-muqaṭṭaʿāt all the qurra will make madd with ṭūl. This scenario falls into the category of madd lāzim.",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of madd lazim in disjointed letters",
+        "surah": "",
+        "ayah": "",
+        "fullVerse": "..لام..",
+        "focus": "",
+        "note": "Notice how the letter ل when spelled out has a madd (the alif preceeded by fatha) as well as a sukūn on the م"
+      }],
+      "note": ""
+    },
+
+    "no_madd": {
+      "id": "no_madd",
+      "title": "No elongation when no letter of madd present/lack of hamzah or sukūn",
+      "titleAr": "",
+      "description": "Some of the ḥurūf al-muqaṭṭaʿāt contain no letter of madd (e.g. ألف), such letters will not be lengthened. Additionaly if a letter that does contain a madd within it is not followed by a hamzah or sukūn no cause of madd is established, therefore it will not be streched beyond the natural elongation.",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of no  madd in disjointed letters",
+          "surah": "",
+          "ayah": "",
+          "fullVerse": "..طه..",
+          "focus": "",
+          "note": "The letter ط consists of a letter of madd (طا) however as it is not followed by a hamzah or sukūn it will not be elongated."
+        }
+      ],
+      "note": ""
+    },
+
+    "letters_of_lin": {
+      "id": "letters_of_lin",
+      "title": "ع in Sūrah Maryam and Shūrā",
+      "titleAr": "",
+      "description": "The letters that comprise a letter of līn as in the letter ع at the beginning of Sūrah Maryam and Shūrā have to options for madd tawassuṭ or ṭūl and the latter is preferred",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [
+      ],
+      "note": ""
+    }
+    
+  }
+}
