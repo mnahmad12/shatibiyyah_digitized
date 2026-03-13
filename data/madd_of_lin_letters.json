@@ -1,0 +1,100 @@
+{
+  "id": "madd_of_lin_letters",
+  "chapter_id": "11",
+  "title": "Madd - līn letters",
+  "titleEn": "Madd - līn letters",
+  "order": 11,
+  "description": "Rules pertaining to the madd in the letters of līn (و sākin preceeded by a fatḥah & ي preceeded by a fatḥah).",
+  "shatibiyyahReference": {
+    "startLine": 179,
+    "endLine": 181,
+    "notes": ""
+  },
+  "rules": {
+
+    "lin_followed_by_hamza_in_same_word_warsh": {
+      "id": "lin_followed_by_hamza_in_same_word_warsh",
+      "title": "Tawassuṭ/Ṭūl on līn when followed by a hamzah in the same word",
+      "titleAr": "",
+      "description": "Imam Warsh has the option to make the madd either tawassuṭ or ṭūl when a letter of līn is followed by a hamzah in the same word.",
+      "quraa": [
+        "warsh"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of madd lin for warsh",
+        "surah": "",
+        "ayah": "",
+        "fullVerse": "..شَىْء/سَوْء..",
+        "focus": "",
+        "note": ""
+      }],
+      "note": "If the hamzah is in the next word, Imam Warsh will make naql will instead of madd"
+    },
+
+    "lin_followed_by_hamza_in_same_word_qasr": {
+      "id": "lin_followed_by_hamza_in_same_word_qasr",
+      "title": "Qaṣr on līn when followed by a hamzah in the same word",
+      "titleAr": "",
+      "description": "All of the qurra other than Imam Warsh will recite the madd on a letter of līn that is followed by a hamza in the same word with qaṣr",
+      "quraa": [
+        "qalun",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "madd_lin_arid": {
+      "id": "madd_lin_arid",
+      "title": "Madd Līn ʿĀriḍ",
+      "titleAr": "",
+      "description": "If a letter of līn is followed by a sukūn of waqf then all 3 madd lengths are permissible",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of madd lin arid",
+        "surah": "",
+        "ayah": "106:1",
+        "fullVerse": "..قُرَيْشٍ..",
+        "focus": "",
+        "note": ""
+      }],
+      "note": ""
+    },
+
+    "lin_followed_by_other_than_hamza": {
+      "id": "lin_followed_by_other_than_hamza",
+      "title": "Qaṣr on līn when followed by any letter other than hamzah",
+      "titleAr": "",
+      "description": "All of the qurra  will recite the madd on a letter of līn that is followed by other than a hamzah with qaṣr",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    }
+    
+  }
+}
