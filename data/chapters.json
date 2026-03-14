@@ -11,7 +11,10 @@
     "ha_al_kinayah.json",
     "ha_al_kinayah_individual_words.json",
     "ha_al_kinayah_arjih.json",
+    "madd_muttasil.json",
+    "madd_munfasil.json",
     "madd_muqatat.json",
     "madd_of_lin_letters.json"
+    
   ]
 }

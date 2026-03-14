@@ -1,0 +1,84 @@
+{
+  "id": "madd_munfasil",
+  "chapter_id": "11",
+  "title": "",
+  "titleEn": "Madd Munfaṣil",
+  "order": 11,
+  "description": "Rules pertaining to the madd munfaṣil,. Madd munfaṣil is the madd that occurs when hamzah appears in the next word after a letter of madd.",
+  "shatibiyyahReference": {
+    "startLine": 168,
+    "endLine": 170,
+    "notes": ""
+  },
+  "rules": {
+
+    "madd_munfasil_warsh_hamza": {
+      "id": "madd_munfasil_warsh_hamza",
+      "title": "Ṭūl on munfaṣil",
+      "titleAr": "",
+      "description": "Imams Warsh and Hamza will recite madd munfaṣil with ṭūl.",
+      "quraa": [
+        "warsh",
+        "hamza"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of madd munfasil",
+        "surah": "",
+        "ayah": "52:26",
+        "fullVerse": "..قَالُوٓا۟ إِنَّا..",
+        "focus": "",
+        "note": ""
+      }],
+      "note": ""
+    },
+
+    "madd_munfasil_tawassut": {
+      "id": "madd_munfasil_tawassut",
+      "title": "Tawassuṭ on munfaṣil",
+      "titleAr": "",
+      "description": "Imams Ibn 'Amir, 'Asim, Kisai, Qalun and Duri will recite madd munfaṣil with tawassuṭ. With the last two also having an option for qaṣr",
+      "quraa": [
+        "qalun",
+        "ibn-amir",
+        "asim",
+        "kisai",
+        "duri-abu-amr"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of madd munfasil",
+        "surah": "",
+        "ayah": "52:26",
+        "fullVerse": "..قَالُوٓا۟ إِنَّا..",
+        "focus": "",
+        "note": ""
+      }],
+      "note": ""
+    },
+
+    "madd_munfasil_qasr": {
+      "id": "madd_munfasil_qasr",
+      "title": "Qaṣr on munfaṣil",
+      "titleAr": "",
+      "description": "Imams Ibn Kathir, Susi, Qalun and Duri will recite madd munfaṣil with qaṣr. With the last two also having an option for tawassuṭ",
+      "quraa": [
+        "qalun",
+        "ibn-kathir",
+        "duri-abu-amr",
+        "susi"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of madd munfasil",
+        "surah": "",
+        "ayah": "52:26",
+        "fullVerse": "..قَالُوٓا۟ إِنَّا..",
+        "focus": "",
+        "note": ""
+      }],
+      "note": ""
+    }
+    
+  }
+}
