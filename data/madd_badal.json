@@ -1,0 +1,48 @@
+{
+  "id": "madd_badal",
+  "chapter_id": "12",
+  "title": "",
+  "titleEn": "Madd Badal",
+  "order": 12,
+  "description": "Rules pertaining to the madd badal. Madd badal occurs when a letter of madd is preceded by a hamzah in the same word",
+  "shatibiyyahReference": {
+    "startLine": 171,
+    "endLine": 171,
+    "notes": ""
+  },
+  "rules": {
+
+    "madd_badal_qasr": {
+      "id": "madd_badal_qasr",
+      "title": "Qaṣr on madd badal",
+      "titleAr": "",
+      "description": "All of the qurra, except Imam Warsh will only apply qaṣr on madd badal.",
+      "quraa": [
+        "qalun",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "madd_badal_warsh": {
+      "id": "madd_badal_warsh",
+      "title": "Qaṣr/Tawassuṭ/Ṭūl on madd badal",
+      "titleAr": "",
+      "description": "Imam Warsh has the option to apply qaṣr, tawassuṭ or ṭūl on madd badal subject to the following three conditions: • The letter before hamzah is not a sākin ṣaḥīḥ letter as in: قُرْءَانٌ, • The letter of madd is not temporary and the hamzah before it is not hamzat al-waṣl as in: إِيتُونِي • The alif after hamzah is not created through waqf bil ibdāl as in: نِسَاءَ",
+      "quraa": [
+        "warsh"
+      ],
+      "exceptions": ["The words يُؤَاخِذُ (along with all of its derivitives) and إِسْرَاءِيلَ will only be read with qaṣr"],
+      "examples": [],
+      "note": ""
+    }
+    
+  }
+}
