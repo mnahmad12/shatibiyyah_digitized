@@ -7,7 +7,7 @@
   "description": "Rules pertaining to the madd in the letters of līn (و sākin preceeded by a fatḥah & ي preceeded by a fatḥah).",
   "shatibiyyahReference": {
     "startLine": 179,
-    "endLine": 181,
+    "endLine": 182,
     "notes": ""
   },
   "rules": {
@@ -20,7 +20,7 @@
       "quraa": [
         "warsh"
       ],
-      "exceptions": [],
+      "exceptions": ["In the words الْمَوْؤُودَةُ and مَوْئِلًا Imam Warsh will only apply qaṣr.", "The word سَوْآت has a madd lin followed by a madd badal. This particular word has 4 permissble ways to be read according to Imam Warsh these are: • Reading qaṣr on سَوْ and qaṣr/tawassuṭ/ṭūl on the madd badal in آت • Reading tawassuṭ on سَوْ and tawassuṭ on the madd badal in آت" ],
       "examples": [{
         "verse": "examples of madd lin for warsh",
         "surah": "",
@@ -92,7 +92,14 @@
         "kisai"
       ],
       "exceptions": [],
-      "examples": [],
+      "examples": [{
+        "verse": "examples of madd lin followed by other than hamza",
+        "surah": "",
+        "ayah": "4:78",
+        "fullVerse": "..الْمَوْتُ..",
+        "focus": "",
+        "note": ""
+      }],
       "note": ""
     }
     
