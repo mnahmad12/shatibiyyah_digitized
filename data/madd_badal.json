@@ -7,7 +7,7 @@
   "description": "Rules pertaining to the madd badal. Madd badal occurs when a letter of madd is preceded by a hamzah in the same word",
   "shatibiyyahReference": {
     "startLine": 171,
-    "endLine": 171,
+    "endLine": 175,
     "notes": ""
   },
   "rules": {
@@ -39,7 +39,7 @@
       "quraa": [
         "warsh"
       ],
-      "exceptions": ["The words يُؤَاخِذُ (along with all of its derivitives) and إِسْرَاءِيلَ will only be read with qaṣr"],
+      "exceptions": ["The words يُؤَاخِذُ (along with all of its derivitives) and إِسْرَاءِيلَ will only be read with qaṣr. Some have also exempted the words عَادًا ٱلْأُولَىٰ and ءَآلْـَٰٔنَ from the options of tawassuṭ/ṭūl of Imam Warsh"],
       "examples": [],
       "note": ""
     }
