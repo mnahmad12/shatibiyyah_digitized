@@ -1,10 +1,10 @@
 {
   "id": "two_hamzahs_in_one_word",
   "chapter_id": "16",
-  "title": "Two Hamzahs in One Word - when both hamzahs carry fatha: أَ أَ",
-  "titleEn": "Two Hamzahs in One Word - when both hamzahs carry fatha: أَ أَ",
+  "title": "Two Hamzahs in One Word - when the second carries a kasrah: أَ إِ",
+  "titleEn": "Two Hamzahs in One Word - when the second carries a kasrah: أَ إِ",
   "order": 16,
-  "description": "This section begins the rules pertaining to the recitation two hamzahs that appear together in one word. The makhraj of the letter hamzah along with its attributes of jahr and shiddah make it an inherently difficult letter to pronounce and as such across the qira'at it is subject to 4 different facilitations/changes (takhfif). These 4 changes are:\n\n •Tashīl: reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. For example, tashīl of hamzah maftūḥah would be to recite the hamzah with a blend of the long vowel alif.\n •Ḥadhf/Isqāṭ: Dropping of a hamzah.\n •Ibdāl:changing a hamzah to a letter of madd corresponding to its ḥarakah.\n •Naql: Transferring the ḥarakah on a hamzah to the ṣaḥīḥ sākin letter preceding it.\n\nIn this section Imam Shatibi discusses how/when the qurra apply these facilitations to ease the pronounciation of the hamzah. When two hamzahs come together in one word the first is always maftūḥah as it is the interrogative particle and the second may be maftūḥah, maḍmūmah or maksūrah. In each of these different combinations the qurra make takhfif in different ways. Finally, a question that may arise is if the first hamzah represents the interrogative particle is it not technically a seperate word? And while this is true, this chapter applies to these hamazat that appearance-wise are part of one word.",
+  "description": "Refer to the `two hamzahs in one word - when both carry hamzahs carry a fatha` for an introduction to these rules.",
   "shatibiyyahReference": {
     "startLine": 183,
     "endLine": 201,
@@ -19,8 +19,7 @@
       "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel alif.",
       "quraa": [
         "qalun",
-        "abu-amr",
-        "hisham"
+        "abu-amr"
       ],
       "exceptions": [],
       "examples": [],
@@ -76,7 +75,8 @@
         "ibn-dhakwan",
         "asim",
         "hamza",
-        "kisai"
+        "kisai",
+        "hisham"
       ],
       "exceptions": [],
       "examples": [],
