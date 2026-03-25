@@ -1,0 +1,76 @@
+{
+  "id": "two_hamzahs_in_one_word",
+  "chapter_id": "17",
+  "title": "Two Hamzahs in One Word - when the second carries a dhamma: أَ اُ",
+  "titleEn": "Two Hamzahs in One Word - when the second carries a dhamma: أَ اُ",
+  "order": 17,
+  "description": "Refer to the `two hamzahs in one word - when both carry hamzahs carry a fatha` for an introduction to these rules. There are a total of 3 places in the quran where the pre-requisites for this rule, i.e. two Hamzahs in one Word with the second carrying a dhamma, occur. ",
+  "shatibiyyahReference": {
+    "startLine": 183,
+    "endLine": 201,
+    "notes": ""
+  },
+  "rules": {
+
+    "tashil_of_second_with_idkhal": {
+      "id": "tashil_of_second_with_idkhal",
+      "title": "Tashῑl of 2nd with idkhāl",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel wāw.",
+      "quraa": [
+        "qalun",
+        "abu-amr",
+        "hisham"
+      ],
+      "exceptions": ["Imam Hisham only applies this option in 2 places. These are: أَؤُنْزِلَ and أَؤُلْقِيَ (occuring at 38:8 and 54:25 respectively)"],
+      "examples": [],
+      "note": "This is one of two options for Imam Abu 'Amr."
+    },
+
+    "tashil_of_second_without_idkhal": {
+      "id": "tashil_of_second_without_idkhal",
+      "title": "Tashῑl of 2nd without idkhāl",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd without idkhāl means to recite the first of the two hamzahs clearly (taḥqīq) and reciting the second hamzah with a blend of the long vowel wāw.",
+      "quraa": [
+        "warsh",
+        "ibn-kathir",
+        "abu-amr"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": "This is one of two options for Imam Abu 'Amr"
+    },
+  
+    "tahqiq_of_both_with_idkhal": {
+      "id": "tahqiq_of_both_with_idkhal",
+      "title": "Taḥqīq of both with idkhāl",
+      "titleAr": "",
+      "description": "Both hamzahs will be read clearly (taḥqīq) and the first will be elongated as an alif of madd in inserted after it (idkhāl).",
+      "quraa": [
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "tahqiq_of_both_without_idkhal": {
+      "id": "tahqiq_of_both_without_idkhal",
+      "title": "Taḥqīq of both without idkhāl",
+      "titleAr": "",
+      "description": "Both hamzahs will be read clearly (taḥqīq) with no changes made to either.",
+      "quraa": [
+        "ibn-dhakwan",
+        "asim",
+        "hamza",
+        "kisai",
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    }
+    
+  }
+}

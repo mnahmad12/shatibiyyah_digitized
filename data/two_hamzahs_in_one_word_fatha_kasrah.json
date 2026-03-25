@@ -16,12 +16,13 @@
       "id": "tashil_of_second_with_idkhal",
       "title": "Tashῑl of 2nd with idkhāl",
       "titleAr": "",
-      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel alif.",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel yāʾ.",
       "quraa": [
         "qalun",
-        "abu-amr"
+        "abu-amr",
+        "hisham"
       ],
-      "exceptions": [],
+      "exceptions": ["Imam Hisham only applies this option in 1 place - أَئِنَّكُمْ لَتَكْفُرُونَ in Surah Fuṣṣilat:9"],
       "examples": [],
       "note": ""
     },
@@ -30,23 +31,10 @@
       "id": "tashil_of_second_without_idkhal",
       "title": "Tashῑl of 2nd without idkhāl",
       "titleAr": "",
-      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd without idkhāl means to recite the first of the two hamzahs clearly (taḥqīq) and reciting the second hamzah with a blend of the long vowel alif.",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd without idkhāl means to recite the first of the two hamzahs clearly (taḥqīq) and reciting the second hamzah with a blend of the long vowel yāʾ.",
       "quraa": [
         "warsh",
         "ibn-kathir"
-      ],
-      "exceptions": [],
-      "examples": [],
-      "note": ""
-    },
-
-    "ibdaal_of_second_alif": {
-      "id": "ibdaal_of_second_alif",
-      "title": "Ibdāl of 2nd",
-      "titleAr": "",
-      "description": "Ibdāl of second hamza into an alif - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now an alif of madd.",
-      "quraa": [
-        "warsh"
       ],
       "exceptions": [],
       "examples": [],
@@ -78,7 +66,7 @@
         "kisai",
         "hisham"
       ],
-      "exceptions": [],
+      "exceptions": ["In 7 instances Imam Hisham will *not* apply this option and instead only make taḥqīq with idkhal. These are: أَئِذَا مَا مِتُّ in Surah Maryam:66, أَئِنَّ لَنَا لَأَجْرًا in Surah al-Aʿrāf:113 as well as Surah Shu'ara:41, أَئِنَّكُمْ لَتَأْتُونَ in Surah al-Aʿrāf:81, أَئِنَّكَ لَمِنَ الْمُصَدِّقِينَ in Surah Saffat:52, أَئِفْكًا ءَالِهَةً in Surah Saffat:86, and أَئِنَّكُمْ لَتَكْفُرُونَ in Surah Fuṣṣilat:9. In the instance in Fuṣṣilat Imam Hisham also allows tashῑl."],
       "examples": [],
       "note": ""
     }
