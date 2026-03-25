@@ -1,0 +1,68 @@
+{
+  "id": "two_hamzahs_in_one_word",
+  "chapter_id": "18",
+  "title": "Two Hamzahs in One Word - أَذْهَبْتُمْ",
+  "titleEn": "Two Hamzahs in One Word - أَذْهَبْتُمْ",
+  "order": 18,
+  "description": "The word أَذْهَبْتُمْ is paired with an additional أَ for Imams Ibn Kathir and Ibn 'Amir. Thus while for the remaining qurra the rules of two hamazat don't apply here as for them there is only 1 hamzah in this word, for Imams Ibn Kathir and Ibn 'Amir they do. The rāwīs for these two qurra follow their standard rules for the meeting of two maftūḥah hamzahs in one word.",
+  "shatibiyyahReference": {
+    "startLine": 186,
+    "endLine": 186,
+    "notes": ""
+  },
+  "rules": {
+
+    "tashil_of_second_with_idkhal": {
+      "id": "tashil_of_second_with_idkhal",
+      "title": "Tashῑl of 2nd with idkhāl",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel alif.",
+      "quraa": [
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "tashil_of_second_without_idkhal": {
+      "id": "tashil_of_second_without_idkhal",
+      "title": "Tashῑl of 2nd without idkhāl",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd without idkhāl means to recite the first of the two hamzahs clearly (taḥqīq) and reciting the second hamzah with a blend of the long vowel alif.",
+      "quraa": [
+        "ibn-kathir"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "tahqiq_of_both_with_idkhal": {
+      "id": "tahqiq_of_both_with_idkhal",
+      "title": "Taḥqīq of both with idkhāl",
+      "titleAr": "",
+      "description": "Both hamzahs will be read clearly (taḥqīq) and the first will be elongated as an alif of madd in inserted after it (idkhāl).",
+      "quraa": [
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "tahqiq_of_both_without_idkhal": {
+      "id": "tahqiq_of_both_without_idkhal",
+      "title": "Taḥqīq of both without idkhāl",
+      "titleAr": "",
+      "description": "Both hamzahs will be read clearly (taḥqīq) with no changes made to either.",
+      "quraa": [
+        "ibn-dhakwan"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    }
+    
+  }
+}
