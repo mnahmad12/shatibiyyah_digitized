@@ -1,0 +1,60 @@
+{
+  "id": "two_hamzahs_in_one_word_amantum_araf",
+  "chapter_id": "22",
+  "title": "Two Hamzahs in One Word - ءَامَنتُمْ in Surah al-Aʿrāf",
+  "titleEn": "Two Hamzahs in One Word - ءَامَنتُمْ in Surah al-Aʿrāf",
+  "order": 22,
+  "description": "The word ءَامَنتُمْ in Surah al-Aʿrāf is paired with an additional أَ for Imams Nafi', Abu 'Amr, Ibn Kathir, Ibn 'Amir, Hamzah, Kisai and Shu'bah. Thus while for the Imam Hafs the rules of two hamazat don't apply here as for him there is only 1 hamzah in this word, for the remaining qurra they do.",
+  "shatibiyyahReference": {
+    "startLine": 189,
+    "endLine": 191,
+    "notes": ""
+  },
+  "rules": {
+
+    "tashil_of_second": {
+      "id": "tashil_of_second",
+      "title": "Tashῑl of 2nd",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. These qurra will pair an extra hamzah to the start of this word which will be read with tahqiq and the 2nd hamzah with tashῑl.",
+      "quraa": [
+        "nafi",
+        "bazzi",
+        "abu-amr",
+        "ibn-amir"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "ibdal_of_first_and_tashil": {
+      "id": "ibdal_of_first_and_tashil",
+      "title": "Ibdal of the first into a waw and tashῑl of 2nd",
+      "titleAr": "",
+      "description": "Imam Qunbul will make ibdaal of the first hamza into a waw and tashῑl of the second: وَأَمِنتُمْ",
+      "quraa": [
+        "qunbul"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": "The ibdaal of the first hamzah into a waw is in wasl only, while a reader would typically not be be starting recitation from this word, theoretically if they were the first hamzah would be read with tahqiq (the same as is read by Imam Nafi' and those that join him from this word)."
+    },
+
+    "tahqiq_of_both": {
+      "id": "tahqiq_of_both",
+      "title": "Taḥqīq of both",
+      "titleAr": "",
+      "description": "Both hamzahs will be read clearly (taḥqīq) with no changes made to either - ءَأَٰمَنتُمْ",
+      "quraa": [
+        "hamza",
+        "shubah",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    }
+    
+  }
+}
