@@ -1,0 +1,100 @@
+{
+  "id": "two_hamzahs_in_one_word_amantum_mulk",
+  "chapter_id": "25",
+  "title": "Two Hamzahs in One Word - ءَامَنتُمْ in Surah al-Mulk",
+  "titleEn": "Two Hamzahs in One Word - ءَامَنتُمْ in Surah al-Mulk",
+  "order": 25,
+  "description": "The word ءَامَنتُمْ in Surah al-Mulk is paired with an additional أَ for all of the qurra. They all follow their normal rules for two hamzahs in one word that both carry a fatha except for Imam Qunbul. Imam Qubnul has an additional option in this word when he does not make waqf on the word before it.",
+  "shatibiyyahReference": {
+    "startLine": 189,
+    "endLine": 191,
+    "notes": ""
+  },
+  "rules": {
+
+    "tashil_of_second_with_idkhal": {
+      "id": "tashil_of_second_with_idkhal",
+      "title": "Tashῑl of 2nd with idkhāl",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel alif.",
+      "quraa": [
+        "qalun",
+        "abu-amr",
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "tashil_of_second_without_idkhal": {
+      "id": "tashil_of_second_without_idkhal",
+      "title": "Tashῑl of 2nd without idkhāl",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd without idkhāl means to recite the first of the two hamzahs clearly (taḥqīq) and reciting the second hamzah with a blend of the long vowel alif.",
+      "quraa": [
+        "warsh",
+        "ibn-kathir"
+      ],
+      "exceptions": ["For Imam Qunbul the option of taḥqīq on the first hamzah and tashῑl on the second only exists when he is beginning from this word, ie the reciter stopped at the word before."],
+      "examples": [],
+      "note": ""
+    },
+
+    "ibdaal_of_second_alif": {
+      "id": "ibdaal_of_second_alif",
+      "title": "Ibdāl of 2nd",
+      "titleAr": "",
+      "description": "Ibdāl of second hamza into an alif - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now an alif of madd.",
+      "quraa": [
+        "warsh"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+  
+    "tahqiq_of_both_with_idkhal": {
+      "id": "tahqiq_of_both_with_idkhal",
+      "title": "Taḥqīq of both with idkhāl",
+      "titleAr": "",
+      "description": "Both hamzahs will be read clearly (taḥqīq) and the first will be elongated as an alif of madd in inserted after it (idkhāl).",
+      "quraa": [
+        "hisham"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "tahqiq_of_both_without_idkhal": {
+      "id": "tahqiq_of_both_without_idkhal",
+      "title": "Taḥqīq of both without idkhāl",
+      "titleAr": "",
+      "description": "Both hamzahs will be read clearly (taḥqīq) with no changes made to either.",
+      "quraa": [
+        "ibn-dhakwan",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "ibdal_of_first_and_tashil": {
+      "id": "ibdal_of_first_and_tashil",
+      "title": "Ibdal of the first into a waw and tashῑl of 2nd",
+      "titleAr": "",
+      "description": "Imam Qunbul will make ibdaal of the first hamza into a waw and tashῑl of the second: وَأَمِنتُمْ." ,
+      "quraa": [
+        "qunbul"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": "The ibdaal of the first hamzah into a waw is in wasl only, ie the reciter continues reading through the previous word."
+    }
+    
+  }
+}

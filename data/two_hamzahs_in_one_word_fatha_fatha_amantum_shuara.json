@@ -1,0 +1,47 @@
+{
+  "id": "two_hamzahs_in_one_word_amantum_shuara",
+  "chapter_id": "24",
+  "title": "Two Hamzahs in One Word - ءَامَنتُمْ in Surah Shuʿarāʾ",
+  "titleEn": "Two Hamzahs in One Word - ءَامَنتُمْ in Surah Shuʿarāʾ",
+  "order": 24,
+  "description": "The word ءَامَنتُمْ in Surah al-Shuʿarāʾ is paired with an additional أَ for Imams Nafi', Abu 'Amr, Ibn Kathir, Ibn 'Amir, Hamzah, Kisai and Shu'bah. Thus while for the Imam Hafs the rules of two hamazat don't apply here as for him there is only 1 hamzah in this word, for the remaining qurra they do.",
+  "shatibiyyahReference": {
+    "startLine": 189,
+    "endLine": 191,
+    "notes": ""
+  },
+  "rules": {
+
+    "tashil_of_second": {
+      "id": "tashil_of_second",
+      "title": "Tashῑl of 2nd",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. These qurra will pair an extra hamzah to the start of this word which will be read with tahqiq and the 2nd hamzah with tashῑl.",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "tahqiq_of_both": {
+      "id": "tahqiq_of_both",
+      "title": "Taḥqīq of both",
+      "titleAr": "",
+      "description": "Both hamzahs will be read clearly (taḥqīq) with no changes made to either - ءَأَٰمَنتُمْ",
+      "quraa": [
+        "hamza",
+        "shubah",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    }
+    
+  }
+}

@@ -286,6 +286,61 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
     };
 });
 
+        // Auto-detect and wrap Arabic text with proper styling
+        function wrapArabicText(element) {
+            const arabicRegex = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]+[\s\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u064B-\u065F]*/g;
+            
+            function processNode(node) {
+                if (node.nodeType === Node.TEXT_NODE) {
+                    const text = node.textContent;
+                    if (!arabicRegex.test(text)) return;
+                    arabicRegex.lastIndex = 0;
+                    
+                    const fragment = document.createDocumentFragment();
+                    let lastIndex = 0;
+                    let match;
+                    
+                    while ((match = arabicRegex.exec(text)) !== null) {
+                        if (match.index > lastIndex) {
+                            fragment.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+                        }
+                        const span = document.createElement('span');
+                        span.className = 'arabic-inline';
+                        span.textContent = match[0];
+                        fragment.appendChild(span);
+                        lastIndex = match.index + match[0].length;
+                    }
+                    
+                    if (lastIndex < text.length) {
+                        fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+                    }
+                    
+                    node.parentNode.replaceChild(fragment, node);
+                } else if (
+                    node.nodeType === Node.ELEMENT_NODE &&
+                    !['SCRIPT', 'STYLE'].includes(node.tagName) &&
+                    !node.classList.contains('arabic-inline') &&
+                    !node.classList.contains('example-verse')
+                ) {
+                    Array.from(node.childNodes).forEach(processNode);
+                }
+            }
+            
+            processNode(element);
+        }
+
+        // Observe DOM changes to wrap Arabic text as content loads
+        const observer = new MutationObserver(mutations => {
+            mutations.forEach(mutation => {
+                mutation.addedNodes.forEach(node => {
+                    if (node.nodeType === Node.ELEMENT_NODE) {
+                        wrapArabicText(node);
+                    }
+                });
+            });
+        });
+        observer.observe(document.getElementById('chapters-container'), { childList: true, subtree: true });
+
         initFilter();
         fetchChapters();
     </script>
