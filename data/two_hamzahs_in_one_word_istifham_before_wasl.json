@@ -1,0 +1,54 @@
+{
+  "id": "two_hamzahs_in_one_word_istifham_before_wasl",
+  "chapter_id": "26",
+  "title": "Two Hamzahs in One Word - An interrogative hamzah before a hamzat al-waṣl.",
+  "titleEn": "Two Hamzahs in One Word - An interrogative hamzah before a hamzat al-waṣl.",
+  "order": 26,
+  "description": "When an interrogative hamzah (همزة الاستفهام) precedes a hamzat al-waṣl. This occurs across 3 words occuring for a total of 6 times throughout the quran: ءَآلذَّكَرَيْنِ, آللَّهُ, آلْآنَ.",
+  "shatibiyyahReference": {
+    "startLine": 192,
+    "endLine": 193,
+    "notes": ""
+  },
+  "rules": {
+
+    "madd_lazim": {
+      "id": "madd_lazim",
+      "title": "Madd lāzim",
+      "titleAr": "",
+      "description": "One of the agreed upon methods for making takhfif in this scenario is that hamzat al-waṣl will be changed to an alif. Since a hamzat al-wasl is always followed by a sakin letter after this change we will have a fatha followed by an alif (madd asli) followed by a permanent sukoon thereby creating madd lazim.",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "tashil_of_hamzat_al_wasl": {
+      "id": "tashil_of_hamzat_al_wasl",
+      "title": "Tashῑl of hamzat al-waṣl",
+      "titleAr": "",
+      "description": "The other agreed upon method of takhfif in this scenario is to make tashῑl of the hamzat al-wasl. The first hamza (the interrogative hamzah) will be read with tahqiq and the second (the hamzat al-wasl) with tashῑl.",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    }
+    
+  }
+}
