@@ -1,0 +1,47 @@
+{
+  "id": "two_hamzahs_in_one_word_where_there_are_three_hamzas",
+  "chapter_id": "27",
+  "title": "When Three Hamzahs come together in One Word.",
+  "titleEn": "When Three Hamzahs come together in One Word.",
+  "order": 27,
+  "description": "There are two instances where technically three hamzahs come together in one word; أَأَأْمَنتُم and أَأَأْلِهَتُنَا. Gramatically when two hamzahs come together with the second being sākinah, the second hamzah will be transformed into an alif (madd badal). Thus, we are left with: ءَامَنتُم and ءَأَالِهَتُنَا. The rules for ءَامَنتُم have previously already been covered. ",
+  "shatibiyyahReference": {
+    "startLine": 194,
+    "endLine": 194,
+    "notes": ""
+  },
+  "rules": {
+ 
+    "tahqiq_of_both": {
+      "id": "tahqiq_of_both",
+      "title": "Taḥqīq of both",
+      "titleAr": "",
+      "description": "Both hamzahs will be read clearly (taḥqīq) with no changes made to either - ءَأَالِهَتُنَا",
+      "quraa": [
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+    "tashil_of_second": {
+      "id": "tashil_of_second",
+      "title": "Tashῑl of 2nd",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. These qurra will  recite the first of the two hamzahs clearly (taḥqīq) and the second hamzah with a blend of the long vowel alif.",
+      "quraa": [
+        "nafi",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    }
+    
+  }
+}

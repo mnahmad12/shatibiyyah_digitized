@@ -42,14 +42,14 @@
         "hamza",
         "kisai"
       ],
-      "exceptions": ["Imam Hamza recites the words إليهم, لديهم, عليهم with a dhammah wherever they occur (see the rule of 'Ilay-hum, Laday-hum, 'Alay-hum' in the chapter of al-Fatiha"],
+      "exceptions": ["Imam Hamza recites the words إليهم, لديهم, عليهم with a dhammah wherever they occur (see the rule of 'Ilay-hum, Laday-hum, 'Alay-hum' in the chapter of al-Fatiha)"],
       "examples": []
     },
     "kasrah_kasrah_preceeded_by_kasrah_ya_wasl": {
       "id": "kasrah_kasrah_preceeded_by_kasrah_ya_wasl",
       "title": "Kasrah on the ه and م when preceeded by kasrah or yāʾ sākinah and also followed by a sākin letter in wasl",
       "titleAr": "",
-      "description": "When making wasl (ie continuing on and not stopping on هم) and the word هم is preceeded by a kasrah or yāʾ sākinah while also followed by a sakin letter Imam Abu Amr will recite both the ه and م with a kasrah.",
+      "description": "When making wasl (ie continuing and not stopping on هم) and the word هم is preceeded by a kasrah or yāʾ sākinah while also followed by a sakin letter Imam Abu Amr will recite both the ه and م with a kasrah.",
       "quraa": [
         "abu-amr"
       ],
@@ -69,7 +69,7 @@
       "id": "dhamma_dhamma_preceeded_by_kasrah_ya_wasl",
       "title": "Ḍhammah on the ه and م when preceeded by kasrah or yāʾ sākinah and also followed by a sakin letter in wasl",
       "titleAr": "",
-      "description": "When making wasl (ie continuing on and not stopping on هم) and the word هم is preceeded by a kasrah or yāʾ sākinah while also followed by a sakin letter Imams Hamza & Kisai will recite both the ه and م with a ḍammah.",
+      "description": "When making wasl (ie continuing and not stopping on هم) and the word هم is preceeded by a kasrah or yāʾ sākinah while also followed by a sakin letter Imams Hamza & Kisai will recite both the ه and م with a ḍammah.",
       "quraa": [
         "hamza",
         "kisai"
