@@ -1,0 +1,97 @@
+{
+  "id": "two_hamzahs_in_two_words_fatha_fatha",
+  "chapter_id": "30",
+  "title": "Two Hamzahs in Two Words - when both hamzahs carry fatha: أَ أَ",
+  "titleEn": "Two Hamzahs in Two Words - when both hamzahs carry fatha: أَ أَ",
+  "order": 30,
+  "description": "This section begins the rules pertaining to the recitation of two hamzahs that appear together in two words, i.e a hamzah appearing at the end of one word followed by a hamzah at the beginning of the next word. Just like the previous section where the meeting of hamazat led to a takhfif (change) of a hamzah here too the same occurs. However, unlike the previous section where this change always occured in the second of hamzah, here the change can occur in either (but never both) of the two hamzahs. Additionally when two hamazat met in one word the first of them was always maftūḥah, however when two hamzat meet across two words the same does not hold true. The vowel of both of the hamzahs may be match (e.g. both carry a fatha) or they may differ. Of the 6 possible combinations when the vowels differ 5 of them occur in the Quran, with the the hamza maksūrah followed by a hamzah maḍmūmah being the combination that does not occur.",
+  "shatibiyyahReference": {
+    "startLine": 202,
+    "endLine": 206,
+    "notes": ""
+  },
+  "rules": {
+
+    "isqat_of_the_first_hamzah": {
+      "id": "isqat_of_the_first_hamzah",
+      "title": "Isqāṭ/ḥadhf of the 1st",
+      "titleAr": "",
+      "description": "Isqāṭ/ḥadhf (dropping) of the 1st of the two hamzahs. For example the first hamzah in جَاءَ أَمْرُنَا is dropped and this is read: جَا أَمْرُنَا",
+      "quraa": [
+        "abu-amr",
+        "qalun",
+        "bazzi"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of dropping first hamzah",
+        "surah": "",
+        "ayah": "11:40",
+        "fullVerse": "جَا أَمْرُنَا",
+        "focus": "",
+        "note": ""
+      }],
+      "note": "Imam al-Shaṭibī in line 202 mentions it is the first hamzah that is dropped. This then implies that the now present madd is a madd munfaṣil and would be read with the either qaṣr or tawassuṯ in accordance with the rules of munfaṣil for these qurra. However there are some scholars that said it is in fact the second hamzah that will be dropped, thereby making the madd a madd muttaṣil. The former opinion is the preferred opinion of most scholars."
+    },
+
+    "tashil_of_second": {
+      "id": "tashil_of_second",
+      "title": "Tashῑl of 2nd",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Thus tashῑl of 2nd means to recite the first of the two hamzahs clearly (taḥqīq) and recite the second hamzah with a blend of the long vowel alif.",
+      "quraa": [
+        "warsh",
+        "qubnul"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": "This is one of two options for both Imams Warsh and Qubnul"
+    },
+
+    "ibdaal_of_second_alif": {
+      "id": "ibdaal_of_second_alif",
+      "title": "Ibdāl of 2nd",
+      "titleAr": "",
+      "description": "Ibdāl of second hamza into an alif - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now an alif of madd. If after the second hamzah (which is now an alif of madd) there is a sukoon the madd will be read with ṭūl as it is now a madd lāzim.",
+      "quraa": [
+        "warsh",
+        "qubnul"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of dropping first hamzah",
+        "surah": "",
+        "ayah": "11:40",
+        "fullVerse": "جَآءَ أٓمْرُنَا",
+        "focus": "",
+        "note": ""
+      }],
+      "note": ""
+    },
+  
+
+    "tahqiq_of_both": {
+      "id": "tahqiq_of_both",
+      "title": "Taḥqīq of both",
+      "titleAr": "",
+      "description": "Both hamzahs will be read clearly (taḥqīq) with no changes made to either.",
+      "quraa": [
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of dropping first hamzah",
+        "surah": "",
+        "ayah": "11:40",
+        "fullVerse": "جَاءَ أَمْرُنَا",
+        "focus": "",
+        "note": ""
+      }],
+      "note": ""
+    }
+    
+  }
+}
