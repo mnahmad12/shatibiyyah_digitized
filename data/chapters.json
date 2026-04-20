@@ -31,6 +31,7 @@
     "two_hamzahs_in_one_word_istifham_before_wasl.json",
     "two_hamzahs_in_one_word_where_there_are_three_hamzas.json",
     "two_hamzahs_in_one_word_fatha_kasrah_aimmah.json",
-    "two_hamzahs_in_two_words_fatha_fatha.json"
+    "two_hamzahs_in_two_words_fatha_fatha.json",
+    "two_hamzahs_in_two_words_kasrah_kasrah.json"
   ]
 }
