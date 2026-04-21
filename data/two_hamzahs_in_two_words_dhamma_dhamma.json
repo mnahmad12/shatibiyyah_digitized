@@ -1,0 +1,102 @@
+{
+  "id": "two_hamzahs_in_two_words_dhamma_dhamma",
+  "chapter_id": "32",
+  "title": "Two Hamzahs in Two Words - when both hamzahs carry dhammah : أُ أُ",
+  "titleEn": "Two Hamzahs in Two Words - when both hamzahs carry dhammah: أُ أُ",
+  "order": 32,
+  "description": "This situation only occurs in one place in the Quran, 46:32: أَوْلِيَآءُ أُوْلَٰىِكَ",
+  "shatibiyyahReference": {
+    "startLine": 204,
+    "endLine": 208,
+    "notes": ""
+  },
+  "rules": {
+
+    "isqat_of_the_first_hamzah": {
+      "id": "isqat_of_the_first_hamzah",
+      "title": "Isqāṭ/ḥadhf of the 1st",
+      "titleAr": "",
+      "description": "Isqāṭ/ḥadhf (dropping) of the 1st of the two hamzahs.",
+      "quraa": [
+        "abu-amr"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of dropping first hamzah",
+        "surah": "",
+        "ayah": "46:32",
+        "fullVerse": "أَوْلِيَآ أُوْلَٰىِكَ",
+        "focus": "",
+        "note": ""
+      }],
+      "note": "Imam al-Shaṭibī in line 202 mentions it is the first hamzah that is dropped. This then implies that the now present madd is a madd munfaṣil and would be read with the either qaṣr or tawassuṯ in accordance with the rules of munfaṣil for these qurra. However there are some scholars that said it is in fact the second hamzah that will be dropped, thereby making the madd a madd muttaṣil. The former opinion is the preferred opinion of most scholars."
+    },
+
+    "tashil_of_first": {
+      "id": "tashil_of_first",
+      "title": "Tashῑl of 1st",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Thus tashῑl of 1st means to recite the first of the two hamzahs with a blend of the long vowel wāw and the second clearly (taḥqīq).",
+      "quraa": [
+        "qalun",
+        "bazzi"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": "Both qaṣr and tawassuṯ are allowed."
+    },
+
+    "tashil_of_second": {
+      "id": "tashil_of_second",
+      "title": "Tashῑl of 2nd",
+      "titleAr": "",
+      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Thus tashῑl of 2nd means to recite the first of the two hamzahs clearly (taḥqīq) and recite the second hamzah with a blend of the long vowel wāw.",
+      "quraa": [
+        "warsh",
+        "qubnul"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": "This is one of two options for both Imams Warsh and Qubnul"
+    },
+
+    "ibdaal_of_second_alif_into_waw_sakinah": {
+      "id": "ibdaal_of_second_alif_into_waw_sakinah",
+      "title": "Ibdāl of 2nd to wāw sākinah",
+      "titleAr": "",
+      "description": "Ibdāl of second hamza into a wāw sākinah - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now a wāw of madd.",
+      "quraa": [
+        "warsh",
+        "qubnul"
+      ],
+      "exceptions": [],
+      "examples": [],
+      "note": ""
+    },
+
+
+    "tahqiq_of_both": {
+      "id": "tahqiq_of_both",
+      "title": "Taḥqīq of both",
+      "titleAr": "",
+      "description": "Both hamzahs will be read clearly (taḥqīq) with no changes made to either.",
+      "quraa": [
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [{
+        "verse": "examples of tahqiq of both",
+        "surah": "",
+        "ayah": "46:32",
+        "fullVerse": "أَوْلِيَآءُ أُوْلَٰىِكَ",
+        "focus": "",
+        "note": ""
+      }],
+      "note": ""
+    }
+    
+  }
+}
