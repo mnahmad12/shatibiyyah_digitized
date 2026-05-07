@@ -243,7 +243,23 @@
                     ${rule.examples.map(ex => `
                         <div class="example-box">
                             <div class="example-verse">${ex.fullVerse}</div>
+                            ${ex.ayah ? `<div class="ayah-ref">${ex.ayah}</div>` : ''}
                             <div style="text-align:center; font-size:0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">${ex.note}</div>
+                            ${ex.audio_loc ? `
+                                <div class="audio-player-wrapper">
+                                    <button class="audio-play-btn" onclick="toggleAudio(this, './data/audio/${ex.audio_loc}')" aria-label="Listen to example">
+                                        <span class="audio-play-icon">▶</span>
+                                        <span class="audio-play-label">Listen</span>
+                                    </button>
+                                    <div class="audio-progress-container" style="display:none;">
+                                        <span class="audio-time-current">0:00</span>
+                                        <div class="audio-progress-bar" onclick="seekAudio(event, this)">
+                                            <div class="audio-progress-fill"></div>
+                                        </div>
+                                        <span class="audio-time-total">0:00</span>
+                                    </div>
+                                </div>
+                            ` : ''}
                         </div>
                     `).join('')}
                 </div>
@@ -340,6 +356,97 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
             });
         });
         observer.observe(document.getElementById('chapters-container'), { childList: true, subtree: true });
+
+        // ── Audio Player ──────────────────────────────────────────
+        let currentAudio = null;
+        let currentBtn   = null;
+
+        function formatTime(secs) {
+            const m = Math.floor(secs / 60);
+            const s = Math.floor(secs % 60).toString().padStart(2, '0');
+            return `${m}:${s}`;
+        }
+
+        function resetBtn(btn) {
+            btn.querySelector('.audio-play-icon').textContent = '▶';
+            btn.querySelector('.audio-play-label').textContent = 'Listen';
+            btn.classList.remove('playing');
+            const wrapper = btn.closest('.audio-player-wrapper');
+            wrapper.querySelector('.audio-progress-container').style.display = 'none';
+            wrapper.querySelector('.audio-progress-fill').style.width = '0%';
+        }
+
+        function toggleAudio(btn, src) {
+            // Clicking the same button pauses / resumes
+            if (currentAudio && currentBtn === btn) {
+                if (currentAudio.paused) {
+                    currentAudio.play();
+                    btn.querySelector('.audio-play-icon').textContent = '⏸';
+                    btn.querySelector('.audio-play-label').textContent = 'Pause';
+                } else {
+                    currentAudio.pause();
+                    btn.querySelector('.audio-play-icon').textContent = '▶';
+                    btn.querySelector('.audio-play-label').textContent = 'Resume';
+                }
+                return;
+            }
+
+            // Stop any other playing audio first
+            if (currentAudio) {
+                currentAudio.pause();
+                resetBtn(currentBtn);
+            }
+
+            const audio = new Audio(src);
+            currentAudio = audio;
+            currentBtn   = btn;
+
+            const wrapper   = btn.closest('.audio-player-wrapper');
+            const progress  = wrapper.querySelector('.audio-progress-container');
+            const fill      = wrapper.querySelector('.audio-progress-fill');
+            const timeCur   = wrapper.querySelector('.audio-time-current');
+            const timeTotal = wrapper.querySelector('.audio-time-total');
+
+            btn.querySelector('.audio-play-icon').textContent = '⏸';
+            btn.querySelector('.audio-play-label').textContent = 'Pause';
+            btn.classList.add('playing');
+            progress.style.display = 'flex';
+
+            audio.addEventListener('loadedmetadata', () => {
+                timeTotal.textContent = formatTime(audio.duration);
+            });
+
+            audio.addEventListener('timeupdate', () => {
+                const pct = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
+                fill.style.width = pct + '%';
+                timeCur.textContent = formatTime(audio.currentTime);
+            });
+
+            audio.addEventListener('ended', () => {
+                resetBtn(btn);
+                currentAudio = null;
+                currentBtn   = null;
+            });
+
+            audio.addEventListener('error', () => {
+                btn.querySelector('.audio-play-label').textContent = 'Unavailable';
+                btn.querySelector('.audio-play-icon').textContent = '✕';
+                btn.classList.remove('playing');
+                btn.disabled = true;
+                currentAudio = null;
+                currentBtn   = null;
+            });
+
+            audio.play();
+        }
+
+        function seekAudio(e, bar) {
+            if (!currentAudio) return;
+            const rect = bar.getBoundingClientRect();
+            const pct  = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+            currentAudio.currentTime = pct * currentAudio.duration;
+        }
+        // ─────────────────────────────────────────────────────────
 
         initFilter();
         fetchChapters();

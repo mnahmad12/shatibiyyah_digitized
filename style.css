@@ -585,10 +585,108 @@ span[dir="rtl"] {
 }
 
 /* --- MOBILE OPTIMIZATIONS --- */
+
+.ayah-ref {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 0.25rem;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+
+.audio-player-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 1rem;
+}
+
+.audio-play-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.4rem;
+    background: transparent;
+    border: 1.5px solid var(--primary-light);
+    border-radius: 20px;
+    color: var(--primary);
+    font-family: 'Crimson Pro', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.audio-play-btn:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.audio-play-btn.playing {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.audio-play-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    border-color: var(--border);
+    color: var(--text-secondary);
+    background: transparent;
+}
+
+.audio-play-icon {
+    font-size: 0.75rem;
+    line-height: 1;
+}
+
+.audio-progress-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 340px;
+}
+
+.audio-time-current,
+.audio-time-total {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    min-width: 2.5rem;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+}
+
+.audio-progress-bar {
+    flex: 1;
+    height: 5px;
+    background: var(--border);
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.audio-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--primary-light), var(--accent));
+    border-radius: 3px;
+    transition: width 0.1s linear;
+    pointer-events: none;
+}
+
 @media (max-width: 768px) {
-    .container {
-        padding: 0 1rem;
+    .audio-progress-container {
+        max-width: 100%;
     }
+}
+/* ─────────────────────────────────────────────────────────── */
+
 
     header {
         padding: 2rem 0 1rem;
