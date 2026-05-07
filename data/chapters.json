@@ -33,6 +33,7 @@
     "two_hamzahs_in_one_word_fatha_kasrah_aimmah.json",
     "two_hamzahs_in_two_words_fatha_fatha.json",
     "two_hamzahs_in_two_words_kasrah_kasrah.json",
-    "two_hamzahs_in_two_words_dhamma_dhamma.json"
+    "two_hamzahs_in_two_words_dhamma_dhamma.json",
+    "two_hamzahs_in_two_words_with_differing_vowels.json"
   ]
 }

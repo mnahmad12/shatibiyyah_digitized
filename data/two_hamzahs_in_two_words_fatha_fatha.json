@@ -4,7 +4,7 @@
   "title": "Two Hamzahs in Two Words - when both hamzahs carry fatha: أَ أَ",
   "titleEn": "Two Hamzahs in Two Words - when both hamzahs carry fatha: أَ أَ",
   "order": 30,
-  "description": "This section begins the rules pertaining to the recitation of two hamzahs that appear together in two words, i.e a hamzah appearing at the end of one word followed by a hamzah at the beginning of the next word. Just like the previous section where the meeting of hamazat led to a takhfif (change) of a hamzah here too the same occurs. However, unlike the previous section where this change always occured in the second of hamzah, here the change can occur in either (but never both) of the two hamzahs. Additionally when two hamazat met in one word the first of them was always maftūḥah, however when two hamzat meet across two words the same does not hold true. The vowel of both of the hamzahs may be match (e.g. both carry a fatha) or they may differ. Of the 6 possible combinations when the vowels differ 5 of them occur in the Quran, with the the hamza maksūrah followed by a hamzah maḍmūmah being the combination that does not occur.",
+  "description": "This section begins the rules pertaining to the recitation of two hamzahs that appear together in two words, i.e a hamzah appearing at the end of one word followed by a hamzah at the beginning of the next word. Just like the previous section where the meeting of hamzahs led to a takhfif (change) of a hamzah here too the same occurs. However, unlike the previous section where this change always occured in the second of hamzah, here the change can occur in either (but never both) of the two hamzahs. Additionally when two hamzahs met in one word the first of them was always maftūḥah, however when two hamzahs meet across two words the same does not hold true. The vowel of both of the hamzahs may be match (e.g. both carry a fatha) or they may differ. The rules in this section begin the scenario of when these vowels match, i.e. the vowel on both the hamzahs are the same.",
   "shatibiyyahReference": {
     "startLine": 202,
     "endLine": 208,
@@ -52,7 +52,7 @@
       "id": "ibdaal_of_second_alif",
       "title": "Ibdāl of 2nd",
       "titleAr": "",
-      "description": "Ibdāl of second hamza into an alif - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now an alif of madd. If after the second hamzah (which is now an alif of madd) the letter is mutaḥarrik the length of madd will be qaṣr. If however there is a sākin letter following the second hamza, the madd will be read with ṭūl as it is now a madd lāzim. If this following sākin letter takes a temporary ḥarakah (due to naql or iltiqāʾ as sākinayn) both qaṣr and ṭūl are options.",
+      "description": "Ibdāl of second hamzahinto an alif - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now an alif of madd. If after the second hamzah (which is now an alif of madd) the letter is mutaḥarrik the length of madd will be qaṣr. If however there is a sākin letter following the second hamzah, the madd will be read with ṭūl as it is now a madd lāzim. If this following sākin letter takes a temporary ḥarakah (due to naql or iltiqāʾ as sākinayn) both qaṣr and ṭūl are options.",
       "quraa": [
         "warsh",
         "qunbul"

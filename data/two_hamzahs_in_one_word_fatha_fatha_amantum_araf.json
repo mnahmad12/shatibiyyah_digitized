@@ -4,7 +4,7 @@
   "title": "Two Hamzahs in One Word - ءَامَنتُمْ in Surah al-Aʿrāf",
   "titleEn": "Two Hamzahs in One Word - ءَامَنتُمْ in Surah al-Aʿrāf",
   "order": 23,
-  "description": "The word ءَامَنتُمْ in Surah al-Aʿrāf is paired with an additional أَ for Imams Nafi', Abu 'Amr, Ibn Kathir, Ibn 'Amir, Hamzah, Kisai and Shu'bah. Thus while for the Imam Hafs the rules of two hamazat don't apply here as for him there is only 1 hamzah in this word, for the remaining qurra they do.",
+  "description": "The word ءَامَنتُمْ in Surah al-Aʿrāf is paired with an additional أَ for Imams Nafi', Abu 'Amr, Ibn Kathir, Ibn 'Amir, Hamzah, Kisai and Shu'bah. Thus while for the Imam Hafs the rules of two hamzahs don't apply here as for him there is only 1 hamzah in this word, for the remaining qurra they do.",
   "shatibiyyahReference": {
     "startLine": 189,
     "endLine": 191,
@@ -16,7 +16,7 @@
       "id": "tashil_of_second",
       "title": "Tashῑl of 2nd",
       "titleAr": "",
-      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. These qurra will pair an extra hamzah to the start of this word which will be read with tahqiq and the 2nd hamzah with tashῑl.",
+      "description": "These qurra will pair an extra hamzah to the start of this word which will be read with tahqiq and the 2nd hamzah with tashῑl.",
       "quraa": [
         "nafi",
         "bazzi",
@@ -32,7 +32,7 @@
       "id": "ibdal_of_first_and_tashil",
       "title": "Ibdal of the first into a waw and tashῑl of 2nd",
       "titleAr": "",
-      "description": "Imam Qunbul will make ibdaal of the first hamza into a waw and tashῑl of the second: وَأَمِنتُمْ",
+      "description": "Imam Qunbul will make ibdaal of the first hamzahinto a waw and tashῑl of the second: وَأَمِنتُمْ",
       "quraa": [
         "qunbul"
       ],

@@ -16,7 +16,7 @@
       "id": "tashil_of_second_with_idkhal",
       "title": "Tashῑl of 2nd with idkhāl",
       "titleAr": "",
-      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel alif.",
+      "description": "Tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel alif.",
       "quraa": [
         "qalun",
         "abu-amr",
@@ -31,7 +31,7 @@
       "id": "tashil_of_second_without_idkhal",
       "title": "Tashῑl of 2nd without idkhāl",
       "titleAr": "",
-      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd without idkhāl means to recite the first of the two hamzahs clearly (taḥqīq) and reciting the second hamzah with a blend of the long vowel alif.",
+      "description": "Tashῑl of 2nd without idkhāl means to recite the first of the two hamzahs clearly (taḥqīq) and reciting the second hamzah with a blend of the long vowel alif.",
       "quraa": [
         "warsh",
         "ibn-kathir"
@@ -45,7 +45,7 @@
       "id": "ibdaal_of_second_alif",
       "title": "Ibdāl of 2nd",
       "titleAr": "",
-      "description": "Ibdāl of second hamza into an alif - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now an alif of madd.",
+      "description": "Ibdāl of second hamzahinto an alif - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now an alif of madd.",
       "quraa": [
         "warsh"
       ],
@@ -87,7 +87,7 @@
       "id": "ibdal_of_first_and_tashil",
       "title": "Ibdal of the first into a waw and tashῑl of 2nd",
       "titleAr": "",
-      "description": "Imam Qunbul will make ibdaal of the first hamza into a waw and tashῑl of the second: وَأَمِنتُمْ." ,
+      "description": "Imam Qunbul will make ibdaal of the first hamzahinto a waw and tashῑl of the second: وَأَمِنتُمْ." ,
       "quraa": [
         "qunbul"
       ],

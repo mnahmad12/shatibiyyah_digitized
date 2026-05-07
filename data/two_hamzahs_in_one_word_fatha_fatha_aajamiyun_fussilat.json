@@ -16,21 +16,21 @@
       "id": "tashil_of_second_with_idkhal",
       "title": "Tashῑl of 2nd with idkhāl",
       "titleAr": "",
-      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel alif.",
+      "description": "Tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel alif.",
       "quraa": [
         "qalun",
         "abu-amr"
       ],
       "exceptions": [],
       "examples": [],
-      "note": "Imams Qalun and Abu 'Amr follow their standard rule for the meeting of two maftūḥah hamazat in this word."
+      "note": "Imams Qalun and Abu 'Amr follow their standard rule for the meeting of two maftūḥah hamzahs in this word."
     },
 
     "tashil_of_second_without_idkhal": {
       "id": "tashil_of_second_without_idkhal",
       "title": "Tashῑl of 2nd without idkhāl",
       "titleAr": "",
-      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Thus tashῑl of 2nd without idkhāl means to recite the first of the two hamzahs clearly (taḥqīq) and reciting the second hamzah with a blend of the long vowel alif.",
+      "description": "Tashῑl of 2nd without idkhāl means to recite the first of the two hamzahs clearly (taḥqīq) and reciting the second hamzah with a blend of the long vowel alif.",
       "quraa": [
         "warsh",
         "ibn-kathir",
@@ -46,13 +46,13 @@
       "id": "ibdaal_of_second_alif",
       "title": "Ibdāl of 2nd",
       "titleAr": "",
-      "description": "Ibdāl of second hamza into an alif - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now an alif of madd.",
+      "description": "Ibdāl of second hamzahinto an alif - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now an alif of madd.",
       "quraa": [
         "warsh"
       ],
       "exceptions": [],
       "examples": [],
-      "note": "Imam Warsh maintains his standard rule for the meeting of two maftūḥah hamazat in one word here."
+      "note": "Imam Warsh maintains his standard rule for the meeting of two maftūḥah hamzahs in one word here."
     },
   
     "hadhf_of_first_hamza": {

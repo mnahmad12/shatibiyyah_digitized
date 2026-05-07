@@ -4,7 +4,7 @@
   "title": "Two Hamzahs in One Word - أَنْ كَانَ",
   "titleEn": "Two Hamzahs in One Word - أَنْ كَانَ",
   "order": 21,
-  "description": "The word أَنْ كَانَ is paired with an additional أَ for Imams Ibn 'Amir, Hamzah, and Shu'bah. Thus while for the remaining qurra the rules of two hamazat don't apply here as for them there is only 1 hamzah in this word, for these 3 they do.",
+  "description": "The word أَنْ كَانَ is paired with an additional أَ for Imams Ibn 'Amir, Hamzah, and Shu'bah. Thus while for the remaining qurra the rules of two hamzahs don't apply here as for them there is only 1 hamzah in this word, for these 3 they do.",
   "shatibiyyahReference": {
     "startLine": 187,
     "endLine": 187,
@@ -16,7 +16,7 @@
       "id": "tashil_of_second_with_idkhal",
       "title": "Tashῑl of 2nd with idkhāl",
       "titleAr": "",
-      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel alif.",
+      "description": "Tashῑl of 2nd with idkhāl means to recite the first of the two hamzahs clearly (taḥqīq), inserting an alif after it thereby creating a natural madd and reciting the second hamzah with a blend of the long vowel alif.",
       "quraa": [
         "hisham"
       ],
@@ -49,7 +49,7 @@
       ],
       "exceptions": [],
       "examples": [{
-        "verse": "examples of adding hamza in surah nun",
+        "verse": "examples of adding hamzahin surah nun",
         "surah": "",
         "ayah": "68:14",
         "fullVerse": " أَأَنْ كَانَ",
