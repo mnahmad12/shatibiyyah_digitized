@@ -1,9 +1,9 @@
 {
   "id": "idgham_kabir_mutaqaribain_in_two_words",
-  "chapter_id": "06",
+  "chapter_id": "08",
   "title": "",
   "titleEn": "Idghām Kabīr Mutaqārībān in two words",
-  "order": 6,
+  "order": 8,
   "description": "This section talks about the rules when idghām kabīr mutaqārībān occurs in a two words. (ie the mudgham is at the end of the first word and the mudgham fῑh is at the beginning of the next word. For a description of these terms see the previous section on idghām kabīr mithlān in a single word.) Imam al-Shaṭibī begins this chapter by laying out some foundational principles. These are:\n\n • Idghām kabīr mutaqārībān between two words occurs in 16 letters. That is to say there are 16 individual letters that have the potential to become mudgham depending on the following letter in the next word. This chapter goes on to list each of these 16 letters and which particular letters they interact with for idghām to occur.\n • The first letter must not have tanwīn.\n • The first letter must not be a tāʾ of the second person.\n • The first letter must not be mushaddad.\n • The first letter must not be in the jazm (jussive) case.",
   "shatibiyyahReference": {
     "startLine": 136,
@@ -20,14 +20,17 @@
         "susi"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān in two words ha into ain",
-        "surah": "",
-        "ayah": "3:185",
-        "fullVerse": "..زُحْزِحَ عَنِ..",
-        "focus": "",
-        "note": ""
-      }]
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words ha into ain",
+          "surah": "",
+          "ayah": "3:185",
+          "fullVerse": "..زُحْزِحَ عَنِ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_ha_into_ain_3_185.mp3"
+        }
+      ]
     },
     "qaf_kaf": {
       "id": "qaf_kaf",
@@ -38,22 +41,26 @@
         "susi"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān in two words qaf into kaf",
-        "surah": "",
-        "ayah": "25:2",
-        "fullVerse": "..خَلَقَ كُلَّ..",
-        "focus": "",
-        "note": ""
-      },
-      {
-        "verse": "examples of idghām kabir mutaqārībān in two words kaf into qaf",
-        "surah": "",
-        "ayah": "25:10",
-        "fullVerse": "..لَكَ قُصُورًا..",
-        "focus": "",
-        "note": ""
-      }]
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words qaf into kaf",
+          "surah": "",
+          "ayah": "25:2",
+          "fullVerse": "..خَلَقَ كُلَّ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_qaf_kaf_25_2.mp3"
+        },
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words kaf into qaf",
+          "surah": "",
+          "ayah": "25:10",
+          "fullVerse": "..لَكَ قُصُورًا..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_qaf_kaf_25_10.mp3"
+        }
+      ]
     },
     "jeem_and_its_letters": {
       "id": "jeem_and_its_letters",
@@ -64,22 +71,26 @@
         "susi"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān in two words jeem into sheen",
-        "surah": "",
-        "ayah": "48:29",
-        "fullVerse": "..أَخْرَجَ شَطْـَٔهُ..",
-        "focus": "",
-        "note": ""
-      },
-      {
-        "verse": "examples of idghām kabir mutaqārībān in two words jeem into ta",
-        "surah": "",
-        "ayah": "70:3",
-        "fullVerse": "..ٱلْمَعَارِجِ تَعْرُجُ..",
-        "focus": "",
-        "note": "This occurs if the reader were to make wasl at the end of ayah 3 into  ayah 4"
-      }]
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words jeem into sheen",
+          "surah": "",
+          "ayah": "48:29",
+          "fullVerse": "..أَخْرَجَ شَطْـَٔهُ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_jeem_and_its_letters_48_29.mp3"
+        },
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words jeem into ta",
+          "surah": "",
+          "ayah": "70:3",
+          "fullVerse": "..ٱلْمَعَارِجِ تَعْرُجُ..",
+          "focus": "",
+          "note": "This occurs if the reader were to make wasl at the end of ayah 3 into  ayah 4",
+          "audio_loc": "08_jeem_and_its_letters_70_3.mp3"
+        }
+      ]
     },
     "sheen_and_its_letters": {
       "id": "sheen_and_its_letters",
@@ -90,16 +101,18 @@
         "susi"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān in two words sheen into seen",
-        "surah": "",
-        "ayah": "17:42",
-        "fullVerse": "..ٱلْعَرْشِ سَبِيلًا..",
-        "focus": "",
-        "note": ""
-      }]
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words sheen into seen",
+          "surah": "",
+          "ayah": "17:42",
+          "fullVerse": "..ٱلْعَرْشِ سَبِيلًا..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_sheen_and_its_letters_17_42.mp3"
+        }
+      ]
     },
-
     "dad_into_sheen": {
       "id": "dad_into_sheen",
       "title": "ض merges into ش",
@@ -109,16 +122,18 @@
         "susi"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān in two words dad into sheen",
-        "surah": "",
-        "ayah": "17:42",
-        "fullVerse": "..لِبَعْضِ شَأْنِهِمْ..",
-        "focus": "",
-        "note": ""
-      }]
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words dad into sheen",
+          "surah": "",
+          "ayah": "24:62",
+          "fullVerse": "..لِبَعْضِ شَأْنِهِمْ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_dad_into_sheen_24_62.mp3"
+        }
+      ]
     },
-
     "seen_and_its_letters": {
       "id": "seen_and_its_letters",
       "title": "The 2 letters س will merge into",
@@ -128,24 +143,27 @@
         "susi"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān in two words seen into zai",
-        "surah": "",
-        "ayah": "81:7",
-        "fullVerse": "..ٱلنُّفُوسُ زُوِّجَتْ..",
-        "focus": "",
-        "note": ""
-      },
-      {
-        "verse": "examples of idghām kabir mutaqārībān in two words seen into sheen",
-        "surah": "",
-        "ayah": "19:4",
-        "fullVerse": "..ٱلرَّأْسُ شَيْبًا..",
-        "focus": "",
-        "note": "This instance is with khulf, meaning one option is to merge the س into the ش thereby producing a single emphasized ش sound, while the other is to read both letters clearly/distinctly (iẓhār)"
-      }]
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words seen into zai",
+          "surah": "",
+          "ayah": "81:7",
+          "fullVerse": "..ٱلنُّفُوسُ زُوِّجَتْ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_seen_and_its_letters_81_7.mp3"
+        },
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words seen into sheen",
+          "surah": "",
+          "ayah": "19:4",
+          "fullVerse": "..ٱلرَّأْسُ شَيْبًا..",
+          "focus": "",
+          "note": "This instance is with khulf, meaning one option is to merge the س into the ش thereby producing a single emphasized ش sound, while the other is to read both letters clearly/distinctly (iẓhār)",
+          "audio_loc": "08_seen_and_its_letters_19_4.mp3"
+        }
+      ]
     },
-
     "dal_and_its_letters": {
       "id": "dal_and_its_letters",
       "title": "The 10 letters د will merge into",
@@ -154,34 +172,40 @@
       "quraa": [
         "susi"
       ],
-      "exceptions": ["idghām into ت is exempt from this condition, د will merge into ت even if it is maftūḥah preceded by a sākin letter."],
+      "exceptions": [
+        "idghām into ت is exempt from this condition, د will merge into ت even if it is maftūḥah preceded by a sākin letter."
+      ],
       "note": "د will only merge into these letters if د is not maftūḥah preceded by a sākin letter. So in the following two examples idghām will not be made: بَعْدَ ذَٰلِكَ, دَاوُۥدَ شُكْرًا. Notice even though there is a letter which will typically merge into د, because in these instance is the د is maftūḥah and preceeded by a sākin only iẓhār will be made.",
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān in two words dal into ta",
-        "surah": "",
-        "ayah": "9:117",
-        "fullVerse": "..كَادَ تَزِيغُ..",
-        "focus": "",
-        "note": "This is an instance of the exception from the condition. Even though the د is maftūḥah and preceded by a sākin letter there is idghām made here."
-      },
-      {
-        "verse": "examples of idghām kabir mutaqārībān in two words dal into seen",
-        "surah": "",
-        "ayah": "23:112",
-        "fullVerse": "..عَدَدَ سِنِينَ..",
-        "focus": "",
-        "note": ""
-      },
-      {
-        "verse": "examples of idghām kabir mutaqārībān in two words dal into tha",
-        "surah": "",
-        "ayah": "4:134",
-        "fullVerse": "..يُرِيدُ ثَوَابَ..",
-        "focus": "",
-        "note": ""
-      }]
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words dal into ta",
+          "surah": "",
+          "ayah": "9:117",
+          "fullVerse": "..كَادَ تَزِيغُ..",
+          "focus": "",
+          "note": "This is an instance of the exception from the condition. Even though the د is maftūḥah and preceded by a sākin letter there is idghām made here.",
+          "audio_loc": "08_dal_and_its_letters_9_117.mp3"
+        },
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words dal into seen",
+          "surah": "",
+          "ayah": "23:112",
+          "fullVerse": "..عَدَدَ سِنِينَ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_dal_and_its_letters_23_112.mp3"
+        },
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words dal into tha",
+          "surah": "",
+          "ayah": "4:134",
+          "fullVerse": "..يُرِيدُ ثَوَابَ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_dal_and_its_letters_4_134.mp3"
+        }
+      ]
     },
-
     "ta_and_its_letters": {
       "id": "ta_and_its_letters",
       "title": "The 10 letters ت will merge into",
@@ -191,24 +215,26 @@
         "susi"
       ],
       "note": "There are 6 places where both idghām and iẓhār are permitted. These 6 places are all noted in the first example below.",
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān in of ta that have khulf",
-        "surah": "",
-        "ayah": "9:117",
-        "fullVerse": "جِئْتِ شَيْئًا — وَلْتَأْتِ طَائِفَةٌ — فَآتِ ذَا — وَآتِ ذَا — الزَّكَاةَ ثُمَّ — التَّوْرَاةَ ثُمَّ",
-        "focus": "",
-        "note": "In these 6 instances both idghām and iẓhār are permitted."
-      },
-      {
-        "verse": "examples of idghām kabir mutaqārībān in two words ta into dha",
-        "surah": "",
-        "ayah": "51:1",
-        "fullVerse": "..وَالذَّارِيَاتِ ذَرْوًا..",
-        "focus": "",
-        "note": "This instance will have idghām unconditionally."
-      }]
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān in of ta that have khulf",
+          "surah": "",
+          "ayah": "9:117",
+          "fullVerse": "جِئْتَ شَيْئًا — وَلْتَأْتِ طَائِفَةٌ — فَآتِ ذَا — وَآتِ ذَا — الزَّكَاةَ ثُمَّ — التَّوْرَاةَ ثُمَّ",
+          "focus": "",
+          "note": "In these 6 instances both idghām and iẓhār are permitted."
+        },
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words ta into dha",
+          "surah": "",
+          "ayah": "51:1",
+          "fullVerse": "..وَالذَّارِيَاتِ ذَرْوًا..",
+          "focus": "",
+          "note": "This instance will have idghām unconditionally.",
+          "audio_loc": "08_ta_and_its_letters_51_1.mp3"
+        }
+      ]
     },
-
     "tha_and_its_letters": {
       "id": "tha_and_its_letters",
       "title": "The 5 letters ث will merge into",
@@ -218,24 +244,27 @@
         "susi"
       ],
       "note": "",
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān of tha into ta",
-        "surah": "",
-        "ayah": "15:65",
-        "fullVerse": "..حَيْثُ تُؤْمَرُونَ..",
-        "focus": "",
-        "note": ""
-      },
-      {
-        "verse": "examples of idghām kabir mutaqārībān in two words tha into dawd",
-        "surah": "",
-        "ayah": "51:24",
-        "fullVerse": "..حَدِيثُ ضَيْفِ..",
-        "focus": "",
-        "note": ""
-      }]
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān of tha into ta",
+          "surah": "",
+          "ayah": "15:65",
+          "fullVerse": "..حَيْثُ تُؤْمَرُونَ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_tha_and_its_letters_15_65.mp3"
+        },
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words tha into dawd",
+          "surah": "",
+          "ayah": "51:24",
+          "fullVerse": "..حَدِيثُ ضَيْفِ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_tha_and_its_letters_51_24.mp3"
+        }
+      ]
     },
-
     "thal_and_its_letters": {
       "id": "thal_and_its_letters",
       "title": "The 2 letters ذ will merge into",
@@ -245,24 +274,27 @@
         "susi"
       ],
       "note": "",
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān of thal into sawd",
-        "surah": "",
-        "ayah": "72:3",
-        "fullVerse": "..مَا اتَّخَذَ صَاحِبَةً..",
-        "focus": "",
-        "note": ""
-      },
-      {
-        "verse": "examples of idghām kabir mutaqārībān in two words thal into seen",
-        "surah": "",
-        "ayah": "18:61",
-        "fullVerse": "..فَاتَّخَذَ سَبِيلَهُ..",
-        "focus": "",
-        "note": ""
-      }]
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān of thal into sawd",
+          "surah": "",
+          "ayah": "72:3",
+          "fullVerse": "..مَا اتَّخَذَ صَاحِبَةً..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_thal_and_its_letters_72_3.mp3"
+        },
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words thal into seen",
+          "surah": "",
+          "ayah": "18:61",
+          "fullVerse": "..فَاتَّخَذَ سَبِيلَهُ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_thal_and_its_letters_18_61.mp3"
+        }
+      ]
     },
-
     "laam_and_ra": {
       "id": "laam_and_ra",
       "title": "The letter ر merges into ل and ل into ر",
@@ -272,33 +304,39 @@
         "susi"
       ],
       "note": "",
-      "exceptions": ["The word قَالَ is an exception to the conditions. Even though the ل is maftūḥah and preceeded by a sakin, if it is followed by a ر it will merge, as in: قَالَ رَجُلَانِ "],
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān of ra into laam",
-        "surah": "",
-        "ayah": "7:169",
-        "fullVerse": "..سَيُغْفَرُ لَنَا..",
-        "focus": "",
-        "note": ""
-      },
-      {
-        "verse": "examples of idghām kabir mutaqārībān in two words laam into ra",
-        "surah": "",
-        "ayah": "3:117",
-        "fullVerse": "..كَمَثَلِ رِيحٍ..",
-        "focus": "",
-        "note": ""
-      },
-      {
-        "verse": "examples of when idghām kabir mutaqārībān will not apply in two words laam into ra",
-        "surah": "",
-        "ayah": "69:10",
-        "fullVerse": "..رَسُولُ رَبِّهِمْ..",
-        "focus": "",
-        "note": "This is an instance where idghām will NOT apply as the conditions have not been met"
-      }]
+      "exceptions": [
+        "The word قَالَ is an exception to the conditions. Even though the ل is maftūḥah and preceeded by a sakin, if it is followed by a ر it will merge, as in: قَالَ رَجُلَانِ "
+      ],
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān of ra into laam",
+          "surah": "",
+          "ayah": "7:169",
+          "fullVerse": "..سَيُغْفَرُ لَنَا..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_laam_and_ra_7_169.mp3"
+        },
+        {
+          "verse": "examples of idghām kabir mutaqārībān in two words laam into ra",
+          "surah": "",
+          "ayah": "3:117",
+          "fullVerse": "..كَمَثَلِ رِيحٍ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_laam_and_ra_3_117.mp3"
+        },
+        {
+          "verse": "examples of when idghām kabir mutaqārībān will not apply in two words laam into ra",
+          "surah": "",
+          "ayah": "69:10",
+          "fullVerse": "..رَسُولُ رَبِّهِمْ..",
+          "focus": "",
+          "note": "This is an instance where idghām will NOT apply as the conditions have not been met",
+          "audio_loc": "08_laam_and_ra_69_10.mp3"
+        }
+      ]
     },
-
     "nun_into_laam_and_ra": {
       "id": "nun_into_laam_and_ra",
       "title": "The letter ن merges into ل and ر conditionally",
@@ -308,25 +346,30 @@
         "susi"
       ],
       "note": "",
-      "exceptions": ["The word نَحْنُ is an exception to the conditions. Its ن will merge into  ل and ر even if it is preceded by a sākinah, e.g: نَحْنُ لَهُ"],
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān of nun into ra",
-        "surah": "",
-        "ayah": "7:167",
-        "fullVerse": "..تَأَذَّنَ رَبُّكَ..",
-        "focus": "",
-        "note": ""
-      },
-      {
-        "verse": "examples of idghām kabir mutaqārībān of nun into lam",
-        "surah": "",
-        "ayah": "2:55",
-        "fullVerse": "..لَنْ نُؤْمِنَ لَكَ..",
-        "focus": "",
-        "note": ""
-      }]
+      "exceptions": [
+        "The word نَحْنُ is an exception to the conditions. Its ن will merge into  ل and ر even if it is preceded by a sākinah, e.g: نَحْنُ لَهُ"
+      ],
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān of nun into ra",
+          "surah": "",
+          "ayah": "7:167",
+          "fullVerse": "..تَأَذَّنَ رَبُّكَ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_nun_into_laam_and_ra_7_167.mp3"
+        },
+        {
+          "verse": "examples of idghām kabir mutaqārībān of nun into lam",
+          "surah": "",
+          "ayah": "2:55",
+          "fullVerse": "..لَنْ نُؤْمِنَ لَكَ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_nun_into_laam_and_ra_2_55.mp3"
+        }
+      ]
     },
-
     "ikhfa_of_mim": {
       "id": "ikhfa_of_mim",
       "title": "The ikhfāʾ of م",
@@ -337,24 +380,27 @@
       ],
       "note": "The م is not merging into the ب instead ikhfāʾ is being made on it, exactly how ikhfāʾ shafawī is made on a sākin م followed by a  ب.",
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of ikhfa of mutaharik meem",
-        "surah": "",
-        "ayah": "17:54",
-        "fullVerse": "..أَعْلَمُ بِكُمْ..",
-        "focus": "",
-        "note": ""
-      },
-      {
-        "verse": "examples of when ikhfa will not be made",
-        "surah": "",
-        "ayah": "2:249",
-        "fullVerse": "..الْيَوْمَ بِجَالُوتَ..",
-        "focus": "",
-        "note": "In this example ikhfāʾ will not be made as preceeding the م is a sākin letter."
-      }]
+      "examples": [
+        {
+          "verse": "examples of ikhfa of mutaharik meem",
+          "surah": "",
+          "ayah": "17:54",
+          "fullVerse": "..أَعْلَمُ بِكُمْ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_ikhfa_of_mim_17_54.mp3"
+        },
+        {
+          "verse": "examples of when ikhfa will not be made",
+          "surah": "",
+          "ayah": "2:249",
+          "fullVerse": "..الْيَوْمَ بِجَالُوتَ..",
+          "focus": "",
+          "note": "In this example ikhfāʾ will not be made as preceeding the م is a sākin letter.",
+          "audio_loc": "08_ikhfa_of_mim_2_249.mp3"
+        }
+      ]
     },
-
     "the_ba_of_yuazib": {
       "id": "the_ba_of_yuazib",
       "title": "The ب of يُعَذِّبُ",
@@ -365,16 +411,18 @@
       ],
       "note": "There are a total of 6 instances where this occurs throughout the quran. However the instance in 2:284 is not included in this rule as Imam Abū ʿAmr reads the instance with a jazm on the ب, and so while functionally it sounds the same, technically that instance will fall into the category of idghām ṣaghīr, not kabīr.",
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of idgham of ba into meem",
-        "surah": "",
-        "ayah": "5:18",
-        "fullVerse": "..وَيُعَذِّبُ مَنْ يَشَاءُ..",
-        "focus": "",
-        "note": ""
-      }]
+      "examples": [
+        {
+          "verse": "examples of idgham of ba into meem",
+          "surah": "",
+          "ayah": "5:18",
+          "fullVerse": "..وَيُعَذِّبُ مَنْ يَشَاءُ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "08_the_ba_of_yuazib_5_18.mp3"
+        }
+      ]
     },
-
     "rules_of_imalah_rawm_and_ishmam": {
       "id": "rules_of_imalah_rawm_and_ishmam",
       "title": "Some general rules concerning imālah, ishmām and rawm as they pertain to idghām kabīr",
@@ -387,6 +435,5 @@
       "exceptions": [],
       "examples": []
     }
-    
   }
 }

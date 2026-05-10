@@ -1,9 +1,9 @@
 {
   "id": "madd_muttasil",
-  "chapter_id": "10",
+  "chapter_id": "12",
   "title": "",
   "titleEn": "Madd Muttaṣil",
-  "order": 10,
+  "order": 12,
   "description": "Rules pertaining to the madd muttaṣil. Madd muttaṣil (attached) is the madd that occurs when hamzah appears in the same word after a letter of madd.",
   "shatibiyyahReference": {
     "startLine": 168,
@@ -11,7 +11,6 @@
     "notes": ""
   },
   "rules": {
-
     "madd_muttasil_warsh_hamza": {
       "id": "madd_muttasil_warsh_hamza",
       "title": "Ṭūl on muttaṣil",
@@ -22,17 +21,19 @@
         "hamza"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of madd muttasil",
-        "surah": "",
-        "ayah": "13:23",
-        "fullVerse": "..وَالْمَلَائِكَةُ..",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of madd muttasil",
+          "surah": "",
+          "ayah": "13:23",
+          "fullVerse": "..وَالْمَلَائِكَةُ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "12_madd_muttasil_warsh_hamza_13_23.mp3"
+        }
+      ],
       "note": ""
     },
-
     "madd_muttasil_rest": {
       "id": "madd_muttasil_rest",
       "title": "Tawassuṭ on muttaṣil",
@@ -47,16 +48,18 @@
         "kisai"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of madd muttasil",
-        "surah": "",
-        "ayah": "13:23",
-        "fullVerse": "..وَالْمَلَائِكَةُ..",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of madd muttasil",
+          "surah": "",
+          "ayah": "13:23",
+          "fullVerse": "..وَالْمَلَائِكَةُ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "12_madd_muttasil_rest_13_23.mp3"
+        }
+      ],
       "note": ""
     }
-    
   }
 }

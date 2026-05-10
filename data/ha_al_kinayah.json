@@ -1,9 +1,9 @@
 {
   "id": "ha_al_kinayah",
-  "chapter_id": "07",
+  "chapter_id": "09",
   "title": "الكناية هاء",
   "titleEn": "Hāʾ al-Kināyahʿ",
-  "order": 7,
+  "order": 9,
   "description": "Rules regarding the recitation of the hāʾ al-kināyah. Hāʾ al-Kināya refers to the attached, single, masculine, third person pronoun (i.e. he/him). The qira'at differ in the recitation of the hāʾ al-kināyah with regards to whether or not it's vowel will be streched (ṣilah) and whether it will be mutaḥarrik or sākin.",
   "shatibiyyahReference": {
     "startLine": 160,
@@ -33,7 +33,8 @@
           "ayah": "64:1",
           "fullVerse": "لَهُ الْمُلْكُ",
           "focus": "",
-          "note": "ʿ"
+          "note": "ʿ",
+          "audio_loc": "09_no_silah_when_followed_by_sakin_64_1.mp3"
         },
         {
           "verse": "examples of mīm al-jamʿ followed by sukoon",
@@ -41,11 +42,11 @@
           "ayah": "64:3",
           "fullVerse": "إِلَيْهِ الْمَصِيرُ",
           "focus": "",
-          "note": ""
+          "note": "",
+          "audio_loc": "09_no_silah_when_followed_by_sakin_64_3.mp3"
         }
       ]
     },
-
     "silah_when_preceeded_and_followed_by_vowel": {
       "id": "silah_when_preceeded_and_followed_by_vowel",
       "title": "Ṣilah when preceeded and followed by mutaḥarrik letter",
@@ -68,20 +69,23 @@
           "ayah": "2:116",
           "fullVerse": "كُلٌّ لَّهُۥ قَانِتُونَ",
           "focus": "",
-          "note": ""
+          "note": "",
+          "audio_loc": "09_silah_when_preceeded_and_followed_by_vowel_2_116.mp3"
         }
       ]
     },
-
     "silah_when_preceeded_by_sakin_and_followed_by_vowel": {
       "id": "silah_when_preceeded_by_sakin_and_followed_by_vowel",
       "title": "Ṣilah when preceeded by a sākin and followed by mutaḥarrik letter for Imam Ibn Kathir",
       "titleAr": "",
       "description": "When the hāʾ al-kināyah is preceeded by a sākin and followed by a mutaḥarrik letter, Only Imam Ibn Kathīr will make ṣilah.",
       "quraa": [
-        "ibn-kathir", "hafs"
+        "ibn-kathir",
+        "hafs"
       ],
-      "exceptions": ["In the wordفِيهِۦ مُهَانًا (occuring at 25:69) Imam Hafṣ contrary to his principle recites the hāʾ al-kināyah with ṣilah"],
+      "exceptions": [
+        "In the wordفِيهِۦ مُهَانًا (occuring at 25:69) Imam Hafṣ contrary to his principle recites the hāʾ al-kināyah with ṣilah"
+      ],
       "examples": [
         {
           "verse": "examples of ha al-kinayah with silah for imam ibn kathir",
@@ -89,11 +93,11 @@
           "ayah": "2:2",
           "fullVerse": "فِيهِۦ هُدًى",
           "focus": "",
-      "description": "When the hāʾ al-kināyah is preceeded by a sākin and followed by a mutaḥarrik letter, Imam Ibn Kathīr will make ṣilah.",
-          "note": "Notice in this example from 2:2 the ṣilah has been denoted by the ya ṣaghīra in the masahif for the qira't of Imam Ibn Kathīr, the same word in a Hafṣ mushaf would not denote the ṣilah as it is only Imam Ibn Kathīr that makes ṣilah in this scenario."
+          "description": "When the hāʾ al-kināyah is preceeded by a sākin and followed by a mutaḥarrik letter, Imam Ibn Kathīr will make ṣilah.",
+          "note": "Notice in this example from 2:2 the ṣilah has been denoted by the ya ṣaghīra in the masahif for the qira't of Imam Ibn Kathīr, the same word in a Hafṣ mushaf would not denote the ṣilah as it is only Imam Ibn Kathīr that makes ṣilah in this scenario.",
+          "audio_loc": "09_silah_when_preceeded_by_sakin_and_followed_by_vowel_2_2.mp3"
         }
       ]
     }
-    
   }
 }

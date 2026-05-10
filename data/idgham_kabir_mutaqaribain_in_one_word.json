@@ -1,9 +1,9 @@
 {
   "id": "idgham_kabir_mutaqaribain_in_one_word",
-  "chapter_id": "06",
+  "chapter_id": "07",
   "title": "",
   "titleEn": "Idghām Kabīr Mutaqārībān in one word",
-  "order": 6,
+  "order": 7,
   "description": "This section talks about the rules when idghām kabīr mutaqārībān occurs in a single word. While this section's heading specifically calls out mutaqārībān, Imam al-Shaṭibī includes in it mutajānisān letters. (For a description of these terms see the previous section on idghām kabīr mithlān in a single word.)",
   "shatibiyyahReference": {
     "startLine": 132,
@@ -20,14 +20,17 @@
         "susi"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of idghām kabir mutaqārībān",
-        "surah": "",
-        "ayah": "27:64",
-        "fullVerse": "..يَرْزُقُكُّمْ..",
-        "focus": "",
-        "note": "Since the two conditions are met here the ق will merge into the  the will merge and be read as one emphasized ك"
-      }]
+      "examples": [
+        {
+          "verse": "examples of idghām kabir mutaqārībān",
+          "surah": "",
+          "ayah": "27:64",
+          "fullVerse": "..يَرْزُقُكُّمْ..",
+          "focus": "",
+          "note": "Since the two conditions are met here the ق will merge into the  the will merge and be read as one emphasized ك",
+          "audio_loc": "07_idghām_kabir_mutaqaribain_general_rule_27_64.mp3"
+        }
+      ]
     },
     "idgham_talaqakunna": {
       "id": "idgham_talaqakunna",
@@ -38,15 +41,17 @@
         "susi"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of no idghām kabir mithlain when ikhfa",
-        "surah": "",
-        "ayah": "66:5",
-        "fullVerse": "..إِن طَلَّقَكُنَّ..",
-        "focus": "",
-        "note": ""
-      }]
+      "examples": [
+        {
+          "verse": "examples of no idghām kabir mithlain when ikhfa",
+          "surah": "",
+          "ayah": "66:5",
+          "fullVerse": "..إِن طَلَّقَكُنَّ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "07_idgham_talaqakunna_66_5.mp3"
+        }
+      ]
     }
-    
   }
 }

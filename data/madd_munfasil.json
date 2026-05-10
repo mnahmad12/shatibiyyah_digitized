@@ -1,9 +1,9 @@
 {
   "id": "madd_munfasil",
-  "chapter_id": "11",
+  "chapter_id": "13",
   "title": "",
   "titleEn": "Madd Munfaṣil",
-  "order": 11,
+  "order": 13,
   "description": "Rules pertaining to the madd munfaṣil,. Madd munfaṣil is the madd that occurs when hamzah appears in the next word after a letter of madd.",
   "shatibiyyahReference": {
     "startLine": 168,
@@ -11,7 +11,6 @@
     "notes": ""
   },
   "rules": {
-
     "madd_munfasil_warsh_hamza": {
       "id": "madd_munfasil_warsh_hamza",
       "title": "Ṭūl on munfaṣil",
@@ -22,17 +21,19 @@
         "hamza"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of madd munfasil",
-        "surah": "",
-        "ayah": "52:26",
-        "fullVerse": "..قَالُوٓا۟ إِنَّا..",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of madd munfasil",
+          "surah": "",
+          "ayah": "52:26",
+          "fullVerse": "..قَالُوٓا۟ إِنَّا..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "13_madd_munfasil_warsh_hamza_52_26.mp3"
+        }
+      ],
       "note": ""
     },
-
     "madd_munfasil_tawassut": {
       "id": "madd_munfasil_tawassut",
       "title": "Tawassuṭ on munfaṣil",
@@ -46,17 +47,19 @@
         "duri-abu-amr"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of madd munfasil",
-        "surah": "",
-        "ayah": "52:26",
-        "fullVerse": "..قَالُوٓا۟ إِنَّا..",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of madd munfasil",
+          "surah": "",
+          "ayah": "52:26",
+          "fullVerse": "..قَالُوٓا۟ إِنَّا..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "13_madd_munfasil_tawassut_52_26.mp3"
+        }
+      ],
       "note": ""
     },
-
     "madd_munfasil_qasr": {
       "id": "madd_munfasil_qasr",
       "title": "Qaṣr on munfaṣil",
@@ -69,16 +72,18 @@
         "susi"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of madd munfasil",
-        "surah": "",
-        "ayah": "52:26",
-        "fullVerse": "..قَالُوٓا۟ إِنَّا..",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of madd munfasil",
+          "surah": "",
+          "ayah": "52:26",
+          "fullVerse": "..قَالُوٓا۟ إِنَّا..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "13_madd_munfasil_qasr_52_26.mp3"
+        }
+      ],
       "note": ""
     }
-    
   }
 }

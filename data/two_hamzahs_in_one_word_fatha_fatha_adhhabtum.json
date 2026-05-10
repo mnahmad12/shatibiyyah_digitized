@@ -1,9 +1,9 @@
 {
   "id": "two_hamzahs_in_one_word_adhhabtum",
-  "chapter_id": "19",
+  "chapter_id": "22",
   "title": "Two Hamzahs in One Word - أَذْهَبْتُمْ",
   "titleEn": "Two Hamzahs in One Word - أَذْهَبْتُمْ",
-  "order": 19,
+  "order": 22,
   "description": "The word أَذْهَبْتُمْ is paired with an additional أَ for Imams Ibn Kathir and Ibn 'Amir. Thus while for the remaining qurra the rules of two hamzahs don't apply here as for them there is only 1 hamzah in this word, for Imams Ibn Kathir and Ibn 'Amir they do. The rāwīs for these two qurra follow their standard rules for the meeting of two maftūḥah hamzahs in one word.",
   "shatibiyyahReference": {
     "startLine": 186,
@@ -11,7 +11,6 @@
     "notes": ""
   },
   "rules": {
-
     "tashil_of_second_with_idkhal": {
       "id": "tashil_of_second_with_idkhal",
       "title": "Tashῑl of 2nd with idkhāl",
@@ -24,7 +23,6 @@
       "examples": [],
       "note": ""
     },
-
     "tashil_of_second_without_idkhal": {
       "id": "tashil_of_second_without_idkhal",
       "title": "Tashῑl of 2nd without idkhāl",
@@ -37,7 +35,6 @@
       "examples": [],
       "note": ""
     },
-
     "tahqiq_of_both_with_idkhal": {
       "id": "tahqiq_of_both_with_idkhal",
       "title": "Taḥqīq of both with idkhāl",
@@ -50,7 +47,6 @@
       "examples": [],
       "note": ""
     },
-
     "tahqiq_of_both_without_idkhal": {
       "id": "tahqiq_of_both_without_idkhal",
       "title": "Taḥqīq of both without idkhāl",
@@ -60,16 +56,18 @@
         "ibn-dhakwan"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of adding hamzahin surah adhhabtum",
-        "surah": "",
-        "ayah": "46:20",
-        "fullVerse": " أَأَذْهَبْتُمْ",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of adding hamzahin surah adhhabtum",
+          "surah": "",
+          "ayah": "46:20",
+          "fullVerse": " أَأَذْهَبْتُمْ",
+          "focus": "",
+          "note": "",
+          "audio_loc": "22_tahqiq_of_both_without_idkhal_46_20.mp3"
+        }
+      ],
       "note": ""
     }
-    
   }
 }

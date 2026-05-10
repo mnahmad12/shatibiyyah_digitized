@@ -1,9 +1,9 @@
 {
   "id": "two_hamzahs_in_one_word_fatha_fatha",
-  "chapter_id": "16",
+  "chapter_id": "18",
   "title": "Two Hamzahs in One Word - when both hamzahs carry fatha: أَ أَ",
   "titleEn": "Two Hamzahs in One Word - when both hamzahs carry fatha: أَ أَ",
-  "order": 16,
+  "order": 18,
   "description": "This section begins the rules pertaining to the recitation of two hamzahs that appear together in one word. The makhraj of the letter hamzah along with its attributes of jahr and shiddah make it an inherently difficult letter to pronounce and as such across the qira'at it is subject to 4 different facilitations/changes (takhfif). These 4 changes are:\n\n •Tashīl: reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. For example, tashīl of hamzah maftūḥah would be to recite the hamzah with a blend of the long vowel alif.\n •Ḥadhf/Isqāṭ: Dropping of a hamzah.\n •Ibdāl:changing a hamzah to a letter of madd corresponding to its ḥarakah.\n •Naql: Transferring the ḥarakah on a hamzah to the ṣaḥīḥ sākin letter preceding it.\n\nIn this section Imam Shaṭibī discusses how/when the qurra apply these facilitations to ease the pronounciation of the hamzah. When two hamzahs come together in one word the first is always maftūḥah as it is the interrogative particle and the second may be maftūḥah, maḍmūmah or maksūrah. In each of these different combinations the qurra make takhfif in different ways. Finally, a question that may arise is if the first hamzah represents the interrogative particle is it not technically a separate word? And while this is true, this chapter applies to these hamzahs that appearance-wise are part of one word.",
   "shatibiyyahReference": {
     "startLine": 183,
@@ -45,7 +45,7 @@
       "id": "ibdaal_of_second_alif",
       "title": "Ibdāl of 2nd",
       "titleAr": "",
-      "description": "Ibdāl of second hamzahinto an alif - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now an alif of madd.",
+      "description": "Ibdāl of second hamzah into an alif - meaning the first of the two hamzahs will be read clearly (taḥqīq) and elongated as the second hamzah is now an alif of madd.",
       "quraa": [
         "warsh"
       ],

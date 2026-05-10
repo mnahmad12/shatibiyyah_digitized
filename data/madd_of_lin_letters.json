@@ -1,9 +1,9 @@
 {
   "id": "madd_of_lin_letters",
-  "chapter_id": "15",
+  "chapter_id": "17",
   "title": "Madd - līn letters",
   "titleEn": "Madd - līn letters",
-  "order": 15,
+  "order": 17,
   "description": "Rules pertaining to the madd in the letters of līn (و sākin preceeded by a fatḥah & ي preceeded by a fatḥah).",
   "shatibiyyahReference": {
     "startLine": 179,
@@ -11,7 +11,6 @@
     "notes": ""
   },
   "rules": {
-
     "lin_followed_by_hamza_in_same_word_warsh": {
       "id": "lin_followed_by_hamza_in_same_word_warsh",
       "title": "Tawassuṭ/Ṭūl on līn when followed by a hamzah in the same word",
@@ -20,18 +19,22 @@
       "quraa": [
         "warsh"
       ],
-      "exceptions": ["In the words الْمَوْؤُودَةُ and مَوْئِلًا Imam Warsh will only apply qaṣr.", "The word سَوْآت has a madd lin followed by a madd badal. This particular word has 4 permissble ways to be read according to Imam Warsh these are: • Reading qaṣr on سَوْ and qaṣr/tawassuṭ/ṭūl on the madd badal in آت • Reading tawassuṭ on سَوْ and tawassuṭ on the madd badal in آت" ],
-      "examples": [{
-        "verse": "examples of madd lin for warsh",
-        "surah": "",
-        "ayah": "",
-        "fullVerse": "..شَىْء/سَوْء..",
-        "focus": "",
-        "note": ""
-      }],
+      "exceptions": [
+        "In the words الْمَوْؤُودَةُ and مَوْئِلًا Imam Warsh will only apply qaṣr.",
+        "The word سَوْآت has a madd lin followed by a madd badal. This particular word has 4 permissble ways to be read according to Imam Warsh these are: • Reading qaṣr on سَوْ and qaṣr/tawassuṭ/ṭūl on the madd badal in آت • Reading tawassuṭ on سَوْ and tawassuṭ on the madd badal in آت"
+      ],
+      "examples": [
+        {
+          "verse": "examples of madd lin for warsh",
+          "surah": "",
+          "ayah": "",
+          "fullVerse": "..شَىْء/سَوْء..",
+          "focus": "",
+          "note": ""
+        }
+      ],
       "note": "If the hamzah is in the next word, Imam Warsh will make naql will instead of madd"
     },
-
     "lin_followed_by_hamza_in_same_word_qasr": {
       "id": "lin_followed_by_hamza_in_same_word_qasr",
       "title": "Qaṣr on līn when followed by a hamzah in the same word",
@@ -50,7 +53,6 @@
       "examples": [],
       "note": ""
     },
-
     "madd_lin_arid": {
       "id": "madd_lin_arid",
       "title": "Madd Līn ʿĀriḍ",
@@ -66,17 +68,19 @@
         "kisai"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of madd lin arid",
-        "surah": "",
-        "ayah": "106:1",
-        "fullVerse": "..قُرَيْشٍ..",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of madd lin arid",
+          "surah": "",
+          "ayah": "106:1",
+          "fullVerse": "..قُرَيْشٍ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "17_madd_lin_arid_106_1.mp3"
+        }
+      ],
       "note": ""
     },
-
     "lin_followed_by_other_than_hamza": {
       "id": "lin_followed_by_other_than_hamza",
       "title": "Qaṣr on līn when followed by any letter other than hamzah",
@@ -92,16 +96,18 @@
         "kisai"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of madd lin followed by other than hamza",
-        "surah": "",
-        "ayah": "4:78",
-        "fullVerse": "..الْمَوْتُ..",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of madd lin followed by other than hamza",
+          "surah": "",
+          "ayah": "4:78",
+          "fullVerse": "..الْمَوْتُ..",
+          "focus": "",
+          "note": "",
+          "audio_loc": "17_lin_followed_by_other_than_hamza_4_78.mp3"
+        }
+      ],
       "note": ""
     }
-    
   }
 }

@@ -1,9 +1,9 @@
 {
   "id": "madd_badal",
-  "chapter_id": "13",
+  "chapter_id": "15",
   "title": "",
   "titleEn": "Madd Lāzim & ʿĀriḍ li Sukūn",
-  "order": 13,
+  "order": 15,
   "description": "Rules pertaining to when a letter of madd comes before a sukūn. There are two types of sukūn, (1) permanent and (2) temporary. A permanent sukūn remains during waqf and waṣl while a temporary sukūn is only made in waqf.",
   "shatibiyyahReference": {
     "startLine": 176,
@@ -11,7 +11,6 @@
     "notes": ""
   },
   "rules": {
-
     "madd_lazim": {
       "id": "madd_lazim",
       "title": "Madd Lāzim",
@@ -27,17 +26,18 @@
         "kisai"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of madd lazim",
-        "surah": "",
-        "ayah": "1:7",
-        "fullVerse": "..الضَّالِّينَ..",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of madd lazim",
+          "surah": "",
+          "ayah": "1:7",
+          "fullVerse": "..الضَّالِّينَ..",
+          "focus": "",
+          "note": ""
+        }
+      ],
       "note": ""
     },
-
     "madd_arid_li_sukoon": {
       "id": "madd_arid_li_sukoon",
       "title": "Qaṣr/Tawassuṭ/Ṭūl on madd ʿāriḍ li sukūn/ʿāriḍ waqfī",
@@ -53,16 +53,17 @@
         "kisai"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of madd arid li sukoon",
-        "surah": "",
-        "ayah": "1:2",
-        "fullVerse": "..الْعَالَمِينَ..",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of madd arid li sukoon",
+          "surah": "",
+          "ayah": "1:2",
+          "fullVerse": "..الْعَالَمِينَ..",
+          "focus": "",
+          "note": ""
+        }
+      ],
       "note": ""
     }
-    
   }
 }

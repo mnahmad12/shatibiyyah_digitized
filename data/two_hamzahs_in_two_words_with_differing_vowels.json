@@ -1,9 +1,9 @@
 {
   "id": "two_hamzahs_in_two_words_with_differing_vowels",
-  "chapter_id": "33",
+  "chapter_id": "35",
   "title": "Two Hamzahs in Two Words with differing vowels",
   "titleEn": "Two Hamzahs in Two Words with differing vowels",
-  "order": 33,
+  "order": 35,
   "description": "When two hamzahs meet across two words their vowels may match (the rules of which were covered in the previous 3 sections) or they may differ. Of the 6 possible combinations when the vowels differ 5 of them occur in the Quran, with the the hamzah maksūrah followed by a hamzah maḍmūmah being the combination that does not occur. Only Imams Nafi', Ibn Kathir and Abu 'Amr make takhfif when two hamzahs meet with differing vowels and all of them make the same takhfif in each scenario. Note that takhfif only takes place in the state of waṣl, if a reader was stopping at the end of the first word and continuing from the second word, only taḥqīq can be made.",
   "shatibiyyahReference": {
     "startLine": 209,
@@ -11,7 +11,6 @@
     "notes": ""
   },
   "rules": {
-
     "tashil_of_second_fatha_kasrah": {
       "id": "tashil_of_second_fatha_kasrah",
       "title": "First hamzah is maftūḥah, second maksūrah - Tashῑl of the the 2nd",
@@ -23,16 +22,18 @@
         "abu-amr"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of tashil of second hamzah",
-        "surah": "",
-        "ayah": "2:133",
-        "fullVerse": "شُهَدَاءَ إِذْ",
-        "focus": "",
-        "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah with a blend of the long vowel yāʾ"
-      }]
+      "examples": [
+        {
+          "verse": "examples of tashil of second hamzah",
+          "surah": "",
+          "ayah": "2:133",
+          "fullVerse": "شُهَدَاءَ إِذْ",
+          "focus": "",
+          "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah with a blend of the long vowel yāʾ",
+          "audio_loc": "35_tashil_of_second_fatha_kasrah_2_133.mp3"
+        }
+      ]
     },
-
     "tashil_of_second_fatha_dhamma": {
       "id": "tashil_of_second_fatha_dhamma",
       "title": "First hamzah is maftūḥah, second maḍmūmah - Tashῑl of the the 2nd",
@@ -44,16 +45,18 @@
         "abu-amr"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of tashil of second hamzah",
-        "surah": "",
-        "ayah": "23:44",
-        "fullVerse": "جَاءَ أُمَّةً",
-        "focus": "",
-        "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah with a blend of the long vowel wāw. This example is the only instance of this scenario in the Quran."
-      }]  
+      "examples": [
+        {
+          "verse": "examples of tashil of second hamzah",
+          "surah": "",
+          "ayah": "23:44",
+          "fullVerse": "جَاءَ أُمَّةً",
+          "focus": "",
+          "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah with a blend of the long vowel wāw. This example is the only instance of this scenario in the Quran.",
+          "audio_loc": "35_tashil_of_second_fatha_dhamma_23_44.mp3"
+        }
+      ]
     },
-
     "ibdal_of_second_dhamma_fatha": {
       "id": "ibdal_of_second_dhamma_fatha",
       "title": "First hamzah is maḍmūmah, second maftūḥah - Ibdāl of the the 2nd",
@@ -65,17 +68,18 @@
         "abu-amr"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of ibdal of second hamzah into waw",
-        "surah": "",
-        "ayah": "7:100",
-        "fullVerse": "لَوْ نَشَاءُ أَصَبْنَاهُم",
-        "focus": "",
-        "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah will be read like a wāw maftūḥah."
-      }]  
+      "examples": [
+        {
+          "verse": "examples of ibdal of second hamzah into waw",
+          "surah": "",
+          "ayah": "7:100",
+          "fullVerse": "لَوْ نَشَاءُ أَصَبْنَاهُم",
+          "focus": "",
+          "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah will be read like a wāw maftūḥah.",
+          "audio_loc": "35_ibdal_of_second_dhamma_fatha_7_100.mp3"
+        }
+      ]
     },
-  
-
     "tashil_of_second_dhamma_kasrah": {
       "id": "tashil_of_second_dhamma_kasrah",
       "title": "First hamzah is maḍmūmah, second maksūrah - Tashῑl of the the 2nd",
@@ -87,16 +91,17 @@
         "abu-amr"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of tashil of second hamzah when dhamma kasrah",
-        "surah": "",
-        "ayah": "7:188",
-        "fullVerse": "السُّوءُ إِنْ",
-        "focus": "",
-        "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah will be read with a blend of the long vowel yāʾ"
-      }]  
+      "examples": [
+        {
+          "verse": "examples of tashil of second hamzah when dhamma kasrah",
+          "surah": "",
+          "ayah": "35:15",
+          "fullVerse": "أنتُمُ الفُقَرَاءُ إِلَى الله",
+          "focus": "",
+          "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah will be read with a blend of the long vowel yāʾ"
+        }
+      ]
     },
-
     "ibdal_of_second_dhamma_kasrah": {
       "id": "ibdal_of_second_dhamma_kasrah",
       "title": "First hamzah is maḍmūmah, second maksūrah - Ibdāl of the the 2nd",
@@ -108,16 +113,18 @@
         "abu-amr"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of ibdal of second hamzah when dhamma kasrah",
-        "surah": "",
-        "ayah": "7:188",
-        "fullVerse": "السُّوءُ إِنْ",
-        "focus": "",
-        "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah will be read will be read like a wāw maksūrah"
-      }]  
+      "examples": [
+        {
+          "verse": "examples of ibdal of second hamzah when dhamma kasrah",
+          "surah": "",
+          "ayah": "7:188",
+          "fullVerse": "السُّوءُ إِنْ",
+          "focus": "",
+          "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah will be read will be read like a wāw maksūrah",
+          "audio_loc": "35_ibdal_of_second_dhamma_kasrah_7_188.mp3"
+        }
+      ]
     },
-
     "ibdal_of_second_kasrah_fatha": {
       "id": "ibdal_of_second_kasrah_fatha",
       "title": "First hamzah is maksūrah, second maftūḥah - Ibdāl of the the 2nd",
@@ -129,16 +136,17 @@
         "abu-amr"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of ibdal of second hamzah when dhamma kasrah",
-        "surah": "",
-        "ayah": "26:4",
-        "fullVerse": "مِنَ السَّمَآءِ أَيَةً",
-        "focus": "",
-        "audio_loc": "33_ibdal_of_second_kasrah_fatha.mp3",
-        "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah will be read will be read like a yā’ maftūḥah."
-      }]  
+      "examples": [
+        {
+          "verse": "examples of ibdal of second hamzah when dhamma kasrah",
+          "surah": "",
+          "ayah": "26:4",
+          "fullVerse": "مِنَ السَّمَآءِ أَيَةً",
+          "focus": "",
+          "audio_loc": "35_ibdal_of_second_kasrah_fatha_26_4.mp3",
+          "note": "The first of the two hamzahs will be read clearly (taḥqīq) and the second hamzah will be read will be read like a yā’ maftūḥah."
+        }
+      ]
     }
-    
   }
 }

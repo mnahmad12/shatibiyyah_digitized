@@ -1,9 +1,9 @@
 {
   "id": "two_hamzahs_in_two_words_dhamma_dhamma",
-  "chapter_id": "32",
+  "chapter_id": "34",
   "title": "Two Hamzahs in Two Words - when both hamzahs carry dhammah : أُ أُ",
   "titleEn": "Two Hamzahs in Two Words - when both hamzahs carry dhammah: أُ أُ",
-  "order": 32,
+  "order": 34,
   "description": "This situation only occurs in one place in the Quran, 46:32: أَوْلِيَآءُ أُوْلَٰىِكَ",
   "shatibiyyahReference": {
     "startLine": 204,
@@ -11,7 +11,6 @@
     "notes": ""
   },
   "rules": {
-
     "isqat_of_the_first_hamzah": {
       "id": "isqat_of_the_first_hamzah",
       "title": "Isqāṭ/ḥadhf of the 1st",
@@ -21,17 +20,19 @@
         "abu-amr"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of dropping first hamzah",
-        "surah": "",
-        "ayah": "46:32",
-        "fullVerse": "أَوْلِيَآ أُوْلَٰىِكَ",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of dropping first hamzah",
+          "surah": "",
+          "ayah": "46:32",
+          "fullVerse": "أَوْلِيَآ أُوْلَٰىِكَ",
+          "focus": "",
+          "note": "",
+          "audio_loc": "34_isqat_of_the_first_hamzah_46_32.mp3"
+        }
+      ],
       "note": "Imam al-Shaṭibī in line 202 mentions it is the first hamzah that is dropped. This then implies that the now present madd is a madd munfaṣil and would be read with the either qaṣr or tawassuṯ in accordance with the rules of munfaṣil for these qurra. However there are some scholars that said it is in fact the second hamzah that will be dropped, thereby making the madd a madd muttaṣil. The former opinion is the preferred opinion of most scholars."
     },
-
     "tashil_of_first": {
       "id": "tashil_of_first",
       "title": "Tashῑl of 1st",
@@ -45,7 +46,6 @@
       "examples": [],
       "note": "Both qaṣr and tawassuṯ are allowed."
     },
-
     "tashil_of_second": {
       "id": "tashil_of_second",
       "title": "Tashῑl of 2nd",
@@ -59,7 +59,6 @@
       "examples": [],
       "note": "This is one of two options for both Imams Warsh and Qunbul"
     },
-
     "ibdaal_of_second_alif_into_waw_sakinah": {
       "id": "ibdaal_of_second_alif_into_waw_sakinah",
       "title": "Ibdāl of 2nd to wāw sākinah",
@@ -73,8 +72,6 @@
       "examples": [],
       "note": ""
     },
-
-
     "tahqiq_of_both": {
       "id": "tahqiq_of_both",
       "title": "Taḥqīq of both",
@@ -87,16 +84,18 @@
         "kisai"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of tahqiq of both",
-        "surah": "",
-        "ayah": "46:32",
-        "fullVerse": "أَوْلِيَآءُ أُوْلَٰىِكَ",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of tahqiq of both",
+          "surah": "",
+          "ayah": "46:32",
+          "fullVerse": "أَوْلِيَآءُ أُوْلَٰىِكَ",
+          "focus": "",
+          "note": "",
+          "audio_loc": "34_tahqiq_of_both_46_32.mp3"
+        }
+      ],
       "note": ""
     }
-    
   }
 }

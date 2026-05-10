@@ -1,9 +1,9 @@
 {
   "id": "two_hamzahs_in_one_word_fatha_kasrah_aimmah",
-  "chapter_id": "29",
+  "chapter_id": "31",
   "title": "Two Hamzahs in One Word - أَئِمَّةً",
   "titleEn": "Two Hamzahs in One Word - أَئِمَّةً",
-  "order": 29,
+  "order": 31,
   "description": "In the word أَئِمَّةً some of the qurra differ from their standard rules for when a hamzah maftūḥah is followed by a hamzah maksūrah in the same word. This word is also the only instance of this category where the first hamzah is not an interrogative hamzah.",
   "shatibiyyahReference": {
     "startLine": 199,
@@ -17,7 +17,7 @@
       "id": "tashil_of_second_without_idkhal",
       "title": "Tashῑl of 2nd without idkhāl",
       "titleAr": "",
-      "description": "Tashῑl as described before refers to reciting a hamzah with a blend of the long vowel corresponding to the ḥarakah (short vowel) on it. Idkhāl refers to adding an alif between two hamzahs. Thus tashῑl of 2nd without idkhāl means to recite the first of the two hamzahs clearly (taḥqīq) and reciting the second hamzah with a blend of the long vowel yāʾ.",
+      "description": "Tashῑl of 2nd without idkhāl means to recite the first of the two hamzahs clearly (taḥqīq) and reciting the second hamzah with a blend of the long vowel yāʾ.",
       "quraa": [
         "nafi",
         "ibn-kathir",

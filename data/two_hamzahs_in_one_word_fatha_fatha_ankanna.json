@@ -1,9 +1,9 @@
 {
   "id": "two_hamzahs_in_one_word_ankanna",
-  "chapter_id": "21",
+  "chapter_id": "23",
   "title": "Two Hamzahs in One Word - أَنْ كَانَ",
   "titleEn": "Two Hamzahs in One Word - أَنْ كَانَ",
-  "order": 21,
+  "order": 23,
   "description": "The word أَنْ كَانَ is paired with an additional أَ for Imams Ibn 'Amir, Hamzah, and Shu'bah. Thus while for the remaining qurra the rules of two hamzahs don't apply here as for them there is only 1 hamzah in this word, for these 3 they do.",
   "shatibiyyahReference": {
     "startLine": 187,
@@ -11,7 +11,6 @@
     "notes": ""
   },
   "rules": {
-
     "tashil_of_second_with_idkhal": {
       "id": "tashil_of_second_with_idkhal",
       "title": "Tashῑl of 2nd with idkhāl",
@@ -24,7 +23,6 @@
       "examples": [],
       "note": ""
     },
-
     "tashil_of_second_without_idkhal": {
       "id": "tashil_of_second_without_idkhal",
       "title": "Tashῑl of 2nd without idkhāl",
@@ -37,7 +35,6 @@
       "examples": [],
       "note": "This differs from Imam Ibn Dhakwān's typical reading of two maftūḥah hamzahs."
     },
-
     "tahqiq_of_both_without_idkhal": {
       "id": "tahqiq_of_both_without_idkhal",
       "title": "Taḥqīq of both without idkhāl",
@@ -48,16 +45,18 @@
         "shubah"
       ],
       "exceptions": [],
-      "examples": [{
-        "verse": "examples of adding hamzahin surah nun",
-        "surah": "",
-        "ayah": "68:14",
-        "fullVerse": " أَأَنْ كَانَ",
-        "focus": "",
-        "note": ""
-      }],
+      "examples": [
+        {
+          "verse": "examples of adding hamzahin surah nun",
+          "surah": "",
+          "ayah": "68:14",
+          "fullVerse": " أَأَنْ كَانَ",
+          "focus": "",
+          "note": "",
+          "audio_loc": "23_tahqiq_of_both_without_idkhal_68_14.mp3"
+        }
+      ],
       "note": ""
     }
-    
   }
 }
