@@ -43,7 +43,15 @@
         "bazzi"
       ],
       "exceptions": [],
-      "examples": [],
+      "examples": [{
+        "verse": "examples of tasil of first hamzah",
+        "surah": "",
+        "ayah": "43:84",
+        "fullVerse": "ٱلسَّمَآءِ إِلَٰهٌ",
+        "focus": "",
+        "note": "",
+        "audio_loc": "33_tashil_of_the_first_hamzah_43_84.mp3"
+      }],
       "note": "Both qaṣr and tawassuṯ are allowed."
     },
     "tashil_of_second": {
