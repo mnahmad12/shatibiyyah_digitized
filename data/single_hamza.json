@@ -1,0 +1,66 @@
+{
+  "id": "the_single_hamzah",
+  "chapter_id": "36",
+  "title": "The Single Hamzah",
+  "titleEn": "The Single Hamzah",
+  "order": 36,
+  "description": "The previous section covered the variant readings as the relate to the meeting of two hamzahs. Now we begin the discussion of how the different qurra treat the single hamzat al-qaṭʿ. Like with the case of the two hamzahs, the Quran preserves various facilitations (takhfif) of the hamzah through the qiraat. This provides ease in the recitation of an otherwise inherently difficult sound.",
+  "shatibiyyahReference": {
+    "startLine": 214,
+    "endLine": 226,
+    "notes": ""
+  },
+  "rules": {
+    "ibdal_of_sakin_hamzah_for_warsh": {
+      "id": "ibdal_of_sakin_hamzah_for_warsh",
+      "title": "Imam Warsh's ibdāl into a corresponding letter of madd of sakin hamzah",
+      "titleAr": "",
+      "description": "When a single sākin hamzah appears in the fāʾ kalimah of a word Imam Warsh will make ibdāl of it to the corresponding letter of madd.",
+      "quraa": [
+        "warsh"
+      ],
+      "exceptions": ["All derivitives of the word ٱلْإِيوَاءِ, i.e: مَأْوَاكُم, مَأْوَاهُم, فَأْوُوا, تُؤْوِي, الْمَأْوَى, مَأْوَاهُ will be read with tahqiq"],
+      "examples": [
+        {
+          "verse": "examples of ibdal of single sakin hamzah",
+          "surah": "",
+          "ayah": "2:3",
+          "fullVerse": "يُومِنُونَ",
+          "focus": "",
+          "note": "",
+          "audio_loc": ""
+        }
+      ]
+    },
+    "ibdal_of_sakin_hamzah_for_susi": {
+      "id": "ibdal_of_sakin_hamzah_for_susi",
+      "title": "Imam Susi's ibdāl into a corresponding letter of madd of sakin hamzah",
+      "titleAr": "",
+      "description": "Imam Susi will make ibdāl of all single sakin hamzah regardless of its position in a word except for in 5 cases. These 5 cases are: \n • The hamzah sakin is in the jazm case. This is a gramatical element of the arabic language and requires some linguistic background to understand. \n • The hamzah is sakin due to bināʾ. This too requires some linguistic background, all of the words with such hamzahs are: هَيِّئْ, أَنْبِئْهُم, نَبِّئْ, أَرْجِئْهُ, اقْرَأْ. \n • Making ibdāl would make recitation more difficult, the two words in this category are: تُؤْوِي, تُؤْوِيهِ. \n • The particular word رِئْيًا. \n • The particular word مُؤْصَدَةٌ. \n In these 5 categories Imam Susi will make tahqiq.",
+      "quraa": [
+        "susi"
+      ],
+      "exceptions": ["The word بَارِئِكُمْ in Surah al-Baqarah is read by Imam Susi with a sukoon on the hamzah. However he does not make ibdāl of this hamzah."],
+      "examples": [
+        {
+          "verse": "examples of ibdal of single sakin hamzah for susi",
+          "surah": "",
+          "ayah": "18:2",
+          "fullVerse": "بَاسً",
+          "focus": "",
+          "note": "",
+          "audio_loc": ""
+        },
+        {
+          "verse": "examples of ibdal of single sakin hamzah for susi",
+          "surah": "",
+          "ayah": "10:81",
+          "fullVerse": "جِيتُمْ",
+          "focus": "",
+          "note": "",
+          "audio_loc": ""
+        }
+      ]
+    }
+  }
+}
