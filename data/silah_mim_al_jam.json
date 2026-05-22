@@ -4,7 +4,7 @@
   "title": "مِيمُ الْجَمْعِ I",
   "titleEn": "Ṣilah on Mīm al-jamʿ",
   "order": 3,
-  "description": "Rules regarding the ṣilah on the mīm al-jamʿ. Mīm al-jamʿ refers to the mīm sākinah of the plural masculine second and third person pronouns i.e., هم and كُـمْ and تُمْ. Ṣilah refers to the stretching of the ḍammah until it becomes wāw maddah and/or stretching the kasrah until it becomes yāʾ maddah. In both cases it will be read in the state of waṣl and omitted if waqf is made on it.",
+  "description": "Rules regarding the ṣilah on the mīm al-jamʿ. Mīm al-jamʿ refers to the mīm sākin of the plural masculine second and third person pronouns i.e., هم and كُـمْ and تُمْ. Ṣilah refers to the stretching of the ḍammah until it becomes wāw maddah and/or stretching the kasrah until it becomes yāʾ maddah. In both cases it will be read in the state of waṣl and omitted if waqf is made on it.",
   "shatibiyyahReference": {
     "startLine": 111,
     "endLine": 112,
@@ -15,7 +15,7 @@
       "id": "no_silah_when_followed_by_sakin",
       "title": "No ṣilah when followed by sakin",
       "titleAr": "",
-      "description": "When the mīm al-jamʿ is followed by a sakin letter, no ṣilah will be made by any of the qurra.",
+      "description": "When the mīm al-jamʿ is followed by a sākin letter, no ṣilah will be made by any of the qurra.",
       "quraa": [
         "nafi",
         "ibn-kathir",

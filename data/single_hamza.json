@@ -4,7 +4,7 @@
   "title": "The Single Hamzah",
   "titleEn": "The Single Hamzah",
   "order": 36,
-  "description": "The previous section covered the variant readings as the relate to the meeting of two hamzahs. Now we begin the discussion of how the different qurra treat the single hamzat al-qaṭʿ. Like with the case of the two hamzahs, the Quran preserves various facilitations (takhfif) of the hamzah through the qiraat. This provides ease in the recitation of an otherwise inherently difficult sound.",
+  "description": "The previous section covered the variant readings as they relate to the meeting of two hamzahs. Now we begin the discussion of how the different qurra treat the single hamzah. Like with the case of the two hamzahs, the Quran preserves various facilitations (takhfif) of the single hamzah through the qiraat. This provides ease in the recitation of an otherwise inherently difficult sound.",
   "shatibiyyahReference": {
     "startLine": 214,
     "endLine": 226,
@@ -13,52 +13,128 @@
   "rules": {
     "ibdal_of_sakin_hamzah_for_warsh": {
       "id": "ibdal_of_sakin_hamzah_for_warsh",
-      "title": "Imam Warsh's ibdāl into a corresponding letter of madd of sakin hamzah",
+      "title": "Imam Warsh's ibdāl of sākin hamzah",
       "titleAr": "",
       "description": "When a single sākin hamzah appears in the fāʾ kalimah of a word Imam Warsh will make ibdāl of it to the corresponding letter of madd.",
       "quraa": [
         "warsh"
       ],
-      "exceptions": ["All derivitives of the word ٱلْإِيوَاءِ, i.e: مَأْوَاكُم, مَأْوَاهُم, فَأْوُوا, تُؤْوِي, الْمَأْوَى, مَأْوَاهُ will be read with tahqiq"],
+      "exceptions": ["All derivitives of the word ٱلْإِيوَاءِ, i.e: مَأْوَاكُم, مَأْوَاهُم, فَأْوُوا, تُؤْوِي, الْمَأْوَى, مَأْوَاهُ will be read with tahqiq", "In the words بِئْرٍ, بِئْسَ and الذِّئْبُ  Imam Warsh will make ibdāl of the hamzah, even though the hamzah is not in the fāʾ kalimah."],
       "examples": [
         {
-          "verse": "examples of ibdal of single sakin hamzah",
+          "verse": "examples of ibdal of single sākin hamzah",
           "surah": "",
           "ayah": "2:3",
           "fullVerse": "يُومِنُونَ",
           "focus": "",
           "note": "",
-          "audio_loc": ""
+          "audio_loc": "36_ibdal_of_sakin_hamzah_for_warsh_2_3.mp3"
         }
       ]
     },
+
+    "ibdal_of_muttharik_hamzah_for_warsh": {
+      "id": "ibdal_of_muttharik_hamzah_for_warsh",
+      "title": "Imam Warsh's ibdāl of mutaḥarrik hamzah",
+      "titleAr": "",
+      "description": "When a single mutaḥarrik hamzah appears in the fāʾ kalimah of a word and is subject to the following 3 conditions Imam Warsh will make ibdāl of the hamzah to a wāw: \n • The hamzah must be maftūḥah\n • The hamzah must be preceeded by ḍammah\n • The hamzah must be in the fāʾ kalimah.",
+      "quraa": [
+        "warsh"
+      ],
+      "exceptions": ["In the word لِئَلَّا wherever it occurs Imam Warsh will make ibdāl of the hamzah maftūḥah to a yāʾ maftūḥah", "In the word النَّسِيءُ wherever it occurs Imam Warsh will make ibdāl of the hamzah maftūḥah to a yāʾ maftūḥah. This will then necessitate idgham as two yāʾs will meet the first of which is sākin."],
+      "examples": [
+        {
+          "verse": "examples of ibdal of single mutaharik hamzah for warsh",
+          "surah": "",
+          "ayah": "2:225",
+          "fullVerse": "يُؤَاخِذُكُم",
+          "focus": "",
+          "note": "",
+          "audio_loc": "36_ibdal_of_muttharik_hamzah_for_warsh_2_225.mp3"
+        },
+        {
+          "verse": "examples of ibdal of single mutaharik hamzah for warsh liyalla",
+          "surah": "",
+          "ayah": "2:150",
+          "fullVerse": "لِئَلَّا",
+          "focus": "",
+          "note": "",
+          "audio_loc": "36_ibdal_of_muttharik_hamzah_for_warsh_2_150.mp3"
+        },
+        {
+          "verse": "examples of ibdal of single mutaharik hamzah for warsh nasiyyu",
+          "surah": "",
+          "ayah": "9:37",
+          "fullVerse": "النَّسِيءُ",
+          "focus": "",
+          "note": "",
+          "audio_loc": "36_ibdal_of_muttharik_hamzah_for_warsh_9_37.mp3"
+        }
+      ]
+    },
+
     "ibdal_of_sakin_hamzah_for_susi": {
       "id": "ibdal_of_sakin_hamzah_for_susi",
-      "title": "Imam Susi's ibdāl into a corresponding letter of madd of sakin hamzah",
+      "title": "Imam Susi's ibdāl of sākin hamzah",
       "titleAr": "",
-      "description": "Imam Susi will make ibdāl of all single sakin hamzah regardless of its position in a word except for in 5 cases. These 5 cases are: \n • The hamzah sakin is in the jazm case. This is a gramatical element of the arabic language and requires some linguistic background to understand. \n • The hamzah is sakin due to bināʾ. This too requires some linguistic background, all of the words with such hamzahs are: هَيِّئْ, أَنْبِئْهُم, نَبِّئْ, أَرْجِئْهُ, اقْرَأْ. \n • Making ibdāl would make recitation more difficult, the two words in this category are: تُؤْوِي, تُؤْوِيهِ. \n • The particular word رِئْيًا. \n • The particular word مُؤْصَدَةٌ. \n In these 5 categories Imam Susi will make tahqiq.",
+      "description": "Imam Sūsī will make ibdāl of the single sākin hamzahs regardless of its position in a word except for in 5 cases. These 5 cases are: \n • The hamzah sākin is in the jazm case. This is a gramatical element of the arabic language and requires some linguistic background to understand. \n • The hamzah is sākin due to bināʾ. This too requires some linguistic background, all of the words with such hamzahs are: هَيِّئْ, أَنْبِئْهُم, نَبِّئْ, أَرْجِئْهُ, اقْرَأْ. \n • Making ibdāl would make recitation more difficult, the two words in this category are: تُؤْوِي, تُؤْوِيهِ. \n • The particular word رِئْيًا. \n • The particular word مُؤْصَدَةٌ. \n In these 5 categories Imam Sūsī will make tahqiq.",
       "quraa": [
         "susi"
       ],
-      "exceptions": ["The word بَارِئِكُمْ in Surah al-Baqarah is read by Imam Susi with a sukoon on the hamzah. However he does not make ibdāl of this hamzah."],
+      "exceptions": ["The word بَارِئِكُمْ in Surah al-Baqarah is read by Imam Sūsī with a sukoon on the hamzah. However he does not make ibdāl of this hamzah."],
       "examples": [
         {
-          "verse": "examples of ibdal of single sakin hamzah for susi",
+          "verse": "examples of ibdal of single sākin hamzah for susi",
           "surah": "",
           "ayah": "18:2",
           "fullVerse": "بَاسً",
           "focus": "",
           "note": "",
-          "audio_loc": ""
+          "audio_loc": "36_ibdal_of_sakin_hamzah_for_susi_18_2.mp3"
         },
         {
-          "verse": "examples of ibdal of single sakin hamzah for susi",
+          "verse": "examples of ibdal of single sākin hamzah for susi",
           "surah": "",
           "ayah": "10:81",
           "fullVerse": "جِيتُمْ",
           "focus": "",
           "note": "",
-          "audio_loc": ""
+          "audio_loc": "36_ibdal_of_sakin_hamzah_for_susi_10_81.mp3"
+        }
+      ]
+    },
+
+    "some_particular_words": {
+      "id": "some_particular_words",
+      "title": "Some particular words",
+      "titleAr": "",
+      "description": "There are a few words in which some of the qurra also make takhfif of the single hamzah, or Imam Warsh/Sūsī differ from their general rules. Some of these have been captured in the exceptions in the two rules above. This section notes the remainder.\n\n • Imam Kisāʾī joins Imams Warsh and Sūsī in making ibdāl of the hamzah in the word الذِّئْبُ. \n • Imams Shuʿbah and Sūsī make ibdāl of the first hamzah in the word لُؤْلُؤْ whether it is preceeded by the definite article or is indefinite. \n • Imam Abu 'Amr reads the لَا يَأْلِتْكُم in 49:14 with a sākin hamzah as opposed to the other qurra that read it as لَا يَلِتْكُم. Dūrī will recite the hamzah sākin with taḥqῑq and Sūsī with ibdāl.",
+      "quraa": [
+        "susi",
+        "warsh",
+        "abu-amr",
+        "shubah",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of ibdal of hamzah in lulu for shuabah and susi",
+          "surah": "",
+          "ayah": "55:22",
+          "fullVerse": "اللَّؤْلُؤُ",
+          "focus": "",
+          "note": "",
+          "audio_loc": "36_some_particular_words_55_22_shubah.mp3"
+        },
+        {
+          "verse": "examples of ibdal of single sākin hamzah for duri in la yalitkum",
+          "surah": "",
+          "ayah": "49:14",
+          "fullVerse": "لَا يَأْلِتْكُم",
+          "focus": "",
+          "note": "The recitation of Imam Dūrī",
+          "audio_loc": "36_some_particular_words_49_14_duri.mp3"
         }
       ]
     }

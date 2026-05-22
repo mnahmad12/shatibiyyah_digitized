@@ -173,9 +173,9 @@
         "susi"
       ],
       "exceptions": [
-        "idghām into ت is exempt from this condition, د will merge into ت even if it is maftūḥah preceded by a sākin letter."
+        "idghām into ت is exempt from this condition, د will merge into ت even if it is maftūḥah preceeded by a sākin letter."
       ],
-      "note": "د will only merge into these letters if د is not maftūḥah preceded by a sākin letter. So in the following two examples idghām will not be made: بَعْدَ ذَٰلِكَ, دَاوُۥدَ شُكْرًا. Notice even though there is a letter which will typically merge into د, because in these instance is the د is maftūḥah and preceeded by a sākin only iẓhār will be made.",
+      "note": "د will only merge into these letters if د is not maftūḥah preceeded by a sākin letter. So in the following two examples idghām will not be made: بَعْدَ ذَٰلِكَ, دَاوُۥدَ شُكْرًا. Notice even though there is a letter which will typically merge into د, because in these instance is the د is maftūḥah and preceeded by a sākin only iẓhār will be made.",
       "examples": [
         {
           "verse": "examples of idghām kabir mutaqārībān in two words dal into ta",
@@ -183,7 +183,7 @@
           "ayah": "9:117",
           "fullVerse": "..كَادَ تَزِيغُ..",
           "focus": "",
-          "note": "This is an instance of the exception from the condition. Even though the د is maftūḥah and preceded by a sākin letter there is idghām made here.",
+          "note": "This is an instance of the exception from the condition. Even though the د is maftūḥah and preceeded by a sākin letter there is idghām made here.",
           "audio_loc": "08_dal_and_its_letters_9_117.mp3"
         },
         {
@@ -299,7 +299,7 @@
       "id": "laam_and_ra",
       "title": "The letter ر merges into ل and ل into ر",
       "titleAr": "",
-      "description": "The letters ل and ر will merge into each other subject to the condition that both of the letters are not maftūḥah and preceeded by a sakin letter.",
+      "description": "The letters ل and ر will merge into each other subject to the condition that both of the letters are not maftūḥah and preceeded by a sākin letter.",
       "quraa": [
         "susi"
       ],
@@ -341,13 +341,13 @@
       "id": "nun_into_laam_and_ra",
       "title": "The letter ن merges into ل and ر conditionally",
       "titleAr": "",
-      "description": "The letters ن will merge into ل and ر if it is preceded by a mutaḥarrik letter.",
+      "description": "The letters ن will merge into ل and ر if it is preceeded by a mutaḥarrik letter.",
       "quraa": [
         "susi"
       ],
       "note": "",
       "exceptions": [
-        "The word نَحْنُ is an exception to the conditions. Its ن will merge into  ل and ر even if it is preceded by a sākinah, e.g: نَحْنُ لَهُ"
+        "The word نَحْنُ is an exception to the conditions. Its ن will merge into  ل and ر even if it is preceeded by a sākin, e.g: نَحْنُ لَهُ"
       ],
       "examples": [
         {
@@ -374,7 +374,7 @@
       "id": "ikhfa_of_mim",
       "title": "The ikhfāʾ of م",
       "titleAr": "",
-      "description": "When the letter م is preceeded by a mutaḥarrik letter and followed by a ب the م will become sākinah and ikhfāʾ will be made.",
+      "description": "When the letter م is preceeded by a mutaḥarrik letter and followed by a ب the م will become sākin and ikhfāʾ will be made.",
       "quraa": [
         "susi"
       ],
