@@ -1,0 +1,45 @@
+{
+  "id": "naql",
+  "chapter_id": "37",
+  "title": "Naql",
+  "titleEn": "Naql",
+  "order": 37,
+  "description": "The single hamzah that is preceeded by a sākin ṣaḥῑḥ letter is subject to a particular facilitation known as naql. More precisely when a sākin ṣaḥῑḥ letter at the end of one word is followed by a hamzat al-qaṭʿ in the following word (e.g. قُلْ أَعُوذُ, كُفُؤًا أَحَدٌ ) naql takes place for some of the qurra. This leads to the hamzah being dropped (in pronunciation only) and its ḥarakah transferring to the sākin letter before it. Thus, the sākin letter will lose its sukūn and now be pronounced with the transferred ḥarakah of the dropped hamzah (e.g. قُلَ عُوذُ , كُفُؤَنَـحَدٌ). When the hamzat al-qaṭʿ is part of the definitive article ال the naql is called hamzah mawṣūlah, otherwise (as shown in the previous two examples) is termed hamzah mafṣūlah.",
+  "shatibiyyahReference": {
+    "startLine": 226,
+    "endLine": 227,
+    "notes": ""
+  },
+  "rules": {
+    "naql_for_warsh": {
+      "id": "naql_for_warsh",
+      "title": "Imam Warsh's naql",
+      "titleAr": "",
+      "description": "Imam Warsh will make naql in every instance that the conditions specified above are met. This is whether he is making waqf or in waṣl.",
+      "quraa": [
+        "warsh"
+      ],
+      "exceptions": ["In the words كِتَابِيَهْ ۜ إِنِّي at the end of ayah 19 of Surah Haqqah Imam Warsh has the option of naql, although tahqiq is preferred."],
+      "examples": [
+        {
+          "verse": "examples of naql for warsh",
+          "surah": "",
+          "ayah": "114:1",
+          "fullVerse": "قُلَ عُوذُ",
+          "focus": "",
+          "note": "",
+          "audio_loc": "37_naql_for_warsh_114_1.mp3"
+        },
+        {
+          "verse": "examples of naql for warsh",
+          "surah": "",
+          "ayah": "112:4",
+          "fullVerse": "كُفُؤَنَـحَدٌ",
+          "focus": "",
+          "note": "",
+          "audio_loc": "37_naql_for_warsh_112_4.mp3"
+        }
+      ]
+    }
+  }
+}

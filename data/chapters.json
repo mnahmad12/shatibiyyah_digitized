@@ -35,6 +35,7 @@
     "two_hamzahs_in_two_words_kasrah_kasrah.json",
     "two_hamzahs_in_two_words_dhamma_dhamma.json",
     "two_hamzahs_in_two_words_with_differing_vowels.json",
-    "single_hamza.json"
+    "single_hamza.json",
+    "naql.json"
   ]
 }
