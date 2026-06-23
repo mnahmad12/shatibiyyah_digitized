@@ -15,7 +15,7 @@
       "id": "naql_for_warsh",
       "title": "Naql in waqf or in waṣl",
       "titleAr": "",
-      "description": "Imam Warsh will make naql in every instance that the conditions specified above are met. This is whether he is making waqf or in waṣl.",
+      "description": "Imam Warsh will make naql in every instance that the conditions specified above are met. This is whether he is making waqf or waṣl.",
       "quraa": [
         "warsh"
       ],
@@ -109,7 +109,7 @@
           "fullVerse": "كُفُؤًا أَحَدٌ",
           "focus": "",
           "note": "• In the state of waqf: for Imam Khalaf in this example sakt is 1 of 3 options. He can make naql, sakt or taḥqīq. Imam Khallad will not have the option of sakt here, he will either make naql or taḥqīq. • In the state of waṣl: for Imam Khalaf sakt is 1 of 2 options in this example. He can make sakt or taḥqīq. Imam Khallad will not have the option of sakt here, his only option will be taḥqīq.",
-          "audio_loc": ""
+          "audio_loc": "37_sakt_112_4.mp3"
         },
         {
           "verse": "examples of sakt on mawsulah",
@@ -121,6 +121,103 @@
           "audio_loc": ""
         }
       ]
-    }
+    },
+
+    "aalaana": {
+      "id": "aalaana",
+      "title": "Naql on ءَآلْـَٔـٰنَ",
+      "titleAr": "",
+      "description": "Imam Qalun joins Imam Warsh is making naql on the word ءَآلْـَٔـٰنَ",
+      "quraa": [
+        "warsh",
+        "qalun"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of naql on aalaana",
+          "surah": "",
+          "ayah": "10:91",
+          "fullVerse": "ءَآلْـَٔـٰنَ",
+          "focus": "",
+          "note": "",
+          "audio_loc": "37_aalaana_10_91.mp3"
+        }
+      ]
+    },
+
+    "aadanillula": {
+      "id": "aadanillula",
+      "title": "Taḥqīq on عَادًا الْأُولَىٰ",
+      "titleAr": "",
+      "description": "The words عَادًا الْأُولَىٰ have differences in their recitation amongst the qurra. The majority will read it with taḥqīq of the hamza and sukoon on the lam. Keep in mind due to iltiqāʾ as sākinayn the nun of the tanwīn will be read with a kasrah - عَادَنِ الْأُولَىٰ.",     
+      "quraa": [
+        "ibn-kathir",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of tahqiq on aadalula",
+          "surah": "",
+          "ayah": "53:50",
+          "fullVerse": "عَادًا الْأُولَىٰ",
+          "focus": "",
+          "note": "",
+          "audio_loc": "37_aadanillula_53_50.mp3"
+        }
+      ]
+    },
+    
+    "aadallula": {
+      "id": "aadallula",
+      "title": "Naql on عَادًا الْأُولَىٰ",
+      "titleAr": "",
+      "description": "Imams Warsh and Abu 'Amr read عَادًا الْأُولَىٰ with idghām of the tanwīn and naql of the hamzah - عَادًا لُّولَىٰ.",
+      "note": "When naql occurs on a word beginning with ال and the reciter is beginning recitation from that word they have the choice to either read or drop the hamzat al-waṣl.", 
+      "quraa": [
+        "warsh",
+        "abu-amr"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of naql on aadalula",
+          "surah": "",
+          "ayah": "53:50",
+          "fullVerse": "عَادًا الْأُولَىٰ",
+          "focus": "",
+          "note": "Note the madd badal for Imam Warsh",
+          "audio_loc": "37_aadallula_53_50.mp3"
+        }
+      ]
+    },
+    
+    "aadallu'la": {
+      "id": "aadallu'la",
+      "title": "Naql and sākinah sakinah on عَادًا الْأُولَىٰ",
+      "titleAr": "",
+      "description": "Imams Qalun reads عَادًا الْأُولَىٰ with idghām of the tanwīn, naql of the hamzah and a sukoon on the hamzah after the lam - عَادًا لُّؤْلَىٰ.",
+      "quraa": [
+        "qalun"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "how imam qalun reads aadalula",
+          "surah": "",
+          "ayah": "53:50",
+          "fullVerse": "عَادًا الْأُولَىٰ",
+          "focus": "",
+          "note": "",
+          "audio_loc": "37_aadallusukoonla_53_50.mp3"
+        }
+      ]
+    } 
+    
+    
   }
 }
