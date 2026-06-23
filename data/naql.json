@@ -1,10 +1,10 @@
 {
   "id": "naql",
   "chapter_id": "37",
-  "title": "Naql",
-  "titleEn": "Naql",
+  "title": "The hamzah preceeded by a sākin ṣaḥῑḥ letter",
+  "titleEn": "The hamzah preceeded by a sākin ṣaḥῑḥ letter",
   "order": 37,
-  "description": "The single hamzah that is preceeded by a sākin ṣaḥῑḥ letter is subject to a particular facilitation known as naql. More precisely when a sākin ṣaḥῑḥ letter at the end of one word is followed by a hamzat al-qaṭʿ in the following word (e.g. قُلْ أَعُوذُ, كُفُؤًا أَحَدٌ ) naql takes place for some of the qurra. This leads to the hamzah being dropped (in pronunciation only) and its ḥarakah transferring to the sākin letter before it. Thus, the sākin letter will lose its sukūn and now be pronounced with the transferred ḥarakah of the dropped hamzah (e.g. قُلَ عُوذُ , كُفُؤَنَـحَدٌ). When the hamzat al-qaṭʿ is part of the definitive article ال the naql is called hamzah mawṣūlah, otherwise (as shown in the previous two examples) is termed hamzah mafṣūlah.",
+  "description": "The single hamzah that is preceeded by a sākin ṣaḥῑḥ letter is subject to a particular set of facilitations. More precisely when a sākin ṣaḥῑḥ letter at the end of one word is followed by a hamzat al-qaṭʿ in the following word (e.g. قُلْ أَعُوذُ, كُفُؤًا أَحَدٌ ) naql or sakt take place for some of the qurra.\n\nNaql leads to the hamzah being dropped (in pronunciation only) and its ḥarakah transferring to the sākin letter before it. Thus, the sākin letter will lose its sukūn and now be pronounced with the transferred ḥarakah of the dropped hamzah (e.g. قُلَ عُوذُ , كُفُؤَنَـحَدٌ). When the hamzat al-qaṭʿ is part of the definitive article ال the naql is called hamzah mawṣūlah, otherwise (as shown in the previous two examples) is termed hamzah mafṣūlah.\n\nSakt is a breathless pause that is taken on the sākin ṣaḥῑḥ letter in order to make clear the pronounciation of the following hamzah.",
   "shatibiyyahReference": {
     "startLine": 226,
     "endLine": 227,
@@ -13,7 +13,7 @@
   "rules": {
     "naql_for_warsh": {
       "id": "naql_for_warsh",
-      "title": "Imam Warsh's naql",
+      "title": "Naql in waqf or in waṣl",
       "titleAr": "",
       "description": "Imam Warsh will make naql in every instance that the conditions specified above are met. This is whether he is making waqf or in waṣl.",
       "quraa": [
@@ -38,6 +38,87 @@
           "focus": "",
           "note": "",
           "audio_loc": "37_naql_for_warsh_112_4.mp3"
+        }
+      ]
+    },
+
+    "naql_for_hamza": {
+      "id": "naql_for_hamza",
+      "title": "Naql in waqf only",
+      "titleAr": "",
+      "description": "Imam Hamza will have the option to make naql in every instance that the conditions specified above are met but only when making waqf, i.e. stopping on the second word.",
+      "quraa": [
+        "hamza"
+      ],
+      "exceptions": [],
+      "examples": [
+        {
+          "verse": "examples of naql for hamza",
+          "surah": "",
+          "ayah": "112:4",
+          "fullVerse": "كُفُؤَنَـحَدٌ",
+          "focus": "",
+          "note": "",
+          "audio_loc": ""
+        }
+      ]
+    },
+
+    "tahqiq_of_sakin_followed_by_hamzah": {
+      "id": "tahqiq_of_sakin_followed_by_hamzah",
+      "title": "Taḥqīq",
+      "titleAr": "",
+      "description": "Reciting the sākin ṣaḥῑḥ letter clearly with no changes is the recitation for most of the qurra and an option for Imam Hamza's rawis.",
+      "quraa": [
+        "qalun",
+        "ibn-kathir",
+        "abu-amr",
+        "ibn-amir",
+        "asim",
+        "hamza",
+        "kisai"
+      ],
+      "exceptions": ["Imam Khalaf does not have the option for taḥqīq when making waqf on hamzah mawṣūlah nor when doing waṣl on the words شَيْء/شَيْئًا", "Imam Qalun joins Imam Warsh in making naql on some particular words."],
+      "examples": [
+        {
+          "verse": "examples of tahqiq",
+          "surah": "",
+          "ayah": "112:4",
+          "fullVerse": "كُفُوًاأَحَدٌ ",
+          "focus": "",
+          "note": "Note that Imam Hamza, Kisai, Ibn 'Amir, Abu 'Amr, Ibn Kathir, and Qalun all read this as كُفُؤًا أَحَدٌ",
+          "audio_loc": ""
+        }
+      ]
+    },
+
+    "sakt": {
+      "id": "sakt",
+      "title": "Sakt",
+      "titleAr": "",
+      "description": "Imam Hamza has the option of sakt on both hamzah mawṣūlah or mafṣūlah in the state of waqf and in waṣl. However his two rawis differ in its application in both states.",
+      "quraa": [
+        "hamza"
+      ],
+      "exceptions": ["Imam Khallad will not have the option sakt in hamzah mafṣūlah (كُفُوًاأَحَدٌ), i.e. his only option is taḥqīq."],
+      "examples": [
+        {
+          "verse": "examples of sakt on mafsulah",
+          "surah": "",
+          "ayah": "112:4",
+          "fullVerse": "كُفُؤًا أَحَدٌ",
+          "focus": "",
+          "note": "• In the state of waqf: for Imam Khalaf in this example sakt is 1 of 3 options. He can make naql, sakt or taḥqīq. Imam Khallad will not have the option of sakt here, he will either make naql or taḥqīq. • In the state of waṣl: for Imam Khalaf sakt is 1 of 2 options in this example. He can make sakt or taḥqīq. Imam Khallad will not have the option of sakt here, his only option will be taḥqīq.",
+          "audio_loc": ""
+        },
+        {
+          "verse": "examples of sakt on mawsulah",
+          "surah": "",
+          "ayah": "",
+          "fullVerse": "الْأَرْضِ",
+          "focus": "",
+          "note": "• In the state of waqf: for Imam Khalaf sakt is 1 of 2 options in this example. He will not have the option of taḥqīq here, he can make naql or sakt. Imam Khallad will have the option of sakt here, he can make naql, taḥqīq (although this option is considered weak) or sakt. • In the state of waṣl: for Imam Khalaf sakt is the only option in this example. Imam Khallad has both the option of sakt and taḥqīq.",
+          "audio_loc": ""
         }
       ]
     }
